@@ -1,0 +1,6 @@
+
+Además de la memoria, hemos entregado una serie de ficheros que se encuentran en las 2 carpetas, cada uno de ellos en la correspondiente a su parte.
+
+En la carpeta de la "Parte I" hemos incluido los archivos generados con la Macro, el generado con el comando de weka que recopila dichos archivos, y el que ha sido pasado por el filtro "StringToWordVector". Además hemos incluido el archivo "StopWordsEN.txt" por si es necesario.
+
+En la carpeta de la "Parte II" hemos incluido ambos modelos de los clústeres que hemos analizado en mayor profundidad (“clusterE-10-10” para el que utiliza el algoritmo de Euclides y “clusterM-10-10” para el que usa el algoritmo de Manhattan), y sus correspondientes resultados al aplicarles los diferentes algoritmos de generación de árboles o reglas (“resultadoE-10-10” para el que utiliza el algoritmo de Euclides y “resultadoM-10-10” para el que usa el algoritmo de Manhattan).
