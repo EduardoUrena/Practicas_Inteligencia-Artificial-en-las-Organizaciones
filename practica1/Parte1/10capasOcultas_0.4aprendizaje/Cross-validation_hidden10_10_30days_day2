@@ -1,0 +1,3384 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.4 -M 0.2 -N 1000 -V 0 -S 0 -E 20 -H 10 -R
+Relation:     time_series_covid19_confirmed_global_30days_day2
+Instances:    265
+Attributes:   35
+              Province/State
+              Country/Region
+              Lat
+              Long
+              Dia -28
+              Dia -27
+              Dia -26
+              Dia -25
+              Dia -24
+              Dia -23
+              Dia -22
+              Dia -21
+              Dia -20
+              Dia -19
+              Dia -18
+              Dia -17
+              Dia -16
+              Dia -15
+              Dia -14
+              Dia -13
+              Dia -12
+              Dia -11
+              Dia -10
+              Dia -9
+              Dia -8
+              Dia -7
+              Dia -6
+              Dia -5
+              Dia -4
+              Dia -3
+              Dia -2
+              Dia -1
+              Dia -0
+              Dia 1
+              Dia 2
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    0.9688848175974265
+    Node 1    0.20157877725182033
+    Node 2    0.04658460844478151
+    Node 3    0.08225528598511075
+    Node 4    0.25640311146637484
+    Node 5    0.34780609121312744
+    Node 6    -1.3290513980953131
+    Node 7    -0.7097631674148437
+    Node 8    -0.09512450340434102
+    Node 9    0.2732547413697507
+    Node 10    0.33637334666371554
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.026997842416946256
+    Attrib Province/State=Australian Capital Territory    -0.029504651312008832
+    Attrib Province/State=New South Wales    0.02638067714223436
+    Attrib Province/State=Northern Territory    -0.03859696396355038
+    Attrib Province/State=Queensland    0.004006212633468013
+    Attrib Province/State=South Australia    -0.03317854055273852
+    Attrib Province/State=Tasmania    0.03465877817048594
+    Attrib Province/State=Victoria    0.021693500456083342
+    Attrib Province/State=Western Australia    0.01984976071217815
+    Attrib Province/State=Alberta    0.02740913039112007
+    Attrib Province/State=British Columbia    0.04828163924996062
+    Attrib Province/State=Diamond Princess    -6.204587694084904E-4
+    Attrib Province/State=Grand Princess    -0.016254893963270678
+    Attrib Province/State=Manitoba    -0.04691672313938986
+    Attrib Province/State=New Brunswick    -0.013534997554068897
+    Attrib Province/State=Newfoundland and Labrador    -0.022143846753242293
+    Attrib Province/State=Northwest Territories    -0.03166012869286618
+    Attrib Province/State=Nova Scotia    0.04497812172267223
+    Attrib Province/State=Ontario    -0.032844987066350244
+    Attrib Province/State=Prince Edward Island    0.04408725236170352
+    Attrib Province/State=Quebec    0.04568994224891117
+    Attrib Province/State=Saskatchewan    -0.01123398151763504
+    Attrib Province/State=Yukon    0.053304574317866386
+    Attrib Province/State=Anhui    0.011969470096475202
+    Attrib Province/State=Beijing    0.014819675690376876
+    Attrib Province/State=Chongqing    -0.026135581293653946
+    Attrib Province/State=Fujian    0.010523214853723489
+    Attrib Province/State=Gansu    -0.020950436243616203
+    Attrib Province/State=Guangdong    0.025642722436349314
+    Attrib Province/State=Guangxi    -0.01678491419352654
+    Attrib Province/State=Guizhou    0.009343615900672377
+    Attrib Province/State=Hainan    -3.8588577243070066E-4
+    Attrib Province/State=Hebei    0.027552823528193153
+    Attrib Province/State=Heilongjiang    0.02189124253688583
+    Attrib Province/State=Henan    -0.02041307705908323
+    Attrib Province/State=Hong Kong    0.05003642295277539
+    Attrib Province/State=Hubei    -8.974081792956969E-4
+    Attrib Province/State=Hunan    0.03155651875219857
+    Attrib Province/State=Inner Mongolia    0.032945153412434695
+    Attrib Province/State=Jiangsu    0.04745724664213451
+    Attrib Province/State=Jiangxi    0.03686195233156301
+    Attrib Province/State=Jilin    -0.0054629865568051
+    Attrib Province/State=Liaoning    0.006138652543624402
+    Attrib Province/State=Macau    0.027340668555251704
+    Attrib Province/State=Ningxia    0.013890271037467603
+    Attrib Province/State=Qinghai    0.010085328553037943
+    Attrib Province/State=Shaanxi    -0.04536451006914996
+    Attrib Province/State=Shandong    -0.0019352730890302156
+    Attrib Province/State=Shanghai    0.029686010752088196
+    Attrib Province/State=Shanxi    0.013616549554470135
+    Attrib Province/State=Sichuan    0.05125740855548394
+    Attrib Province/State=Tianjin    0.025652909473532052
+    Attrib Province/State=Tibet    0.013652934904457426
+    Attrib Province/State=Xinjiang    -0.024630723438303227
+    Attrib Province/State=Yunnan    0.0434027192227074
+    Attrib Province/State=Zhejiang    0.021559139487240666
+    Attrib Province/State=Faroe Islands    -0.04634663357831479
+    Attrib Province/State=Greenland    -0.026032300331423414
+    Attrib Province/State=French Guiana    -0.04007200589644066
+    Attrib Province/State=French Polynesia    0.02943541251544883
+    Attrib Province/State=Guadeloupe    -0.0040178197823969595
+    Attrib Province/State=Martinique    -0.045982796265668466
+    Attrib Province/State=Mayotte    0.009265017580163458
+    Attrib Province/State=New Caledonia    0.03888640023234907
+    Attrib Province/State=Reunion    0.021382548948756495
+    Attrib Province/State=Saint Barthelemy    0.007488746594541299
+    Attrib Province/State=Saint Pierre and Miquelon    -0.03923599939013844
+    Attrib Province/State=St Martin    -0.027141742735716963
+    Attrib Province/State=Aruba    -0.03812158521314454
+    Attrib Province/State=Bonaire Sint Eustatius and Saba    0.03525618899416021
+    Attrib Province/State=Curacao    0.047345943338684145
+    Attrib Province/State=Sint Maarten    0.02573362006542281
+    Attrib Province/State=Anguilla    0.031541528612240986
+    Attrib Province/State=Bermuda    -0.019612135628436438
+    Attrib Province/State=British Virgin Islands    0.015903734831644083
+    Attrib Province/State=Cayman Islands    0.03585681780957521
+    Attrib Province/State=Channel Islands    -0.002445571714542789
+    Attrib Province/State=Falkland Islands (Malvinas)    0.03919251698016554
+    Attrib Province/State=Gibraltar    -0.015924738868497768
+    Attrib Province/State=Isle of Man    0.048029210613244264
+    Attrib Province/State=Montserrat    -0.01869161112321846
+    Attrib Province/State=Turks and Caicos Islands    -0.009728864261840837
+    Attrib Country/Region=Afghanistan    0.07620139460045915
+    Attrib Country/Region=Albania    0.026858181867464026
+    Attrib Country/Region=Algeria    0.10120839789072528
+    Attrib Country/Region=Andorra    0.050748228620202875
+    Attrib Country/Region=Angola    0.023465097305911304
+    Attrib Country/Region=Antigua and Barbuda    0.03016398733826775
+    Attrib Country/Region=Argentina    0.043767706775812674
+    Attrib Country/Region=Armenia    0.053693429728648184
+    Attrib Country/Region=Australia    0.04380425331821025
+    Attrib Country/Region=Austria    0.050844337200457626
+    Attrib Country/Region=Azerbaijan    0.0958340211514281
+    Attrib Country/Region=Bahamas    0.08393381755635003
+    Attrib Country/Region=Bahrain    0.05022119094351022
+    Attrib Country/Region=Bangladesh    0.006373316965025992
+    Attrib Country/Region=Barbados    0.0021826651129342456
+    Attrib Country/Region=Belarus    0.04611836323529735
+    Attrib Country/Region=Belgium    0.05755315895315484
+    Attrib Country/Region=Belize    0.007097311092053006
+    Attrib Country/Region=Benin    0.02331762366626297
+    Attrib Country/Region=Bhutan    0.04294137414722015
+    Attrib Country/Region=Bolivia    0.06692499991305634
+    Attrib Country/Region=Bosnia and Herzegovina    0.04677846329714618
+    Attrib Country/Region=Botswana    0.08419847794817127
+    Attrib Country/Region=Brazil    0.07001389412256251
+    Attrib Country/Region=Brunei    0.06317453873123563
+    Attrib Country/Region=Bulgaria    0.005482908427154018
+    Attrib Country/Region=Burkina Faso    0.08347457803468511
+    Attrib Country/Region=Burma    0.07600208687133447
+    Attrib Country/Region=Burundi    0.05016073551624375
+    Attrib Country/Region=Cabo Verde    0.02477937060881201
+    Attrib Country/Region=Cambodia    0.06522356238408512
+    Attrib Country/Region=Cameroon    0.03428727976694552
+    Attrib Country/Region=Canada    0.06072103460897675
+    Attrib Country/Region=Central African Republic    0.09256849392327109
+    Attrib Country/Region=Chad    0.010361745469873705
+    Attrib Country/Region=Chile    0.08442747321668467
+    Attrib Country/Region=China    0.09832129671209863
+    Attrib Country/Region=Colombia    0.008496653687582558
+    Attrib Country/Region=Comoros    0.005886488213698301
+    Attrib Country/Region=Congo (Brazzaville)    0.01929551874708921
+    Attrib Country/Region=Congo (Kinshasa)    0.05183436169054066
+    Attrib Country/Region=Costa Rica    0.0307056785027174
+    Attrib Country/Region=Cote dIvoire    0.03443957853855308
+    Attrib Country/Region=Croatia    0.05384946416932111
+    Attrib Country/Region=Cuba    0.02219433530770602
+    Attrib Country/Region=Cyprus    0.03569066080093268
+    Attrib Country/Region=Czechia    0.08197368234074102
+    Attrib Country/Region=Denmark    0.07753494529188557
+    Attrib Country/Region=Diamond Princess    0.06729681785514036
+    Attrib Country/Region=Djibouti    0.02767139519736682
+    Attrib Country/Region=Dominica    0.032444661056409065
+    Attrib Country/Region=Dominican Republic    0.010802477101927145
+    Attrib Country/Region=Ecuador    0.010330354858816537
+    Attrib Country/Region=Egypt    0.07579833847120414
+    Attrib Country/Region=El Salvador    0.02259808169226881
+    Attrib Country/Region=Equatorial Guinea    0.022350655037548448
+    Attrib Country/Region=Eritrea    0.0019294609680666455
+    Attrib Country/Region=Estonia    0.08531832462933599
+    Attrib Country/Region=Eswatini    0.0165673612815823
+    Attrib Country/Region=Ethiopia    0.03392893692329044
+    Attrib Country/Region=Fiji    0.06141507400088106
+    Attrib Country/Region=Finland    0.014382900702342508
+    Attrib Country/Region=France    0.07360882471878746
+    Attrib Country/Region=Gabon    0.016322954431600867
+    Attrib Country/Region=Gambia    0.025598587475824632
+    Attrib Country/Region=Georgia    0.09501519841925278
+    Attrib Country/Region=Germany    0.011833119435774442
+    Attrib Country/Region=Ghana    0.0016187614899736188
+    Attrib Country/Region=Greece    0.09440082381184804
+    Attrib Country/Region=Grenada    0.02622962216985221
+    Attrib Country/Region=Guatemala    0.08236991828390015
+    Attrib Country/Region=Guinea    0.02009007251275893
+    Attrib Country/Region=Guinea-Bissau    0.047575750940164224
+    Attrib Country/Region=Guyana    0.04240139078528821
+    Attrib Country/Region=Haiti    0.06702859062821202
+    Attrib Country/Region=Holy See    0.09599702812791101
+    Attrib Country/Region=Honduras    0.05011979663921203
+    Attrib Country/Region=Hungary    0.07735061612380696
+    Attrib Country/Region=Iceland    0.09723144941545485
+    Attrib Country/Region=India    0.050730088154922484
+    Attrib Country/Region=Indonesia    0.01072776159102688
+    Attrib Country/Region=Iran    0.07255164999311703
+    Attrib Country/Region=Iraq    0.063814539594087
+    Attrib Country/Region=Ireland    0.03388473796800635
+    Attrib Country/Region=Israel    0.03158162418116893
+    Attrib Country/Region=Italy    0.008177105802653968
+    Attrib Country/Region=Jamaica    0.022612568736441793
+    Attrib Country/Region=Japan    0.023619702812042394
+    Attrib Country/Region=Jordan    0.06122626456747582
+    Attrib Country/Region=Kazakhstan    0.05235640490614191
+    Attrib Country/Region=Kenya    0.018893837724893076
+    Attrib Country/Region=Korea, South    0.058609200935333394
+    Attrib Country/Region=Kosovo    0.06489828921690183
+    Attrib Country/Region=Kuwait    0.049521144349690224
+    Attrib Country/Region=Kyrgyzstan    0.024459733726799594
+    Attrib Country/Region=Laos    0.07104106593271124
+    Attrib Country/Region=Latvia    0.04638306282356741
+    Attrib Country/Region=Lebanon    0.00393591880818218
+    Attrib Country/Region=Lesotho    0.06478073616423752
+    Attrib Country/Region=Liberia    0.061097876716260505
+    Attrib Country/Region=Libya    0.10020303446398936
+    Attrib Country/Region=Liechtenstein    0.02276332622376469
+    Attrib Country/Region=Lithuania    0.027233476869586475
+    Attrib Country/Region=Luxembourg    0.015630248964188458
+    Attrib Country/Region=MS Zaandam    0.08259589344459507
+    Attrib Country/Region=Madagascar    0.031149504166912062
+    Attrib Country/Region=Malawi    0.01852354995393741
+    Attrib Country/Region=Malaysia    0.06434580767138956
+    Attrib Country/Region=Maldives    0.010870367322888734
+    Attrib Country/Region=Mali    0.06452006897639893
+    Attrib Country/Region=Malta    0.024023800052475463
+    Attrib Country/Region=Mauritania    0.031141568012575293
+    Attrib Country/Region=Mauritius    0.04932069891692113
+    Attrib Country/Region=Mexico    0.009218475058631492
+    Attrib Country/Region=Moldova    0.037001631912300034
+    Attrib Country/Region=Monaco    0.02275660270945727
+    Attrib Country/Region=Mongolia    0.040333431239191316
+    Attrib Country/Region=Montenegro    0.039458061677919896
+    Attrib Country/Region=Morocco    0.03803527299560147
+    Attrib Country/Region=Mozambique    0.05185021893844882
+    Attrib Country/Region=Namibia    0.06565956128805943
+    Attrib Country/Region=Nepal    0.07915883834187934
+    Attrib Country/Region=Netherlands    0.05042965097753948
+    Attrib Country/Region=New Zealand    0.0019267683522605637
+    Attrib Country/Region=Nicaragua    0.06943553105444375
+    Attrib Country/Region=Niger    0.08155244794683239
+    Attrib Country/Region=Nigeria    0.09010425806960622
+    Attrib Country/Region=North Macedonia    0.07341711283779667
+    Attrib Country/Region=Norway    0.08290973133126911
+    Attrib Country/Region=Oman    0.002582880995781384
+    Attrib Country/Region=Pakistan    0.07712617063821142
+    Attrib Country/Region=Panama    0.06767749489308077
+    Attrib Country/Region=Papua New Guinea    0.006741554908848104
+    Attrib Country/Region=Paraguay    0.020527156526720523
+    Attrib Country/Region=Peru    0.06883388944340758
+    Attrib Country/Region=Philippines    0.0999800233806361
+    Attrib Country/Region=Poland    0.05904816319337184
+    Attrib Country/Region=Portugal    0.016533908338813776
+    Attrib Country/Region=Qatar    0.04383676956466268
+    Attrib Country/Region=Romania    0.04820870236604753
+    Attrib Country/Region=Russia    0.09615574966897104
+    Attrib Country/Region=Rwanda    0.03294154754999956
+    Attrib Country/Region=Saint Kitts and Nevis    0.05142395464878822
+    Attrib Country/Region=Saint Lucia    0.08089909361192547
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.05267970750237833
+    Attrib Country/Region=San Marino    0.051695043171777755
+    Attrib Country/Region=Sao Tome and Principe    0.08460032554408925
+    Attrib Country/Region=Saudi Arabia    0.015528532605284917
+    Attrib Country/Region=Senegal    0.07079705801780288
+    Attrib Country/Region=Serbia    0.08445231384021613
+    Attrib Country/Region=Seychelles    0.056294331389721494
+    Attrib Country/Region=Sierra Leone    0.10007060471737197
+    Attrib Country/Region=Singapore    0.0014381886708955273
+    Attrib Country/Region=Slovakia    0.05166638873155485
+    Attrib Country/Region=Slovenia    0.09005251420280713
+    Attrib Country/Region=Somalia    0.03415132251579546
+    Attrib Country/Region=South Africa    0.009625405567668348
+    Attrib Country/Region=South Sudan    0.09443741031519505
+    Attrib Country/Region=Spain    -0.007480190770216388
+    Attrib Country/Region=Sri Lanka    0.04988568795364291
+    Attrib Country/Region=Sudan    0.014282569456687811
+    Attrib Country/Region=Suriname    0.0627585060977865
+    Attrib Country/Region=Sweden    0.03443292484383497
+    Attrib Country/Region=Switzerland    0.032954533149538535
+    Attrib Country/Region=Syria    0.03752007122663529
+    Attrib Country/Region=Taiwan*    0.0888158750709394
+    Attrib Country/Region=Tajikistan    0.03380225172757862
+    Attrib Country/Region=Tanzania    0.055010108316542676
+    Attrib Country/Region=Thailand    0.0499427814909694
+    Attrib Country/Region=Timor-Leste    0.06633377891544918
+    Attrib Country/Region=Togo    0.04587594421581302
+    Attrib Country/Region=Trinidad and Tobago    0.039719076918160574
+    Attrib Country/Region=Tunisia    0.03512770300518351
+    Attrib Country/Region=Turkey    0.08240314141477673
+    Attrib Country/Region=US    0.01078201973181572
+    Attrib Country/Region=Uganda    0.08913496613443968
+    Attrib Country/Region=Ukraine    0.013651425267024418
+    Attrib Country/Region=United Arab Emirates    0.027418569837582847
+    Attrib Country/Region=United Kingdom    0.06516884200070944
+    Attrib Country/Region=Uruguay    0.04200717668805695
+    Attrib Country/Region=Uzbekistan    0.09084366564851566
+    Attrib Country/Region=Venezuela    0.03824333175225933
+    Attrib Country/Region=Vietnam    0.022993504272368924
+    Attrib Country/Region=West Bank and Gaza    0.037105009091821406
+    Attrib Country/Region=Western Sahara    0.030382010618594666
+    Attrib Country/Region=Yemen    0.033905139718500184
+    Attrib Country/Region=Zambia    0.0382881308779772
+    Attrib Country/Region=Zimbabwe    0.01052034686820013
+    Attrib Lat    -0.013584562842919794
+    Attrib Long    0.05014039769531582
+    Attrib Dia -28    -0.056717139351140054
+    Attrib Dia -27    -0.0357537169418018
+    Attrib Dia -26    -0.03250662815435705
+    Attrib Dia -25    -0.022687562390651304
+    Attrib Dia -24    0.018066174705535856
+    Attrib Dia -23    -0.03381448442305061
+    Attrib Dia -22    -0.0197940841049366
+    Attrib Dia -21    -0.06558589262251409
+    Attrib Dia -20    -0.019260360328267844
+    Attrib Dia -19    -0.054727996304013676
+    Attrib Dia -18    -0.06940364474443082
+    Attrib Dia -17    -0.024446633273051886
+    Attrib Dia -16    0.01115614156818821
+    Attrib Dia -15    0.01843423899383756
+    Attrib Dia -14    -0.07748250646121609
+    Attrib Dia -13    -0.03866830072574526
+    Attrib Dia -12    0.01889071546422073
+    Attrib Dia -11    -0.032875967764703626
+    Attrib Dia -10    -0.020967447770300573
+    Attrib Dia -9    -0.04484691457935019
+    Attrib Dia -8    -0.0019160735077417273
+    Attrib Dia -7    0.012145273871804647
+    Attrib Dia -6    -0.05892893308826053
+    Attrib Dia -5    -0.037561084169553005
+    Attrib Dia -4    -0.0319211969094349
+    Attrib Dia -3    -0.008049359315141884
+    Attrib Dia -2    -0.07372691591781812
+    Attrib Dia -1    -0.049200048521054994
+    Attrib Dia -0    0.004864754339133258
+    Attrib Dia 1    -0.044323763570949214
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.020619610782941708
+    Attrib Province/State=Australian Capital Territory    -0.033829687567863274
+    Attrib Province/State=New South Wales    -0.03567801524937061
+    Attrib Province/State=Northern Territory    0.008383692755405434
+    Attrib Province/State=Queensland    0.04945730238833838
+    Attrib Province/State=South Australia    0.015577365301504158
+    Attrib Province/State=Tasmania    0.015504656825598328
+    Attrib Province/State=Victoria    0.0470689376119372
+    Attrib Province/State=Western Australia    -0.001829562975900022
+    Attrib Province/State=Alberta    -0.03651423652766659
+    Attrib Province/State=British Columbia    0.02418603234019501
+    Attrib Province/State=Diamond Princess    -0.004063280776169999
+    Attrib Province/State=Grand Princess    0.038810864591647114
+    Attrib Province/State=Manitoba    -0.041585566352351847
+    Attrib Province/State=New Brunswick    0.03876480257360894
+    Attrib Province/State=Newfoundland and Labrador    0.03867021176560693
+    Attrib Province/State=Northwest Territories    -0.017785988188744356
+    Attrib Province/State=Nova Scotia    -0.040099797145191136
+    Attrib Province/State=Ontario    0.036607652357315425
+    Attrib Province/State=Prince Edward Island    0.012042078874060082
+    Attrib Province/State=Quebec    -0.005830530200382697
+    Attrib Province/State=Saskatchewan    -0.040863391536374825
+    Attrib Province/State=Yukon    -0.02274811694831309
+    Attrib Province/State=Anhui    0.04861366980235129
+    Attrib Province/State=Beijing    0.02749749479368546
+    Attrib Province/State=Chongqing    0.0185012463976843
+    Attrib Province/State=Fujian    -0.02253634754364738
+    Attrib Province/State=Gansu    0.015588261557096124
+    Attrib Province/State=Guangdong    -5.642202828774395E-4
+    Attrib Province/State=Guangxi    -0.022957653189742494
+    Attrib Province/State=Guizhou    -0.006477046176337354
+    Attrib Province/State=Hainan    0.027413929583583754
+    Attrib Province/State=Hebei    -0.028929219468059764
+    Attrib Province/State=Heilongjiang    -0.0385335222093988
+    Attrib Province/State=Henan    0.0407483735647258
+    Attrib Province/State=Hong Kong    -0.019778460871541587
+    Attrib Province/State=Hubei    0.012981747691353624
+    Attrib Province/State=Hunan    0.024555779995432608
+    Attrib Province/State=Inner Mongolia    -0.005818077012864933
+    Attrib Province/State=Jiangsu    0.044994144664747805
+    Attrib Province/State=Jiangxi    -0.037463278383168916
+    Attrib Province/State=Jilin    -0.007604650910556206
+    Attrib Province/State=Liaoning    0.038925448413928115
+    Attrib Province/State=Macau    0.007062207859574901
+    Attrib Province/State=Ningxia    0.014953775242505431
+    Attrib Province/State=Qinghai    -0.006881142988487111
+    Attrib Province/State=Shaanxi    -0.03731939437334828
+    Attrib Province/State=Shandong    0.04563168562936407
+    Attrib Province/State=Shanghai    -0.007523486932744018
+    Attrib Province/State=Shanxi    -0.00448523599621843
+    Attrib Province/State=Sichuan    -0.02151699982255851
+    Attrib Province/State=Tianjin    -0.01420567298548768
+    Attrib Province/State=Tibet    -0.013045003597828104
+    Attrib Province/State=Xinjiang    -0.012161958114741212
+    Attrib Province/State=Yunnan    -0.03380659503916278
+    Attrib Province/State=Zhejiang    -0.025597678442969216
+    Attrib Province/State=Faroe Islands    -0.023613560309965764
+    Attrib Province/State=Greenland    -0.0323280751479019
+    Attrib Province/State=French Guiana    0.04655882541423029
+    Attrib Province/State=French Polynesia    0.05180012244925884
+    Attrib Province/State=Guadeloupe    -0.03464465526829071
+    Attrib Province/State=Martinique    0.024877083113285126
+    Attrib Province/State=Mayotte    -0.043454059634313875
+    Attrib Province/State=New Caledonia    0.028038276547728273
+    Attrib Province/State=Reunion    -0.04190031760312017
+    Attrib Province/State=Saint Barthelemy    0.04109730863807072
+    Attrib Province/State=Saint Pierre and Miquelon    -0.03626217992160702
+    Attrib Province/State=St Martin    -0.011708705720099783
+    Attrib Province/State=Aruba    0.029032008676569854
+    Attrib Province/State=Bonaire Sint Eustatius and Saba    0.036073259283637825
+    Attrib Province/State=Curacao    0.04929010327362341
+    Attrib Province/State=Sint Maarten    -0.02397919793818523
+    Attrib Province/State=Anguilla    0.022157753811135116
+    Attrib Province/State=Bermuda    0.03469991252797348
+    Attrib Province/State=British Virgin Islands    0.05283306598477928
+    Attrib Province/State=Cayman Islands    0.032866002255197146
+    Attrib Province/State=Channel Islands    -0.044628140838038524
+    Attrib Province/State=Falkland Islands (Malvinas)    0.034404302638114906
+    Attrib Province/State=Gibraltar    0.04443055656227855
+    Attrib Province/State=Isle of Man    0.004147102954459696
+    Attrib Province/State=Montserrat    -0.029900642754513884
+    Attrib Province/State=Turks and Caicos Islands    -0.00523042976410946
+    Attrib Country/Region=Afghanistan    0.007506371386008255
+    Attrib Country/Region=Albania    0.05076677448575335
+    Attrib Country/Region=Algeria    0.04969132945333181
+    Attrib Country/Region=Andorra    0.016454660309900216
+    Attrib Country/Region=Angola    0.06968180474614245
+    Attrib Country/Region=Antigua and Barbuda    0.06261562353838
+    Attrib Country/Region=Argentina    0.03307556517877933
+    Attrib Country/Region=Armenia    -0.0032286207547233283
+    Attrib Country/Region=Australia    0.024583264924799196
+    Attrib Country/Region=Austria    0.06881869987413568
+    Attrib Country/Region=Azerbaijan    -0.008349622832532102
+    Attrib Country/Region=Bahamas    -0.014068087766803726
+    Attrib Country/Region=Bahrain    0.017757957316810683
+    Attrib Country/Region=Bangladesh    -0.014020606217816936
+    Attrib Country/Region=Barbados    0.05943724222789951
+    Attrib Country/Region=Belarus    -0.012076614776744592
+    Attrib Country/Region=Belgium    -0.0019111204237033284
+    Attrib Country/Region=Belize    0.04070799219623404
+    Attrib Country/Region=Benin    0.012703420253854432
+    Attrib Country/Region=Bhutan    0.06511185075089482
+    Attrib Country/Region=Bolivia    0.0624628210555895
+    Attrib Country/Region=Bosnia and Herzegovina    0.07790864570607434
+    Attrib Country/Region=Botswana    0.05278103181115783
+    Attrib Country/Region=Brazil    0.05311632125626848
+    Attrib Country/Region=Brunei    0.03406920561063292
+    Attrib Country/Region=Bulgaria    0.023600201990495565
+    Attrib Country/Region=Burkina Faso    0.053121798989296636
+    Attrib Country/Region=Burma    -0.010870663501705012
+    Attrib Country/Region=Burundi    0.031306950342134245
+    Attrib Country/Region=Cabo Verde    0.03332037241288008
+    Attrib Country/Region=Cambodia    0.010182458533346614
+    Attrib Country/Region=Cameroon    0.07928927454322009
+    Attrib Country/Region=Canada    -0.021901892925837156
+    Attrib Country/Region=Central African Republic    0.04275734721228522
+    Attrib Country/Region=Chad    -0.001232881776241399
+    Attrib Country/Region=Chile    0.04608157852190583
+    Attrib Country/Region=China    0.012279627926777663
+    Attrib Country/Region=Colombia    0.06780173053121129
+    Attrib Country/Region=Comoros    0.05453674861101643
+    Attrib Country/Region=Congo (Brazzaville)    -0.0028138417976298303
+    Attrib Country/Region=Congo (Kinshasa)    0.05699507189456426
+    Attrib Country/Region=Costa Rica    0.03279862675817319
+    Attrib Country/Region=Cote dIvoire    0.06439369022407983
+    Attrib Country/Region=Croatia    0.049249462928920164
+    Attrib Country/Region=Cuba    0.061028099316794135
+    Attrib Country/Region=Cyprus    0.04401967948776929
+    Attrib Country/Region=Czechia    0.07846544309029246
+    Attrib Country/Region=Denmark    0.07086809578641207
+    Attrib Country/Region=Diamond Princess    0.0016341486317446008
+    Attrib Country/Region=Djibouti    0.010863023277645266
+    Attrib Country/Region=Dominica    0.005904441969364518
+    Attrib Country/Region=Dominican Republic    0.02922559863566824
+    Attrib Country/Region=Ecuador    0.02958155443347835
+    Attrib Country/Region=Egypt    0.08009381527930717
+    Attrib Country/Region=El Salvador    -0.011513163351848666
+    Attrib Country/Region=Equatorial Guinea    0.049507143453122474
+    Attrib Country/Region=Eritrea    0.005813586512794042
+    Attrib Country/Region=Estonia    0.06624876722506035
+    Attrib Country/Region=Eswatini    0.011352960263179208
+    Attrib Country/Region=Ethiopia    0.06334233391240146
+    Attrib Country/Region=Fiji    -0.00581824624178174
+    Attrib Country/Region=Finland    0.06369183989316492
+    Attrib Country/Region=France    -0.010971674006117737
+    Attrib Country/Region=Gabon    0.056643157011339124
+    Attrib Country/Region=Gambia    0.06082402557673456
+    Attrib Country/Region=Georgia    0.08274249850112599
+    Attrib Country/Region=Germany    0.021924803844256838
+    Attrib Country/Region=Ghana    0.04128649687429521
+    Attrib Country/Region=Greece    0.009415944198146117
+    Attrib Country/Region=Grenada    0.05043920267373181
+    Attrib Country/Region=Guatemala    0.014525927953090224
+    Attrib Country/Region=Guinea    0.06515951181335126
+    Attrib Country/Region=Guinea-Bissau    0.04004542495674322
+    Attrib Country/Region=Guyana    0.0624479245906502
+    Attrib Country/Region=Haiti    0.024535712669847554
+    Attrib Country/Region=Holy See    0.0711443527425674
+    Attrib Country/Region=Honduras    -0.009711120083101432
+    Attrib Country/Region=Hungary    0.08029702313112556
+    Attrib Country/Region=Iceland    0.05126916471970244
+    Attrib Country/Region=India    0.023660126766933614
+    Attrib Country/Region=Indonesia    0.04364864146745356
+    Attrib Country/Region=Iran    0.002176872563419997
+    Attrib Country/Region=Iraq    -0.010797235308923483
+    Attrib Country/Region=Ireland    0.006716528926294289
+    Attrib Country/Region=Israel    0.07320609512355734
+    Attrib Country/Region=Italy    0.0656742107760697
+    Attrib Country/Region=Jamaica    0.028220411069871647
+    Attrib Country/Region=Japan    0.026490231130559254
+    Attrib Country/Region=Jordan    0.06140754797376127
+    Attrib Country/Region=Kazakhstan    0.05333345212311544
+    Attrib Country/Region=Kenya    0.043303639726801554
+    Attrib Country/Region=Korea, South    0.02277275662338726
+    Attrib Country/Region=Kosovo    0.03973658592003347
+    Attrib Country/Region=Kuwait    0.002304367030452949
+    Attrib Country/Region=Kyrgyzstan    0.004791982018374667
+    Attrib Country/Region=Laos    0.07792106365068846
+    Attrib Country/Region=Latvia    0.004514765676626724
+    Attrib Country/Region=Lebanon    0.05000414085457846
+    Attrib Country/Region=Lesotho    -0.0011231112632556772
+    Attrib Country/Region=Liberia    0.014501455143796665
+    Attrib Country/Region=Libya    0.02337744182336643
+    Attrib Country/Region=Liechtenstein    0.05883868083056431
+    Attrib Country/Region=Lithuania    0.004207749837449036
+    Attrib Country/Region=Luxembourg    0.07506479890621072
+    Attrib Country/Region=MS Zaandam    0.04474607918189894
+    Attrib Country/Region=Madagascar    0.014972196574322907
+    Attrib Country/Region=Malawi    -0.004461010159337621
+    Attrib Country/Region=Malaysia    0.04847837596667375
+    Attrib Country/Region=Maldives    0.048096821054631186
+    Attrib Country/Region=Mali    0.07494653822324841
+    Attrib Country/Region=Malta    0.07450810567390508
+    Attrib Country/Region=Mauritania    -0.014550124176910947
+    Attrib Country/Region=Mauritius    0.02473025559341884
+    Attrib Country/Region=Mexico    0.022013091768505934
+    Attrib Country/Region=Moldova    0.006859991934333611
+    Attrib Country/Region=Monaco    0.017644928898786518
+    Attrib Country/Region=Mongolia    0.06524091065621572
+    Attrib Country/Region=Montenegro    0.04306019048801438
+    Attrib Country/Region=Morocco    0.07201948078516154
+    Attrib Country/Region=Mozambique    0.05866549184615451
+    Attrib Country/Region=Namibia    -0.013120972936259618
+    Attrib Country/Region=Nepal    0.05186226025369669
+    Attrib Country/Region=Netherlands    0.07536400896840703
+    Attrib Country/Region=New Zealand    0.07143047607556285
+    Attrib Country/Region=Nicaragua    0.03832169163080416
+    Attrib Country/Region=Niger    0.00801865848310933
+    Attrib Country/Region=Nigeria    0.06780164311375067
+    Attrib Country/Region=North Macedonia    0.020556090209242848
+    Attrib Country/Region=Norway    0.06292033883375017
+    Attrib Country/Region=Oman    0.00450584956247248
+    Attrib Country/Region=Pakistan    0.07535848741720075
+    Attrib Country/Region=Panama    0.04234635180705284
+    Attrib Country/Region=Papua New Guinea    0.0048935117385552045
+    Attrib Country/Region=Paraguay    0.042812976811385885
+    Attrib Country/Region=Peru    0.011362731478377184
+    Attrib Country/Region=Philippines    0.004519849028658984
+    Attrib Country/Region=Poland    -0.015432585058267511
+    Attrib Country/Region=Portugal    -0.005763312246035542
+    Attrib Country/Region=Qatar    0.0473146860163244
+    Attrib Country/Region=Romania    0.03741535117630038
+    Attrib Country/Region=Russia    -0.009702201098146125
+    Attrib Country/Region=Rwanda    0.037756208159047414
+    Attrib Country/Region=Saint Kitts and Nevis    0.07412409941339924
+    Attrib Country/Region=Saint Lucia    0.06206339201689948
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.0524751932817142
+    Attrib Country/Region=San Marino    0.0028814422054338176
+    Attrib Country/Region=Sao Tome and Principe    0.040467499432966375
+    Attrib Country/Region=Saudi Arabia    0.04014011819501306
+    Attrib Country/Region=Senegal    0.004614984731586965
+    Attrib Country/Region=Serbia    0.07466033502408549
+    Attrib Country/Region=Seychelles    0.07815664483425924
+    Attrib Country/Region=Sierra Leone    0.018825060026194038
+    Attrib Country/Region=Singapore    0.03387575637103245
+    Attrib Country/Region=Slovakia    0.02841748900375388
+    Attrib Country/Region=Slovenia    0.05620252987061402
+    Attrib Country/Region=Somalia    0.06851790248390227
+    Attrib Country/Region=South Africa    -0.008991135417691525
+    Attrib Country/Region=South Sudan    0.010515267354353503
+    Attrib Country/Region=Spain    -0.030656142169477298
+    Attrib Country/Region=Sri Lanka    0.0030194715345590395
+    Attrib Country/Region=Sudan    0.01057468996951307
+    Attrib Country/Region=Suriname    0.08082549099081826
+    Attrib Country/Region=Sweden    0.003404699050177423
+    Attrib Country/Region=Switzerland    0.050305818151268146
+    Attrib Country/Region=Syria    0.0502250548409674
+    Attrib Country/Region=Taiwan*    0.042606397856773046
+    Attrib Country/Region=Tajikistan    0.05550854880619061
+    Attrib Country/Region=Tanzania    0.01641150242201064
+    Attrib Country/Region=Thailand    0.05772860192986685
+    Attrib Country/Region=Timor-Leste    0.04940831697977888
+    Attrib Country/Region=Togo    0.04047110451362667
+    Attrib Country/Region=Trinidad and Tobago    0.04696768985783241
+    Attrib Country/Region=Tunisia    0.022686009895511488
+    Attrib Country/Region=Turkey    -0.006986575809235627
+    Attrib Country/Region=US    0.0015355039529050805
+    Attrib Country/Region=Uganda    -0.011966978554688661
+    Attrib Country/Region=Ukraine    0.07884429783328967
+    Attrib Country/Region=United Arab Emirates    -0.002926829484993725
+    Attrib Country/Region=United Kingdom    0.04555248943292998
+    Attrib Country/Region=Uruguay    -0.0012072746003216198
+    Attrib Country/Region=Uzbekistan    0.047242725580787
+    Attrib Country/Region=Venezuela    0.059065743635066933
+    Attrib Country/Region=Vietnam    0.01751551650955128
+    Attrib Country/Region=West Bank and Gaza    0.06448078327711709
+    Attrib Country/Region=Western Sahara    0.05761884870610508
+    Attrib Country/Region=Yemen    0.03796970960301719
+    Attrib Country/Region=Zambia    0.0635838786354942
+    Attrib Country/Region=Zimbabwe    0.02000816694077418
+    Attrib Lat    0.02154004476377174
+    Attrib Long    -0.01082569273641453
+    Attrib Dia -28    0.0227184673004536
+    Attrib Dia -27    0.0338096474357213
+    Attrib Dia -26    -0.05884418346015107
+    Attrib Dia -25    0.009594246442140327
+    Attrib Dia -24    0.03347255339687019
+    Attrib Dia -23    -0.03207272269079928
+    Attrib Dia -22    -0.004730597995377531
+    Attrib Dia -21    -0.05499347809486209
+    Attrib Dia -20    -0.00732497250526397
+    Attrib Dia -19    0.015712761661884386
+    Attrib Dia -18    -0.05538734897787131
+    Attrib Dia -17    0.019695562303399927
+    Attrib Dia -16    0.024382911056799825
+    Attrib Dia -15    -0.014352488425533529
+    Attrib Dia -14    0.0031231102090655233
+    Attrib Dia -13    0.026752038580734445
+    Attrib Dia -12    -0.043695500691016714
+    Attrib Dia -11    -0.01333956562521388
+    Attrib Dia -10    -0.006558900386469484
+    Attrib Dia -9    0.01239092650262324
+    Attrib Dia -8    -0.048787761253381835
+    Attrib Dia -7    0.01802227558209724
+    Attrib Dia -6    0.010304206479713753
+    Attrib Dia -5    -0.0186531775675334
+    Attrib Dia -4    -0.042422424454329435
+    Attrib Dia -3    -0.01550588129734786
+    Attrib Dia -2    0.01669003482050251
+    Attrib Dia -1    -0.030956830424157884
+    Attrib Dia -0    0.012604818127565155
+    Attrib Dia 1    0.026045982555029903
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.04962425261701353
+    Attrib Province/State=Australian Capital Territory    0.019170683489850376
+    Attrib Province/State=New South Wales    -0.02169407699255377
+    Attrib Province/State=Northern Territory    -0.04073309497907597
+    Attrib Province/State=Queensland    -0.026844086673087793
+    Attrib Province/State=South Australia    0.02462597805103609
+    Attrib Province/State=Tasmania    0.018688694813761373
+    Attrib Province/State=Victoria    -0.04426862788866708
+    Attrib Province/State=Western Australia    -6.08874528818735E-6
+    Attrib Province/State=Alberta    0.00398473878855942
+    Attrib Province/State=British Columbia    -0.03670435766971338
+    Attrib Province/State=Diamond Princess    -0.029423576593141786
+    Attrib Province/State=Grand Princess    0.018548067630004952
+    Attrib Province/State=Manitoba    0.029844939550843476
+    Attrib Province/State=New Brunswick    0.03580350230407172
+    Attrib Province/State=Newfoundland and Labrador    -0.005985437848624568
+    Attrib Province/State=Northwest Territories    -0.023480435928185054
+    Attrib Province/State=Nova Scotia    0.049244334093048944
+    Attrib Province/State=Ontario    -0.01581647434797742
+    Attrib Province/State=Prince Edward Island    0.03925138530244965
+    Attrib Province/State=Quebec    -0.010613835422208054
+    Attrib Province/State=Saskatchewan    0.02863630556002839
+    Attrib Province/State=Yukon    -0.034575253684561866
+    Attrib Province/State=Anhui    -0.011394558381808865
+    Attrib Province/State=Beijing    -0.04508729997562603
+    Attrib Province/State=Chongqing    0.030365612379638675
+    Attrib Province/State=Fujian    0.044261311676895086
+    Attrib Province/State=Gansu    -0.03968513147757486
+    Attrib Province/State=Guangdong    -0.005649665303204328
+    Attrib Province/State=Guangxi    0.03472777161666239
+    Attrib Province/State=Guizhou    -0.028621782345320354
+    Attrib Province/State=Hainan    -0.032098789236906324
+    Attrib Province/State=Hebei    0.021348289095160292
+    Attrib Province/State=Heilongjiang    -0.016925941172728214
+    Attrib Province/State=Henan    0.0017090213002384149
+    Attrib Province/State=Hong Kong    0.033191448969618134
+    Attrib Province/State=Hubei    -0.01512834277754233
+    Attrib Province/State=Hunan    0.03778851353803655
+    Attrib Province/State=Inner Mongolia    -0.022553045687880014
+    Attrib Province/State=Jiangsu    -0.017321963926199366
+    Attrib Province/State=Jiangxi    0.03516583916400327
+    Attrib Province/State=Jilin    -0.031887373730170865
+    Attrib Province/State=Liaoning    -0.03880707209291079
+    Attrib Province/State=Macau    0.029761828610738048
+    Attrib Province/State=Ningxia    0.022823281829133638
+    Attrib Province/State=Qinghai    0.022823717825216434
+    Attrib Province/State=Shaanxi    0.006907446015151266
+    Attrib Province/State=Shandong    0.026172362770105165
+    Attrib Province/State=Shanghai    0.009371154299170941
+    Attrib Province/State=Shanxi    0.02520977576071675
+    Attrib Province/State=Sichuan    0.008191717612846205
+    Attrib Province/State=Tianjin    0.029579933910402142
+    Attrib Province/State=Tibet    -0.04691298545429297
+    Attrib Province/State=Xinjiang    0.023213418579999805
+    Attrib Province/State=Yunnan    -0.03407007219674978
+    Attrib Province/State=Zhejiang    0.038626067206711606
+    Attrib Province/State=Faroe Islands    0.018540922970007485
+    Attrib Province/State=Greenland    -0.0248723268590085
+    Attrib Province/State=French Guiana    0.027881253701860325
+    Attrib Province/State=French Polynesia    -0.036578353946600216
+    Attrib Province/State=Guadeloupe    0.008518432821569454
+    Attrib Province/State=Martinique    0.04228800795813282
+    Attrib Province/State=Mayotte    0.048909114077083725
+    Attrib Province/State=New Caledonia    -0.0449391867590086
+    Attrib Province/State=Reunion    -0.00858279293532499
+    Attrib Province/State=Saint Barthelemy    0.031193757735746213
+    Attrib Province/State=Saint Pierre and Miquelon    0.03915001172244033
+    Attrib Province/State=St Martin    0.015569068795618268
+    Attrib Province/State=Aruba    0.022862304615435147
+    Attrib Province/State=Bonaire Sint Eustatius and Saba    0.004384436753219883
+    Attrib Province/State=Curacao    -0.00928405450808385
+    Attrib Province/State=Sint Maarten    0.035605991286577175
+    Attrib Province/State=Anguilla    -0.027316717997251938
+    Attrib Province/State=Bermuda    0.049969130558010624
+    Attrib Province/State=British Virgin Islands    0.031603191240530064
+    Attrib Province/State=Cayman Islands    -0.047081207620529954
+    Attrib Province/State=Channel Islands    -0.036468662772221445
+    Attrib Province/State=Falkland Islands (Malvinas)    -0.019979034737374606
+    Attrib Province/State=Gibraltar    0.026428534928654792
+    Attrib Province/State=Isle of Man    0.03492718558833696
+    Attrib Province/State=Montserrat    0.022145228988154398
+    Attrib Province/State=Turks and Caicos Islands    -0.007824171816855026
+    Attrib Country/Region=Afghanistan    0.051815943474199176
+    Attrib Country/Region=Albania    0.03185500934375818
+    Attrib Country/Region=Algeria    0.026062764798649395
+    Attrib Country/Region=Andorra    0.06348557386451488
+    Attrib Country/Region=Angola    0.043763303566431704
+    Attrib Country/Region=Antigua and Barbuda    -0.0035576777306417693
+    Attrib Country/Region=Argentina    0.01194458928771948
+    Attrib Country/Region=Armenia    0.05796421670910539
+    Attrib Country/Region=Australia    0.02016602948838564
+    Attrib Country/Region=Austria    0.07835664644217324
+    Attrib Country/Region=Azerbaijan    -0.016402033182879253
+    Attrib Country/Region=Bahamas    -0.011451440546335451
+    Attrib Country/Region=Bahrain    -0.013838716263560346
+    Attrib Country/Region=Bangladesh    0.023011238455264947
+    Attrib Country/Region=Barbados    0.05473158722469212
+    Attrib Country/Region=Belarus    0.07396351246732012
+    Attrib Country/Region=Belgium    -0.010656668418074807
+    Attrib Country/Region=Belize    0.0216581272403962
+    Attrib Country/Region=Benin    0.06097107669662456
+    Attrib Country/Region=Bhutan    0.04485543465651972
+    Attrib Country/Region=Bolivia    0.010528754293658094
+    Attrib Country/Region=Bosnia and Herzegovina    0.03815338862633162
+    Attrib Country/Region=Botswana    0.07570796798636223
+    Attrib Country/Region=Brazil    0.028750568450268063
+    Attrib Country/Region=Brunei    0.06768377088438522
+    Attrib Country/Region=Bulgaria    0.05475813784041038
+    Attrib Country/Region=Burkina Faso    0.030991121605479535
+    Attrib Country/Region=Burma    -0.0020845963212568364
+    Attrib Country/Region=Burundi    0.06092703100789438
+    Attrib Country/Region=Cabo Verde    0.003355699399930771
+    Attrib Country/Region=Cambodia    0.01942371794129768
+    Attrib Country/Region=Cameroon    0.019187454085719275
+    Attrib Country/Region=Canada    0.04971217110043389
+    Attrib Country/Region=Central African Republic    -0.012059269209773658
+    Attrib Country/Region=Chad    0.06897890051678769
+    Attrib Country/Region=Chile    0.06475207272770156
+    Attrib Country/Region=China    0.04638625244624598
+    Attrib Country/Region=Colombia    0.04308716361596213
+    Attrib Country/Region=Comoros    0.0268314749659388
+    Attrib Country/Region=Congo (Brazzaville)    -0.01665844763453379
+    Attrib Country/Region=Congo (Kinshasa)    0.06322157436868686
+    Attrib Country/Region=Costa Rica    0.01298518676701405
+    Attrib Country/Region=Cote dIvoire    0.015500939387016953
+    Attrib Country/Region=Croatia    0.03679433026017271
+    Attrib Country/Region=Cuba    0.06902016202218984
+    Attrib Country/Region=Cyprus    -0.009287800032583527
+    Attrib Country/Region=Czechia    0.0038857694011660434
+    Attrib Country/Region=Denmark    5.586585489614448E-4
+    Attrib Country/Region=Diamond Princess    -0.0127159973246901
+    Attrib Country/Region=Djibouti    -0.009004025863757134
+    Attrib Country/Region=Dominica    0.034342779366692174
+    Attrib Country/Region=Dominican Republic    0.05464302389884995
+    Attrib Country/Region=Ecuador    0.07695510993720699
+    Attrib Country/Region=Egypt    0.04336423497287521
+    Attrib Country/Region=El Salvador    0.03165020432515875
+    Attrib Country/Region=Equatorial Guinea    0.07569256018674414
+    Attrib Country/Region=Eritrea    0.018003991417033238
+    Attrib Country/Region=Estonia    -0.0014210511388707896
+    Attrib Country/Region=Eswatini    0.014144783822670917
+    Attrib Country/Region=Ethiopia    0.0015941134903361782
+    Attrib Country/Region=Fiji    0.029459651786891684
+    Attrib Country/Region=Finland    0.016711860373420064
+    Attrib Country/Region=France    0.003779196092209325
+    Attrib Country/Region=Gabon    0.06948588946172546
+    Attrib Country/Region=Gambia    -0.009323249681315182
+    Attrib Country/Region=Georgia    0.002379631900033348
+    Attrib Country/Region=Germany    0.06888199040858123
+    Attrib Country/Region=Ghana    -0.011425699075125764
+    Attrib Country/Region=Greece    -4.60400527715644E-5
+    Attrib Country/Region=Grenada    0.014974205101861341
+    Attrib Country/Region=Guatemala    0.06197434574511188
+    Attrib Country/Region=Guinea    0.029147320594799634
+    Attrib Country/Region=Guinea-Bissau    0.06648392908532595
+    Attrib Country/Region=Guyana    0.05739855722115578
+    Attrib Country/Region=Haiti    0.0639182391036375
+    Attrib Country/Region=Holy See    0.06585137373190779
+    Attrib Country/Region=Honduras    0.05525217167462004
+    Attrib Country/Region=Hungary    0.029751130789052
+    Attrib Country/Region=Iceland    -0.0037261965537985203
+    Attrib Country/Region=India    -0.006884129402079982
+    Attrib Country/Region=Indonesia    0.05792875323744178
+    Attrib Country/Region=Iran    0.08060551513389004
+    Attrib Country/Region=Iraq    0.07966092872451816
+    Attrib Country/Region=Ireland    -0.01069931630099405
+    Attrib Country/Region=Israel    0.06021415802619401
+    Attrib Country/Region=Italy    0.024778520597467192
+    Attrib Country/Region=Jamaica    0.07664379179615086
+    Attrib Country/Region=Japan    0.04167037257395471
+    Attrib Country/Region=Jordan    0.03407851713208949
+    Attrib Country/Region=Kazakhstan    0.0014110363786830854
+    Attrib Country/Region=Kenya    0.028480675433842986
+    Attrib Country/Region=Korea, South    0.033149966700775975
+    Attrib Country/Region=Kosovo    0.04559879663288743
+    Attrib Country/Region=Kuwait    0.05980797752935915
+    Attrib Country/Region=Kyrgyzstan    0.04659723848648391
+    Attrib Country/Region=Laos    -0.017664735639558247
+    Attrib Country/Region=Latvia    0.07047804305890117
+    Attrib Country/Region=Lebanon    0.03288867428233738
+    Attrib Country/Region=Lesotho    0.07240763472560129
+    Attrib Country/Region=Liberia    0.06216459474036873
+    Attrib Country/Region=Libya    0.009524666603871895
+    Attrib Country/Region=Liechtenstein    0.018530262091991486
+    Attrib Country/Region=Lithuania    0.024559126390572675
+    Attrib Country/Region=Luxembourg    0.04017247630424719
+    Attrib Country/Region=MS Zaandam    0.056675120021907735
+    Attrib Country/Region=Madagascar    -2.0747630546933364E-4
+    Attrib Country/Region=Malawi    0.004308084573867328
+    Attrib Country/Region=Malaysia    0.06158420615388155
+    Attrib Country/Region=Maldives    0.004216612177403065
+    Attrib Country/Region=Mali    0.0391794440656092
+    Attrib Country/Region=Malta    0.011895684187847803
+    Attrib Country/Region=Mauritania    0.0756225412040083
+    Attrib Country/Region=Mauritius    0.04907461429510475
+    Attrib Country/Region=Mexico    0.05849380691656847
+    Attrib Country/Region=Moldova    0.0799746149498141
+    Attrib Country/Region=Monaco    0.0740463992870687
+    Attrib Country/Region=Mongolia    0.0014624517852066881
+    Attrib Country/Region=Montenegro    0.06444770235769744
+    Attrib Country/Region=Morocco    0.07150653402877191
+    Attrib Country/Region=Mozambique    0.04981435679418758
+    Attrib Country/Region=Namibia    0.00989133090911805
+    Attrib Country/Region=Nepal    0.016935282997756762
+    Attrib Country/Region=Netherlands    0.06445864746382249
+    Attrib Country/Region=New Zealand    0.05493548013015209
+    Attrib Country/Region=Nicaragua    0.06967259190037789
+    Attrib Country/Region=Niger    0.014636642163247702
+    Attrib Country/Region=Nigeria    0.00336878067938505
+    Attrib Country/Region=North Macedonia    -0.014958611911419352
+    Attrib Country/Region=Norway    0.0673162460174824
+    Attrib Country/Region=Oman    0.043298566037411994
+    Attrib Country/Region=Pakistan    -0.0017513895657955178
+    Attrib Country/Region=Panama    0.016273230499466353
+    Attrib Country/Region=Papua New Guinea    -0.01122484589765526
+    Attrib Country/Region=Paraguay    0.06022594984883906
+    Attrib Country/Region=Peru    0.05412229801722303
+    Attrib Country/Region=Philippines    0.0821223733136662
+    Attrib Country/Region=Poland    0.06818118867458386
+    Attrib Country/Region=Portugal    0.047642830943379184
+    Attrib Country/Region=Qatar    0.008993580541412999
+    Attrib Country/Region=Romania    0.06059793707470564
+    Attrib Country/Region=Russia    -0.011345690478720933
+    Attrib Country/Region=Rwanda    0.01001771450264249
+    Attrib Country/Region=Saint Kitts and Nevis    0.04023741650194047
+    Attrib Country/Region=Saint Lucia    0.02293876624615046
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.04331479889034192
+    Attrib Country/Region=San Marino    0.05553494536038568
+    Attrib Country/Region=Sao Tome and Principe    0.07279734287375877
+    Attrib Country/Region=Saudi Arabia    0.041243562952859775
+    Attrib Country/Region=Senegal    0.026369102188439117
+    Attrib Country/Region=Serbia    0.019043887486585587
+    Attrib Country/Region=Seychelles    0.06471213243887826
+    Attrib Country/Region=Sierra Leone    0.05280127722705795
+    Attrib Country/Region=Singapore    -0.013714628117101908
+    Attrib Country/Region=Slovakia    -0.00708245539037785
+    Attrib Country/Region=Slovenia    0.06894077520677731
+    Attrib Country/Region=Somalia    -0.01063547975356457
+    Attrib Country/Region=South Africa    -0.0025926150610996465
+    Attrib Country/Region=South Sudan    0.0022255333090112797
+    Attrib Country/Region=Spain    0.011182331484822991
+    Attrib Country/Region=Sri Lanka    0.028851318973696326
+    Attrib Country/Region=Sudan    0.024835436980460847
+    Attrib Country/Region=Suriname    0.01836073098049584
+    Attrib Country/Region=Sweden    -0.008715328183781176
+    Attrib Country/Region=Switzerland    -0.015709734068019607
+    Attrib Country/Region=Syria    0.06602072463387229
+    Attrib Country/Region=Taiwan*    0.0589169597600258
+    Attrib Country/Region=Tajikistan    0.0653076107670082
+    Attrib Country/Region=Tanzania    0.04077335010248354
+    Attrib Country/Region=Thailand    0.010054294133977302
+    Attrib Country/Region=Timor-Leste    0.06069778099012039
+    Attrib Country/Region=Togo    0.022935392340062175
+    Attrib Country/Region=Trinidad and Tobago    0.07278339640487984
+    Attrib Country/Region=Tunisia    0.043451588118138075
+    Attrib Country/Region=Turkey    0.02838715550190099
+    Attrib Country/Region=US    0.015131585924845333
+    Attrib Country/Region=Uganda    0.026031141196091574
+    Attrib Country/Region=Ukraine    0.013716773407624545
+    Attrib Country/Region=United Arab Emirates    -0.010331025389154673
+    Attrib Country/Region=United Kingdom    0.003951961295996957
+    Attrib Country/Region=Uruguay    0.04065411308717197
+    Attrib Country/Region=Uzbekistan    -0.013268151539988213
+    Attrib Country/Region=Venezuela    0.016791809316543446
+    Attrib Country/Region=Vietnam    -0.006822464611359672
+    Attrib Country/Region=West Bank and Gaza    0.04031842654453608
+    Attrib Country/Region=Western Sahara    0.009920815973969136
+    Attrib Country/Region=Yemen    -0.0169192381691016
+    Attrib Country/Region=Zambia    0.03804992587087116
+    Attrib Country/Region=Zimbabwe    0.03652712321017225
+    Attrib Lat    -0.013046941178216276
+    Attrib Long    -0.013487597204781846
+    Attrib Dia -28    0.045330831134897914
+    Attrib Dia -27    -0.024029225825151868
+    Attrib Dia -26    -0.02531563557728325
+    Attrib Dia -25    0.02552762005758142
+    Attrib Dia -24    -0.04579195569659322
+    Attrib Dia -23    0.007844182808627913
+    Attrib Dia -22    0.00927320920530824
+    Attrib Dia -21    -0.04961501503674618
+    Attrib Dia -20    0.0059860424384518204
+    Attrib Dia -19    0.02867282620427903
+    Attrib Dia -18    0.003469289813057727
+    Attrib Dia -17    0.03198714012125216
+    Attrib Dia -16    -0.0020031398917563
+    Attrib Dia -15    -0.03617596979169824
+    Attrib Dia -14    0.018315656131427976
+    Attrib Dia -13    -0.04249814973699543
+    Attrib Dia -12    0.02776261812737483
+    Attrib Dia -11    0.003879357335356846
+    Attrib Dia -10    -0.049714940577265866
+    Attrib Dia -9    0.020414911045060866
+    Attrib Dia -8    -0.03452814396442638
+    Attrib Dia -7    0.0382445321177223
+    Attrib Dia -6    0.010055593757592959
+    Attrib Dia -5    0.04757793669620611
+    Attrib Dia -4    -0.01732242038532175
+    Attrib Dia -3    0.020632109074078676
+    Attrib Dia -2    -0.027355565117408907
+    Attrib Dia -1    0.026070036724125008
+    Attrib Dia -0    0.023486736516040604
+    Attrib Dia 1    -0.04129853864889095
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.02067408610365125
+    Attrib Province/State=Australian Capital Territory    -0.007535310012413232
+    Attrib Province/State=New South Wales    0.01299830376199647
+    Attrib Province/State=Northern Territory    0.011933146807936874
+    Attrib Province/State=Queensland    -0.07156573471465776
+    Attrib Province/State=South Australia    -0.04508601617106452
+    Attrib Province/State=Tasmania    -0.05411612511717116
+    Attrib Province/State=Victoria    0.035898120186298496
+    Attrib Province/State=Western Australia    -0.0030621308699248155
+    Attrib Province/State=Alberta    -0.012148879358191764
+    Attrib Province/State=British Columbia    0.015179701148671908
+    Attrib Province/State=Diamond Princess    0.021377504754259674
+    Attrib Province/State=Grand Princess    -0.048411779278962876
+    Attrib Province/State=Manitoba    -0.020401905369446378
+    Attrib Province/State=New Brunswick    -0.10586414380457099
+    Attrib Province/State=Newfoundland and Labrador    -0.08981701780570539
+    Attrib Province/State=Northwest Territories    -0.05665177052023481
+    Attrib Province/State=Nova Scotia    -0.030739734592265398
+    Attrib Province/State=Ontario    0.07767868330497531
+    Attrib Province/State=Prince Edward Island    -0.017640999522677007
+    Attrib Province/State=Quebec    0.13595864200653043
+    Attrib Province/State=Saskatchewan    -0.10680831095044284
+    Attrib Province/State=Yukon    -0.051460624541313775
+    Attrib Province/State=Anhui    0.10477445087587962
+    Attrib Province/State=Beijing    0.032147894276321906
+    Attrib Province/State=Chongqing    -0.025636528218197906
+    Attrib Province/State=Fujian    -0.04197667121275756
+    Attrib Province/State=Gansu    0.0012335244120696563
+    Attrib Province/State=Guangdong    -0.10574654597948516
+    Attrib Province/State=Guangxi    -0.10318052460819269
+    Attrib Province/State=Guizhou    0.007668356183771376
+    Attrib Province/State=Hainan    -0.03900449606764551
+    Attrib Province/State=Hebei    0.0034657720376458146
+    Attrib Province/State=Heilongjiang    0.04698061870613419
+    Attrib Province/State=Henan    -0.024087279445877914
+    Attrib Province/State=Hong Kong    0.018189076742312377
+    Attrib Province/State=Hubei    0.1422617529843957
+    Attrib Province/State=Hunan    -0.013476918016421183
+    Attrib Province/State=Inner Mongolia    -0.0420214211909513
+    Attrib Province/State=Jiangsu    0.02729189615103274
+    Attrib Province/State=Jiangxi    -0.02794714205535116
+    Attrib Province/State=Jilin    0.044300293420689904
+    Attrib Province/State=Liaoning    -0.030105549556544483
+    Attrib Province/State=Macau    -0.0012422762590194878
+    Attrib Province/State=Ningxia    -0.03909833883369941
+    Attrib Province/State=Qinghai    -0.09536038151171768
+    Attrib Province/State=Shaanxi    0.014648118082547543
+    Attrib Province/State=Shandong    -0.01119375144599088
+    Attrib Province/State=Shanghai    0.04813219131642481
+    Attrib Province/State=Shanxi    -0.01641040377748449
+    Attrib Province/State=Sichuan    -0.008567044678219905
+    Attrib Province/State=Tianjin    0.014910968745846881
+    Attrib Province/State=Tibet    -0.051189869326736914
+    Attrib Province/State=Xinjiang    0.011414307143915059
+    Attrib Province/State=Yunnan    -0.06962595295058019
+    Attrib Province/State=Zhejiang    -0.0679737303636787
+    Attrib Province/State=Faroe Islands    -0.002903449124567915
+    Attrib Province/State=Greenland    0.015568837300323993
+    Attrib Province/State=French Guiana    0.021441024443746706
+    Attrib Province/State=French Polynesia    0.007868390571357995
+    Attrib Province/State=Guadeloupe    0.015556597170330203
+    Attrib Province/State=Martinique    0.00264145575781276
+    Attrib Province/State=Mayotte    -0.020822425554317712
+    Attrib Province/State=New Caledonia    -0.07410927395354407
+    Attrib Province/State=Reunion    0.023463662161672963
+    Attrib Province/State=Saint Barthelemy    0.034367125682338094
+    Attrib Province/State=Saint Pierre and Miquelon    -0.06822992189043889
+    Attrib Province/State=St Martin    0.01277421182440164
+    Attrib Province/State=Aruba    0.003734633406315779
+    Attrib Province/State=Bonaire Sint Eustatius and Saba    -0.04306886600671688
+    Attrib Province/State=Curacao    0.04928495484994464
+    Attrib Province/State=Sint Maarten    -0.04874294787371815
+    Attrib Province/State=Anguilla    0.03661597399355718
+    Attrib Province/State=Bermuda    -0.07076670665521669
+    Attrib Province/State=British Virgin Islands    -0.0020839650823936094
+    Attrib Province/State=Cayman Islands    0.04852322598692125
+    Attrib Province/State=Channel Islands    -0.11701246744702211
+    Attrib Province/State=Falkland Islands (Malvinas)    0.002490578055947147
+    Attrib Province/State=Gibraltar    0.03615582352640099
+    Attrib Province/State=Isle of Man    0.019486463746013
+    Attrib Province/State=Montserrat    -0.024882439243620415
+    Attrib Province/State=Turks and Caicos Islands    -0.048259671091053814
+    Attrib Country/Region=Afghanistan    0.030190794486965905
+    Attrib Country/Region=Albania    0.012886886126707454
+    Attrib Country/Region=Algeria    0.03822554418584637
+    Attrib Country/Region=Andorra    -0.09361955059551343
+    Attrib Country/Region=Angola    0.004902648287237718
+    Attrib Country/Region=Antigua and Barbuda    -0.028521366895349582
+    Attrib Country/Region=Argentina    -0.02873175338913404
+    Attrib Country/Region=Armenia    -0.006154227986509876
+    Attrib Country/Region=Australia    0.0018760269053168233
+    Attrib Country/Region=Austria    0.037353502418006876
+    Attrib Country/Region=Azerbaijan    0.07838789871895326
+    Attrib Country/Region=Bahamas    0.004382604912314297
+    Attrib Country/Region=Bahrain    0.034766685776020115
+    Attrib Country/Region=Bangladesh    -0.024069036385996855
+    Attrib Country/Region=Barbados    -0.014875307255361856
+    Attrib Country/Region=Belarus    0.018929651677009048
+    Attrib Country/Region=Belgium    -0.00797210027361881
+    Attrib Country/Region=Belize    0.0350139868273481
+    Attrib Country/Region=Benin    0.004617609259989374
+    Attrib Country/Region=Bhutan    0.01658721623526213
+    Attrib Country/Region=Bolivia    0.039063835263039214
+    Attrib Country/Region=Bosnia and Herzegovina    0.04927664897168551
+    Attrib Country/Region=Botswana    0.02276314327278494
+    Attrib Country/Region=Brazil    -0.019727514449997284
+    Attrib Country/Region=Brunei    0.02372641786230213
+    Attrib Country/Region=Bulgaria    0.04023582773780365
+    Attrib Country/Region=Burkina Faso    -0.01055891549174553
+    Attrib Country/Region=Burma    -0.02035668948057208
+    Attrib Country/Region=Burundi    -0.05728381617645073
+    Attrib Country/Region=Cabo Verde    -0.005854026415733356
+    Attrib Country/Region=Cambodia    0.04176858723412049
+    Attrib Country/Region=Cameroon    0.018480140703418767
+    Attrib Country/Region=Canada    0.061596892463282066
+    Attrib Country/Region=Central African Republic    0.10126117119268273
+    Attrib Country/Region=Chad    0.03376761707772736
+    Attrib Country/Region=Chile    -0.002122837346738249
+    Attrib Country/Region=China    0.0167529587174231
+    Attrib Country/Region=Colombia    0.044007585385457924
+    Attrib Country/Region=Comoros    0.024140965114383944
+    Attrib Country/Region=Congo (Brazzaville)    -0.019709828495158094
+    Attrib Country/Region=Congo (Kinshasa)    0.026800601569357464
+    Attrib Country/Region=Costa Rica    -0.02777853703743123
+    Attrib Country/Region=Cote dIvoire    -0.0035581733788963977
+    Attrib Country/Region=Croatia    0.005063986382040923
+    Attrib Country/Region=Cuba    -0.0664373320214419
+    Attrib Country/Region=Cyprus    -0.03855093057304309
+    Attrib Country/Region=Czechia    0.09400444848896868
+    Attrib Country/Region=Denmark    0.01474399379840506
+    Attrib Country/Region=Diamond Princess    -0.007152268535954849
+    Attrib Country/Region=Djibouti    0.02200636266871726
+    Attrib Country/Region=Dominica    0.010712755879917409
+    Attrib Country/Region=Dominican Republic    0.06346627055477592
+    Attrib Country/Region=Ecuador    0.056401276612538284
+    Attrib Country/Region=Egypt    0.0393348276925624
+    Attrib Country/Region=El Salvador    0.040312773570832065
+    Attrib Country/Region=Equatorial Guinea    -0.02853197930788022
+    Attrib Country/Region=Eritrea    0.06026219507494102
+    Attrib Country/Region=Estonia    -0.04803375507208163
+    Attrib Country/Region=Eswatini    0.016250675599888166
+    Attrib Country/Region=Ethiopia    0.08680293354614446
+    Attrib Country/Region=Fiji    -0.06230920362177778
+    Attrib Country/Region=Finland    0.009413215195371616
+    Attrib Country/Region=France    0.00653350933519982
+    Attrib Country/Region=Gabon    0.00827699692309969
+    Attrib Country/Region=Gambia    0.08129774002225644
+    Attrib Country/Region=Georgia    -0.022493914661151936
+    Attrib Country/Region=Germany    -0.010410159920129232
+    Attrib Country/Region=Ghana    0.021213213968409972
+    Attrib Country/Region=Greece    0.016318219222267175
+    Attrib Country/Region=Grenada    -0.005623679073035639
+    Attrib Country/Region=Guatemala    -0.027700163104512936
+    Attrib Country/Region=Guinea    0.027589830088167063
+    Attrib Country/Region=Guinea-Bissau    0.01692134769957577
+    Attrib Country/Region=Guyana    0.03863242375762032
+    Attrib Country/Region=Haiti    0.05425338062498546
+    Attrib Country/Region=Holy See    -0.030149165198609707
+    Attrib Country/Region=Honduras    0.042107293153181305
+    Attrib Country/Region=Hungary    0.07094711210242267
+    Attrib Country/Region=Iceland    0.005075206634519873
+    Attrib Country/Region=India    0.05178285217890828
+    Attrib Country/Region=Indonesia    -0.015938896038261652
+    Attrib Country/Region=Iran    0.002567876020284569
+    Attrib Country/Region=Iraq    0.0466277026040936
+    Attrib Country/Region=Ireland    0.07712230725523046
+    Attrib Country/Region=Israel    0.03462149053722914
+    Attrib Country/Region=Italy    -0.012704988010227238
+    Attrib Country/Region=Jamaica    0.0596287064089884
+    Attrib Country/Region=Japan    0.00961868137925797
+    Attrib Country/Region=Jordan    0.00518099485134311
+    Attrib Country/Region=Kazakhstan    -0.011863184008655438
+    Attrib Country/Region=Kenya    -0.018733925039406255
+    Attrib Country/Region=Korea, South    0.024170399583691663
+    Attrib Country/Region=Kosovo    0.030462119316226274
+    Attrib Country/Region=Kuwait    0.053812175273892544
+    Attrib Country/Region=Kyrgyzstan    0.03904095960200146
+    Attrib Country/Region=Laos    -0.022030855364430165
+    Attrib Country/Region=Latvia    0.015910205130119707
+    Attrib Country/Region=Lebanon    0.09688652730810028
+    Attrib Country/Region=Lesotho    0.011475393860904298
+    Attrib Country/Region=Liberia    0.00842224456741666
+    Attrib Country/Region=Libya    0.0027615531678485466
+    Attrib Country/Region=Liechtenstein    1.4188902956627626E-4
+    Attrib Country/Region=Lithuania    -0.03195542746164497
+    Attrib Country/Region=Luxembourg    0.025171768195203278
+    Attrib Country/Region=MS Zaandam    0.08197616590088129
+    Attrib Country/Region=Madagascar    -0.015391558726715873
+    Attrib Country/Region=Malawi    0.032230473163909194
+    Attrib Country/Region=Malaysia    0.024447665587249392
+    Attrib Country/Region=Maldives    0.02555027785322606
+    Attrib Country/Region=Mali    -0.10118055882749268
+    Attrib Country/Region=Malta    -0.06666510871936975
+    Attrib Country/Region=Mauritania    0.007078215980417284
+    Attrib Country/Region=Mauritius    -0.01902314704237037
+    Attrib Country/Region=Mexico    -0.011452370406650288
+    Attrib Country/Region=Moldova    0.01276573961917025
+    Attrib Country/Region=Monaco    -0.04832545599771924
+    Attrib Country/Region=Mongolia    -0.018770979345831086
+    Attrib Country/Region=Montenegro    -0.061623165544256356
+    Attrib Country/Region=Morocco    0.07261264154701456
+    Attrib Country/Region=Mozambique    -0.002489590690109445
+    Attrib Country/Region=Namibia    -0.013144467813147124
+    Attrib Country/Region=Nepal    0.09378681679398672
+    Attrib Country/Region=Netherlands    0.016715923830396308
+    Attrib Country/Region=New Zealand    0.013616329284504411
+    Attrib Country/Region=Nicaragua    0.004447158991078228
+    Attrib Country/Region=Niger    -0.014039650877056706
+    Attrib Country/Region=Nigeria    0.052081226958722034
+    Attrib Country/Region=North Macedonia    0.011802858243889148
+    Attrib Country/Region=Norway    -0.010057469235832733
+    Attrib Country/Region=Oman    3.796173049782542E-4
+    Attrib Country/Region=Pakistan    0.05124116297929207
+    Attrib Country/Region=Panama    0.021731627915701934
+    Attrib Country/Region=Papua New Guinea    -0.010929873704217625
+    Attrib Country/Region=Paraguay    0.01956878940547697
+    Attrib Country/Region=Peru    0.011455358500001676
+    Attrib Country/Region=Philippines    0.027974001786152253
+    Attrib Country/Region=Poland    -0.009812512350297902
+    Attrib Country/Region=Portugal    0.010380031644958586
+    Attrib Country/Region=Qatar    0.05465279189138999
+    Attrib Country/Region=Romania    0.007124164324658435
+    Attrib Country/Region=Russia    0.049707521226743
+    Attrib Country/Region=Rwanda    0.04610658486135016
+    Attrib Country/Region=Saint Kitts and Nevis    -0.034722014642234206
+    Attrib Country/Region=Saint Lucia    2.2302353395748772E-4
+    Attrib Country/Region=Saint Vincent and the Grenadines    -0.05223059636173941
+    Attrib Country/Region=San Marino    -0.020250096236767004
+    Attrib Country/Region=Sao Tome and Principe    6.621916367219725E-4
+    Attrib Country/Region=Saudi Arabia    -0.012315788088011302
+    Attrib Country/Region=Senegal    -0.020584249715147853
+    Attrib Country/Region=Serbia    -0.058778420595284576
+    Attrib Country/Region=Seychelles    0.00892073991121361
+    Attrib Country/Region=Sierra Leone    -0.05774052337422117
+    Attrib Country/Region=Singapore    0.02755363012528788
+    Attrib Country/Region=Slovakia    -0.0566290563127261
+    Attrib Country/Region=Slovenia    0.0017357638170397754
+    Attrib Country/Region=Somalia    -0.08591074916112566
+    Attrib Country/Region=South Africa    0.053605526172189374
+    Attrib Country/Region=South Sudan    0.0036890105177239834
+    Attrib Country/Region=Spain    0.015268639280835022
+    Attrib Country/Region=Sri Lanka    -0.013129912725860527
+    Attrib Country/Region=Sudan    -0.001927448923928525
+    Attrib Country/Region=Suriname    -0.02567843851762978
+    Attrib Country/Region=Sweden    0.07219372783603704
+    Attrib Country/Region=Switzerland    0.016539556283407968
+    Attrib Country/Region=Syria    0.01634807983987556
+    Attrib Country/Region=Taiwan*    -0.028462981732784182
+    Attrib Country/Region=Tajikistan    -0.06588672521523305
+    Attrib Country/Region=Tanzania    0.0078468565787896
+    Attrib Country/Region=Thailand    -0.012074914321829583
+    Attrib Country/Region=Timor-Leste    0.002117347247872063
+    Attrib Country/Region=Togo    -0.0017320072219305454
+    Attrib Country/Region=Trinidad and Tobago    -0.0077720646546479534
+    Attrib Country/Region=Tunisia    0.088813482972681
+    Attrib Country/Region=Turkey    -0.029309544620022554
+    Attrib Country/Region=US    0.01161947924632267
+    Attrib Country/Region=Uganda    0.007221901140916823
+    Attrib Country/Region=Ukraine    0.04863921872885575
+    Attrib Country/Region=United Arab Emirates    0.03593204003643337
+    Attrib Country/Region=United Kingdom    0.018072365361816257
+    Attrib Country/Region=Uruguay    0.05328501492725044
+    Attrib Country/Region=Uzbekistan    0.0627580406533111
+    Attrib Country/Region=Venezuela    -0.038582128227964474
+    Attrib Country/Region=Vietnam    8.313879024403876E-4
+    Attrib Country/Region=West Bank and Gaza    -0.04300363873252725
+    Attrib Country/Region=Western Sahara    0.008594509892348482
+    Attrib Country/Region=Yemen    0.004031133298208971
+    Attrib Country/Region=Zambia    -0.030492426628405143
+    Attrib Country/Region=Zimbabwe    0.0903766012935369
+    Attrib Lat    -0.015499074380832643
+    Attrib Long    0.02008334172646607
+    Attrib Dia -28    0.011876727447103368
+    Attrib Dia -27    0.03926145445845427
+    Attrib Dia -26    -0.0450681866901692
+    Attrib Dia -25    -0.02543198353481344
+    Attrib Dia -24    -0.05450057913455841
+    Attrib Dia -23    -0.019044655216652207
+    Attrib Dia -22    0.03099953833449465
+    Attrib Dia -21    0.04082407459798917
+    Attrib Dia -20    0.026840901503149713
+    Attrib Dia -19    0.013783040228857926
+    Attrib Dia -18    0.020471250165925766
+    Attrib Dia -17    0.028164552249776702
+    Attrib Dia -16    -0.020928049440583567
+    Attrib Dia -15    0.018161863904354113
+    Attrib Dia -14    0.03980223072858148
+    Attrib Dia -13    0.030587763353665757
+    Attrib Dia -12    0.014009272016306158
+    Attrib Dia -11    0.008265466087584055
+    Attrib Dia -10    -0.026327492365619595
+    Attrib Dia -9    -0.016413868150423356
+    Attrib Dia -8    0.025087279002067562
+    Attrib Dia -7    -0.025197372948169025
+    Attrib Dia -6    -0.008475178680004162
+    Attrib Dia -5    -0.012043634306585007
+    Attrib Dia -4    0.042027710622468926
+    Attrib Dia -3    -0.03247617040183497
+    Attrib Dia -2    0.006856823921512243
+    Attrib Dia -1    0.029833510955038185
+    Attrib Dia -0    0.012362496674858062
+    Attrib Dia 1    0.035950976277991875
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.07810818679780747
+    Attrib Province/State=Australian Capital Territory    0.006714314544077979
+    Attrib Province/State=New South Wales    -0.021183878316037314
+    Attrib Province/State=Northern Territory    0.037513016971730845
+    Attrib Province/State=Queensland    -0.04954804963883373
+    Attrib Province/State=South Australia    0.011532852104655062
+    Attrib Province/State=Tasmania    -0.016991758185397738
+    Attrib Province/State=Victoria    0.007033519516871145
+    Attrib Province/State=Western Australia    0.0030792380084084217
+    Attrib Province/State=Alberta    0.0344711805237787
+    Attrib Province/State=British Columbia    0.03824065656165229
+    Attrib Province/State=Diamond Princess    0.006347266771015057
+    Attrib Province/State=Grand Princess    0.04222710430182804
+    Attrib Province/State=Manitoba    0.020616654834776163
+    Attrib Province/State=New Brunswick    0.010574268392328652
+    Attrib Province/State=Newfoundland and Labrador    0.03490691244786427
+    Attrib Province/State=Northwest Territories    -0.024605308714221164
+    Attrib Province/State=Nova Scotia    6.330769382028414E-4
+    Attrib Province/State=Ontario    0.0013416313144404475
+    Attrib Province/State=Prince Edward Island    -0.0013903679013728516
+    Attrib Province/State=Quebec    -0.038371980333710205
+    Attrib Province/State=Saskatchewan    8.769723598577756E-4
+    Attrib Province/State=Yukon    0.020060860827268965
+    Attrib Province/State=Anhui    -0.033730200063351
+    Attrib Province/State=Beijing    -0.041499741141973905
+    Attrib Province/State=Chongqing    -0.035982112447865235
+    Attrib Province/State=Fujian    0.03233464123341898
+    Attrib Province/State=Gansu    0.030435896333477035
+    Attrib Province/State=Guangdong    0.023491527567540305
+    Attrib Province/State=Guangxi    0.009610312475519562
+    Attrib Province/State=Guizhou    -0.009506850676207868
+    Attrib Province/State=Hainan    0.0015263235858123505
+    Attrib Province/State=Hebei    -0.04678592311944203
+    Attrib Province/State=Heilongjiang    0.007267744581123193
+    Attrib Province/State=Henan    -0.043920985114644824
+    Attrib Province/State=Hong Kong    -0.008402924992368378
+    Attrib Province/State=Hubei    -0.013272570949165192
+    Attrib Province/State=Hunan    0.04219249653531006
+    Attrib Province/State=Inner Mongolia    -0.037262837031441884
+    Attrib Province/State=Jiangsu    -0.0031829908880878937
+    Attrib Province/State=Jiangxi    0.004769877268326411
+    Attrib Province/State=Jilin    -0.03436203587756358
+    Attrib Province/State=Liaoning    0.00917991353072315
+    Attrib Province/State=Macau    -0.04039333851150419
+    Attrib Province/State=Ningxia    0.014354410057212379
+    Attrib Province/State=Qinghai    -0.04371908506665108
+    Attrib Province/State=Shaanxi    0.04334408295574632
+    Attrib Province/State=Shandong    -0.021735375726726562
+    Attrib Province/State=Shanghai    -0.02015295705649818
+    Attrib Province/State=Shanxi    0.033419486999326294
+    Attrib Province/State=Sichuan    -0.0413718415215711
+    Attrib Province/State=Tianjin    -0.010873301031272431
+    Attrib Province/State=Tibet    0.04496441986057235
+    Attrib Province/State=Xinjiang    0.02016445061592875
+    Attrib Province/State=Yunnan    0.008779803204348376
+    Attrib Province/State=Zhejiang    -0.04398308051545439
+    Attrib Province/State=Faroe Islands    -0.029237151833593027
+    Attrib Province/State=Greenland    0.018647760348575654
+    Attrib Province/State=French Guiana    -0.015485579880370335
+    Attrib Province/State=French Polynesia    0.016008269910814173
+    Attrib Province/State=Guadeloupe    0.0027551588514771515
+    Attrib Province/State=Martinique    -0.04320061229304042
+    Attrib Province/State=Mayotte    -0.012900319589847907
+    Attrib Province/State=New Caledonia    -0.015296786187810973
+    Attrib Province/State=Reunion    0.020571211528709325
+    Attrib Province/State=Saint Barthelemy    0.025342172147873723
+    Attrib Province/State=Saint Pierre and Miquelon    0.015424599375808456
+    Attrib Province/State=St Martin    0.025408684541918844
+    Attrib Province/State=Aruba    0.020525113704506392
+    Attrib Province/State=Bonaire Sint Eustatius and Saba    0.007771375830930805
+    Attrib Province/State=Curacao    -0.0028530662201567167
+    Attrib Province/State=Sint Maarten    0.014277468981111771
+    Attrib Province/State=Anguilla    -0.04898078706166742
+    Attrib Province/State=Bermuda    -0.0269299299562766
+    Attrib Province/State=British Virgin Islands    0.034785107044808625
+    Attrib Province/State=Cayman Islands    -0.04114008192293309
+    Attrib Province/State=Channel Islands    -0.007817468412728085
+    Attrib Province/State=Falkland Islands (Malvinas)    -0.015923735316982785
+    Attrib Province/State=Gibraltar    0.0010485532348996985
+    Attrib Province/State=Isle of Man    -0.014951833673674881
+    Attrib Province/State=Montserrat    0.030006947464103456
+    Attrib Province/State=Turks and Caicos Islands    0.03547884194304678
+    Attrib Country/Region=Afghanistan    0.0025448694097389107
+    Attrib Country/Region=Albania    0.008857307259783766
+    Attrib Country/Region=Algeria    0.0069357182581402475
+    Attrib Country/Region=Andorra    0.09349728989284953
+    Attrib Country/Region=Angola    0.07717931272951267
+    Attrib Country/Region=Antigua and Barbuda    0.07322359528874274
+    Attrib Country/Region=Argentina    0.09017959720395417
+    Attrib Country/Region=Armenia    0.07944940343326616
+    Attrib Country/Region=Australia    0.0909749067875809
+    Attrib Country/Region=Austria    0.01759901767584528
+    Attrib Country/Region=Azerbaijan    0.0561397763132006
+    Attrib Country/Region=Bahamas    0.01650545077834776
+    Attrib Country/Region=Bahrain    0.053209925375601534
+    Attrib Country/Region=Bangladesh    0.022448643898108304
+    Attrib Country/Region=Barbados    0.02310762789056648
+    Attrib Country/Region=Belarus    0.06447889647224343
+    Attrib Country/Region=Belgium    0.06791740611090148
+    Attrib Country/Region=Belize    0.016921976789939463
+    Attrib Country/Region=Benin    0.0536246398720049
+    Attrib Country/Region=Bhutan    0.0815029757708002
+    Attrib Country/Region=Bolivia    0.09082732378840683
+    Attrib Country/Region=Bosnia and Herzegovina    0.07060454934902398
+    Attrib Country/Region=Botswana    -0.0026322619835803373
+    Attrib Country/Region=Brazil    0.09185479685620318
+    Attrib Country/Region=Brunei    0.05887144885920354
+    Attrib Country/Region=Bulgaria    -1.0574381077802651E-4
+    Attrib Country/Region=Burkina Faso    0.0011770555099536925
+    Attrib Country/Region=Burma    0.0564646762764967
+    Attrib Country/Region=Burundi    0.0020308516108247746
+    Attrib Country/Region=Cabo Verde    0.03073243909857824
+    Attrib Country/Region=Cambodia    0.04293264348755976
+    Attrib Country/Region=Cameroon    0.0705633700799924
+    Attrib Country/Region=Canada    0.033236405239252295
+    Attrib Country/Region=Central African Republic    0.011052860954719627
+    Attrib Country/Region=Chad    0.010283152306734876
+    Attrib Country/Region=Chile    -1.4877102553558557E-4
+    Attrib Country/Region=China    0.07111950245166941
+    Attrib Country/Region=Colombia    0.0011381024974654438
+    Attrib Country/Region=Comoros    0.0782374854238155
+    Attrib Country/Region=Congo (Brazzaville)    0.08652267850187581
+    Attrib Country/Region=Congo (Kinshasa)    0.012640557089162171
+    Attrib Country/Region=Costa Rica    0.009557630540355851
+    Attrib Country/Region=Cote dIvoire    0.019889277238256283
+    Attrib Country/Region=Croatia    0.04925722912978549
+    Attrib Country/Region=Cuba    0.014027795076310275
+    Attrib Country/Region=Cyprus    0.07559353201300952
+    Attrib Country/Region=Czechia    0.08052838275186729
+    Attrib Country/Region=Denmark    0.009435877421457838
+    Attrib Country/Region=Diamond Princess    0.05899208366541232
+    Attrib Country/Region=Djibouti    0.08418663692450098
+    Attrib Country/Region=Dominica    0.014548620751546245
+    Attrib Country/Region=Dominican Republic    0.05317125047728213
+    Attrib Country/Region=Ecuador    0.07011654173563275
+    Attrib Country/Region=Egypt    0.05935776399718908
+    Attrib Country/Region=El Salvador    0.018766074468652392
+    Attrib Country/Region=Equatorial Guinea    0.020386316427350712
+    Attrib Country/Region=Eritrea    0.044657662737776306
+    Attrib Country/Region=Estonia    0.012839558820047838
+    Attrib Country/Region=Eswatini    0.09452211773195651
+    Attrib Country/Region=Ethiopia    0.05507017861098128
+    Attrib Country/Region=Fiji    0.01267133848908151
+    Attrib Country/Region=Finland    0.007893730930007054
+    Attrib Country/Region=France    0.06908535196042741
+    Attrib Country/Region=Gabon    0.0242442609585319
+    Attrib Country/Region=Gambia    0.08859658554793369
+    Attrib Country/Region=Georgia    0.0714658395034433
+    Attrib Country/Region=Germany    0.04808237255475278
+    Attrib Country/Region=Ghana    0.045619854400459875
+    Attrib Country/Region=Greece    -0.0045390373841084665
+    Attrib Country/Region=Grenada    0.07658739012961382
+    Attrib Country/Region=Guatemala    0.05219644504478563
+    Attrib Country/Region=Guinea    0.06104957075910987
+    Attrib Country/Region=Guinea-Bissau    0.08535736109721397
+    Attrib Country/Region=Guyana    0.06793317960719877
+    Attrib Country/Region=Haiti    0.06361244511368702
+    Attrib Country/Region=Holy See    0.06838342046746937
+    Attrib Country/Region=Honduras    -2.910652377235117E-4
+    Attrib Country/Region=Hungary    0.007686310537858915
+    Attrib Country/Region=Iceland    0.08197156538051883
+    Attrib Country/Region=India    0.023024140855118138
+    Attrib Country/Region=Indonesia    0.08892798960211129
+    Attrib Country/Region=Iran    0.052635501088004834
+    Attrib Country/Region=Iraq    0.06638935870368536
+    Attrib Country/Region=Ireland    0.0747007498940659
+    Attrib Country/Region=Israel    0.08748993426030267
+    Attrib Country/Region=Italy    0.010540548585283128
+    Attrib Country/Region=Jamaica    0.008057406836366786
+    Attrib Country/Region=Japan    0.07447609751401145
+    Attrib Country/Region=Jordan    0.08541224763402905
+    Attrib Country/Region=Kazakhstan    0.02747159054542421
+    Attrib Country/Region=Kenya    0.042567410641604214
+    Attrib Country/Region=Korea, South    0.04265458901761865
+    Attrib Country/Region=Kosovo    0.053491242423745
+    Attrib Country/Region=Kuwait    0.08750299398647003
+    Attrib Country/Region=Kyrgyzstan    0.00361537731260617
+    Attrib Country/Region=Laos    0.057856106202824616
+    Attrib Country/Region=Latvia    0.010315062266568682
+    Attrib Country/Region=Lebanon    0.056141264805821364
+    Attrib Country/Region=Lesotho    0.0589751630232539
+    Attrib Country/Region=Liberia    0.04845755588676053
+    Attrib Country/Region=Libya    0.08782547522701009
+    Attrib Country/Region=Liechtenstein    0.06549034229025794
+    Attrib Country/Region=Lithuania    0.05648608123483944
+    Attrib Country/Region=Luxembourg    0.07073160625933067
+    Attrib Country/Region=MS Zaandam    0.039328108078365835
+    Attrib Country/Region=Madagascar    0.06397455202831505
+    Attrib Country/Region=Malawi    0.012524579609433019
+    Attrib Country/Region=Malaysia    0.00820548499153692
+    Attrib Country/Region=Maldives    0.05527709225585185
+    Attrib Country/Region=Mali    0.042504665213122135
+    Attrib Country/Region=Malta    0.005222138213864166
+    Attrib Country/Region=Mauritania    0.03716717264378513
+    Attrib Country/Region=Mauritius    0.023690879342705334
+    Attrib Country/Region=Mexico    0.020083471416952613
+    Attrib Country/Region=Moldova    0.025429743139921433
+    Attrib Country/Region=Monaco    0.041129939949520126
+    Attrib Country/Region=Mongolia    0.039371493301363074
+    Attrib Country/Region=Montenegro    0.05860982970623531
+    Attrib Country/Region=Morocco    0.01178670020172202
+    Attrib Country/Region=Mozambique    0.04564112400804615
+    Attrib Country/Region=Namibia    0.021290521787861533
+    Attrib Country/Region=Nepal    0.03562923626415195
+    Attrib Country/Region=Netherlands    0.07408540329173498
+    Attrib Country/Region=New Zealand    0.03958857461338292
+    Attrib Country/Region=Nicaragua    0.02378513385843019
+    Attrib Country/Region=Niger    0.09421497330320074
+    Attrib Country/Region=Nigeria    0.0702838121940006
+    Attrib Country/Region=North Macedonia    0.08778350564223569
+    Attrib Country/Region=Norway    0.05299623835161967
+    Attrib Country/Region=Oman    0.03949525491714639
+    Attrib Country/Region=Pakistan    0.0920498846426173
+    Attrib Country/Region=Panama    0.04891966062181474
+    Attrib Country/Region=Papua New Guinea    -8.334934856445292E-4
+    Attrib Country/Region=Paraguay    0.072493281954196
+    Attrib Country/Region=Peru    0.0349490678938555
+    Attrib Country/Region=Philippines    0.058057742612793596
+    Attrib Country/Region=Poland    0.05704210255524027
+    Attrib Country/Region=Portugal    0.057696572751929166
+    Attrib Country/Region=Qatar    0.003977908744356617
+    Attrib Country/Region=Romania    0.0376428565903401
+    Attrib Country/Region=Russia    0.00807421983049505
+    Attrib Country/Region=Rwanda    0.09060238928210962
+    Attrib Country/Region=Saint Kitts and Nevis    0.08680725208826645
+    Attrib Country/Region=Saint Lucia    0.05076772888141002
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.0688029528601325
+    Attrib Country/Region=San Marino    0.0754149954616327
+    Attrib Country/Region=Sao Tome and Principe    0.03311274259882996
+    Attrib Country/Region=Saudi Arabia    -3.380555921229856E-4
+    Attrib Country/Region=Senegal    0.04236189262690886
+    Attrib Country/Region=Serbia    0.06705727088667399
+    Attrib Country/Region=Seychelles    0.07724674557204353
+    Attrib Country/Region=Sierra Leone    0.03115330788068498
+    Attrib Country/Region=Singapore    0.008760272879057295
+    Attrib Country/Region=Slovakia    0.012915489603662783
+    Attrib Country/Region=Slovenia    0.08888309953653915
+    Attrib Country/Region=Somalia    0.03404438811570143
+    Attrib Country/Region=South Africa    0.06332408652466344
+    Attrib Country/Region=South Sudan    0.011106577632239163
+    Attrib Country/Region=Spain    -0.038437621782046086
+    Attrib Country/Region=Sri Lanka    0.09335185535046142
+    Attrib Country/Region=Sudan    0.08296149161500625
+    Attrib Country/Region=Suriname    0.08041692613594106
+    Attrib Country/Region=Sweden    0.03345326729847903
+    Attrib Country/Region=Switzerland    0.06489660062833427
+    Attrib Country/Region=Syria    0.06749702274483164
+    Attrib Country/Region=Taiwan*    0.001985133843405114
+    Attrib Country/Region=Tajikistan    0.04864807961975486
+    Attrib Country/Region=Tanzania    0.08731521004747349
+    Attrib Country/Region=Thailand    0.09509423416379817
+    Attrib Country/Region=Timor-Leste    0.07821107613613502
+    Attrib Country/Region=Togo    0.008727797566906776
+    Attrib Country/Region=Trinidad and Tobago    0.029407141571623985
+    Attrib Country/Region=Tunisia    0.08707181749623515
+    Attrib Country/Region=Turkey    0.006813741220343733
+    Attrib Country/Region=US    -0.04687355231723594
+    Attrib Country/Region=Uganda    0.049176892894080074
+    Attrib Country/Region=Ukraine    0.08091290136569916
+    Attrib Country/Region=United Arab Emirates    0.06803462761237329
+    Attrib Country/Region=United Kingdom    0.06360165708239486
+    Attrib Country/Region=Uruguay    0.012514196378365162
+    Attrib Country/Region=Uzbekistan    0.03329265419061822
+    Attrib Country/Region=Venezuela    0.0842704815602064
+    Attrib Country/Region=Vietnam    0.08892828661270424
+    Attrib Country/Region=West Bank and Gaza    0.09096145005787169
+    Attrib Country/Region=Western Sahara    0.032287749074793766
+    Attrib Country/Region=Yemen    0.08222815922413947
+    Attrib Country/Region=Zambia    0.03480724826393247
+    Attrib Country/Region=Zimbabwe    0.04938243016371436
+    Attrib Lat    6.026103980811536E-4
+    Attrib Long    0.03427103000298536
+    Attrib Dia -28    -0.07049410955603043
+    Attrib Dia -27    0.005197234289814664
+    Attrib Dia -26    -0.008390418520217473
+    Attrib Dia -25    -0.057609276438623756
+    Attrib Dia -24    -0.07634305030517861
+    Attrib Dia -23    -0.009222375670553198
+    Attrib Dia -22    -0.06506049090294311
+    Attrib Dia -21    -0.041997144824123936
+    Attrib Dia -20    -0.08312755640420005
+    Attrib Dia -19    -0.05200374549273726
+    Attrib Dia -18    -0.08257369706812784
+    Attrib Dia -17    0.0025103695575514947
+    Attrib Dia -16    -0.032784496977226234
+    Attrib Dia -15    -0.054541850465706844
+    Attrib Dia -14    -0.04452721620776355
+    Attrib Dia -13    -0.02477883094706969
+    Attrib Dia -12    -0.03558458716522733
+    Attrib Dia -11    0.00565356705557255
+    Attrib Dia -10    -0.0036694281495189907
+    Attrib Dia -9    -0.022302668313457983
+    Attrib Dia -8    -0.030651410409681636
+    Attrib Dia -7    -0.04961353792633696
+    Attrib Dia -6    0.01475887280426996
+    Attrib Dia -5    -0.06771087274930938
+    Attrib Dia -4    -0.018264887754525658
+    Attrib Dia -3    -0.06723722097306004
+    Attrib Dia -2    -0.05643614183282868
+    Attrib Dia -1    -0.004089432471485559
+    Attrib Dia -0    0.0035018033150063374
+    Attrib Dia 1    -0.0706266020218739
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.07703841864476947
+    Attrib Province/State=Australian Capital Territory    0.050988235379618364
+    Attrib Province/State=New South Wales    -0.018960441791391072
+    Attrib Province/State=Northern Territory    -0.059954119856100316
+    Attrib Province/State=Queensland    -0.06377375120407627
+    Attrib Province/State=South Australia    -0.08982172959091864
+    Attrib Province/State=Tasmania    -0.06540577627418624
+    Attrib Province/State=Victoria    8.370582952615959E-4
+    Attrib Province/State=Western Australia    -0.03447352812665741
+    Attrib Province/State=Alberta    -0.020101084425456883
+    Attrib Province/State=British Columbia    -0.06955363332430023
+    Attrib Province/State=Diamond Princess    -0.0657104309871368
+    Attrib Province/State=Grand Princess    -0.0062815913094391804
+    Attrib Province/State=Manitoba    -0.05020254933472034
+    Attrib Province/State=New Brunswick    -0.04181309204958857
+    Attrib Province/State=Newfoundland and Labrador    -0.06281081715208454
+    Attrib Province/State=Northwest Territories    -0.06848201872279686
+    Attrib Province/State=Nova Scotia    -0.09304731911383884
+    Attrib Province/State=Ontario    -0.04572675378733088
+    Attrib Province/State=Prince Edward Island    -0.05195383214543344
+    Attrib Province/State=Quebec    -0.043503252604005234
+    Attrib Province/State=Saskatchewan    -0.05317837725425439
+    Attrib Province/State=Yukon    -0.0871137387378926
+    Attrib Province/State=Anhui    -0.051350836923999624
+    Attrib Province/State=Beijing    -0.0011045642855685035
+    Attrib Province/State=Chongqing    -0.03611993476189669
+    Attrib Province/State=Fujian    -0.08721011414563692
+    Attrib Province/State=Gansu    -0.06448937789369064
+    Attrib Province/State=Guangdong    -0.025347630533160116
+    Attrib Province/State=Guangxi    -0.08827183838742188
+    Attrib Province/State=Guizhou    -0.08447401320068751
+    Attrib Province/State=Hainan    -0.040179251953778694
+    Attrib Province/State=Hebei    0.00251646327437416
+    Attrib Province/State=Heilongjiang    -0.037003878439604475
+    Attrib Province/State=Henan    -0.03343018094736097
+    Attrib Province/State=Hong Kong    -0.07874912418345377
+    Attrib Province/State=Hubei    -0.037676866948407176
+    Attrib Province/State=Hunan    -0.03044548003861465
+    Attrib Province/State=Inner Mongolia    -0.08922389981328811
+    Attrib Province/State=Jiangsu    -0.08717172778358033
+    Attrib Province/State=Jiangxi    -0.06755618258302842
+    Attrib Province/State=Jilin    -0.07051447097634768
+    Attrib Province/State=Liaoning    -0.09260783985246536
+    Attrib Province/State=Macau    -0.057337401083812044
+    Attrib Province/State=Ningxia    -0.006281512969232401
+    Attrib Province/State=Qinghai    -0.01102055847739421
+    Attrib Province/State=Shaanxi    -0.07440782364331897
+    Attrib Province/State=Shandong    -0.09077189133621265
+    Attrib Province/State=Shanghai    -0.011037530012267026
+    Attrib Province/State=Shanxi    -0.03473265220484751
+    Attrib Province/State=Sichuan    0.001010427954053788
+    Attrib Province/State=Tianjin    -0.047091046998228685
+    Attrib Province/State=Tibet    -0.0664894968644944
+    Attrib Province/State=Xinjiang    -0.06330474525299196
+    Attrib Province/State=Yunnan    -0.028875332127601294
+    Attrib Province/State=Zhejiang    -0.0011403489976909494
+    Attrib Province/State=Faroe Islands    -0.016132364158940538
+    Attrib Province/State=Greenland    -0.028253380682986596
+    Attrib Province/State=French Guiana    -0.06129628071986339
+    Attrib Province/State=French Polynesia    -0.025379860979236214
+    Attrib Province/State=Guadeloupe    -0.03726028052899507
+    Attrib Province/State=Martinique    -0.08203169390934453
+    Attrib Province/State=Mayotte    0.008399720087106419
+    Attrib Province/State=New Caledonia    -0.06894835956666856
+    Attrib Province/State=Reunion    -0.042269889615055005
+    Attrib Province/State=Saint Barthelemy    -0.03855724866575579
+    Attrib Province/State=Saint Pierre and Miquelon    -0.021471266650806165
+    Attrib Province/State=St Martin    -0.08201857600697485
+    Attrib Province/State=Aruba    -0.015955609842222118
+    Attrib Province/State=Bonaire Sint Eustatius and Saba    -0.052683003364420514
+    Attrib Province/State=Curacao    -0.0069414178096887675
+    Attrib Province/State=Sint Maarten    -0.020275966895190692
+    Attrib Province/State=Anguilla    -0.03621773977344994
+    Attrib Province/State=Bermuda    -0.0636914662872896
+    Attrib Province/State=British Virgin Islands    -0.005669816024283304
+    Attrib Province/State=Cayman Islands    -0.029533052081796983
+    Attrib Province/State=Channel Islands    -0.052466451863985596
+    Attrib Province/State=Falkland Islands (Malvinas)    -0.05366215930300803
+    Attrib Province/State=Gibraltar    -0.01441350088273181
+    Attrib Province/State=Isle of Man    -0.08149820513497615
+    Attrib Province/State=Montserrat    -0.028993251283462817
+    Attrib Province/State=Turks and Caicos Islands    0.009064164439337816
+    Attrib Country/Region=Afghanistan    -0.03325288804813342
+    Attrib Country/Region=Albania    0.12619825555489794
+    Attrib Country/Region=Algeria    -0.03174466065124889
+    Attrib Country/Region=Andorra    0.1407839496343731
+    Attrib Country/Region=Angola    0.047084029963025055
+    Attrib Country/Region=Antigua and Barbuda    0.036377497809039754
+    Attrib Country/Region=Argentina    -0.021854024907103635
+    Attrib Country/Region=Armenia    0.06927355567006625
+    Attrib Country/Region=Australia    0.0844752717808691
+    Attrib Country/Region=Austria    -0.02373485614619558
+    Attrib Country/Region=Azerbaijan    0.02400177840318237
+    Attrib Country/Region=Bahamas    0.019798747765595214
+    Attrib Country/Region=Bahrain    -0.06424397418604096
+    Attrib Country/Region=Bangladesh    -0.10168444503071329
+    Attrib Country/Region=Barbados    0.10680993903190876
+    Attrib Country/Region=Belarus    0.01488743893706032
+    Attrib Country/Region=Belgium    -0.036079379388505826
+    Attrib Country/Region=Belize    0.054776615624933266
+    Attrib Country/Region=Benin    0.05737588856246172
+    Attrib Country/Region=Bhutan    0.09040427124458564
+    Attrib Country/Region=Bolivia    -0.006690304558960526
+    Attrib Country/Region=Bosnia and Herzegovina    0.1267283317563813
+    Attrib Country/Region=Botswana    0.10948546195081973
+    Attrib Country/Region=Brazil    -0.08596172064323747
+    Attrib Country/Region=Brunei    0.08632509298304919
+    Attrib Country/Region=Bulgaria    0.006781821999968295
+    Attrib Country/Region=Burkina Faso    0.08791656693941848
+    Attrib Country/Region=Burma    0.03138299036650962
+    Attrib Country/Region=Burundi    0.04062035692421571
+    Attrib Country/Region=Cabo Verde    0.14365231798660447
+    Attrib Country/Region=Cambodia    0.08457701758514873
+    Attrib Country/Region=Cameroon    0.01835800491860484
+    Attrib Country/Region=Canada    0.0732442704029079
+    Attrib Country/Region=Central African Republic    0.1112514259062672
+    Attrib Country/Region=Chad    0.08093931080583185
+    Attrib Country/Region=Chile    -0.07074250365732618
+    Attrib Country/Region=China    0.013472534668518074
+    Attrib Country/Region=Colombia    0.21615228035218706
+    Attrib Country/Region=Comoros    0.15071888860846896
+    Attrib Country/Region=Congo (Brazzaville)    0.1058285198477466
+    Attrib Country/Region=Congo (Kinshasa)    0.010538728744694791
+    Attrib Country/Region=Costa Rica    -0.046335228429872775
+    Attrib Country/Region=Cote dIvoire    0.05856000798977997
+    Attrib Country/Region=Croatia    0.07641014565017544
+    Attrib Country/Region=Cuba    0.0939833796334355
+    Attrib Country/Region=Cyprus    0.09945453011740758
+    Attrib Country/Region=Czechia    -0.06608737904729509
+    Attrib Country/Region=Denmark    0.053434889960112926
+    Attrib Country/Region=Diamond Princess    0.018433950449302825
+    Attrib Country/Region=Djibouti    0.02810162797959378
+    Attrib Country/Region=Dominica    0.03858540601567067
+    Attrib Country/Region=Dominican Republic    -0.043108501461763184
+    Attrib Country/Region=Ecuador    -0.04319618365046516
+    Attrib Country/Region=Egypt    -0.0047216275735285545
+    Attrib Country/Region=El Salvador    0.0036861771590186256
+    Attrib Country/Region=Equatorial Guinea    0.11299435645936502
+    Attrib Country/Region=Eritrea    0.047367861403597875
+    Attrib Country/Region=Estonia    0.10611183314369789
+    Attrib Country/Region=Eswatini    0.046019953300525905
+    Attrib Country/Region=Ethiopia    -0.006154739840345381
+    Attrib Country/Region=Fiji    0.039083485731119166
+    Attrib Country/Region=Finland    0.11092896865562857
+    Attrib Country/Region=France    -0.07543821171600948
+    Attrib Country/Region=Gabon    0.08606729043218829
+    Attrib Country/Region=Gambia    0.12874275776809874
+    Attrib Country/Region=Georgia    0.09583721658984592
+    Attrib Country/Region=Germany    -0.0829611404302525
+    Attrib Country/Region=Ghana    0.03457006953764244
+    Attrib Country/Region=Greece    0.030347824202896535
+    Attrib Country/Region=Grenada    0.10768788182229269
+    Attrib Country/Region=Guatemala    -0.09014148184792138
+    Attrib Country/Region=Guinea    0.020890850027684326
+    Attrib Country/Region=Guinea-Bissau    0.0654725650382786
+    Attrib Country/Region=Guyana    0.14573566546651145
+    Attrib Country/Region=Haiti    0.039586321857987064
+    Attrib Country/Region=Holy See    0.09372000696444595
+    Attrib Country/Region=Honduras    0.01005584384309687
+    Attrib Country/Region=Hungary    0.019722984652605677
+    Attrib Country/Region=Iceland    0.16829723639551103
+    Attrib Country/Region=India    -0.15072139235497173
+    Attrib Country/Region=Indonesia    -0.1940991307662373
+    Attrib Country/Region=Iran    -0.0741005052847058
+    Attrib Country/Region=Iraq    -0.09341680354487007
+    Attrib Country/Region=Ireland    0.02914149718915768
+    Attrib Country/Region=Israel    -0.21146628632584175
+    Attrib Country/Region=Italy    -0.08373426491636458
+    Attrib Country/Region=Jamaica    0.0831442408082337
+    Attrib Country/Region=Japan    -0.03189435137465258
+    Attrib Country/Region=Jordan    0.078183459043237
+    Attrib Country/Region=Kazakhstan    -0.06277614610910442
+    Attrib Country/Region=Kenya    0.0353276941014699
+    Attrib Country/Region=Korea, South    0.0999590193969377
+    Attrib Country/Region=Kosovo    0.0965136047536845
+    Attrib Country/Region=Kuwait    -0.026087058665466727
+    Attrib Country/Region=Kyrgyzstan    0.013622955583222933
+    Attrib Country/Region=Laos    0.09982654497126951
+    Attrib Country/Region=Latvia    0.11355015531246147
+    Attrib Country/Region=Lebanon    0.009297364548282462
+    Attrib Country/Region=Lesotho    0.08838690188249007
+    Attrib Country/Region=Liberia    0.15376912977360996
+    Attrib Country/Region=Libya    0.05489317250725056
+    Attrib Country/Region=Liechtenstein    0.137362630311416
+    Attrib Country/Region=Lithuania    0.10500161363732434
+    Attrib Country/Region=Luxembourg    0.07050873076529965
+    Attrib Country/Region=MS Zaandam    0.02037256213498296
+    Attrib Country/Region=Madagascar    0.04575073655397432
+    Attrib Country/Region=Malawi    0.03640505475074388
+    Attrib Country/Region=Malaysia    0.0659793018958776
+    Attrib Country/Region=Maldives    0.10523602955405004
+    Attrib Country/Region=Mali    0.11288328194803597
+    Attrib Country/Region=Malta    0.1592043264273978
+    Attrib Country/Region=Mauritania    0.08226621872480006
+    Attrib Country/Region=Mauritius    0.03382828210354584
+    Attrib Country/Region=Mexico    0.12220423221674066
+    Attrib Country/Region=Moldova    -0.015944621731855086
+    Attrib Country/Region=Monaco    0.07704880371220174
+    Attrib Country/Region=Mongolia    0.15028805964536182
+    Attrib Country/Region=Montenegro    0.049695106093019054
+    Attrib Country/Region=Morocco    -0.127783524150946
+    Attrib Country/Region=Mozambique    0.0030757933743410177
+    Attrib Country/Region=Namibia    0.013979093458771309
+    Attrib Country/Region=Nepal    -0.04114747741326825
+    Attrib Country/Region=Netherlands    -0.14280895152798095
+    Attrib Country/Region=New Zealand    0.03825586781398148
+    Attrib Country/Region=Nicaragua    0.08968859527865604
+    Attrib Country/Region=Niger    0.11318562708213525
+    Attrib Country/Region=Nigeria    0.016868427388674574
+    Attrib Country/Region=North Macedonia    0.07027195210650732
+    Attrib Country/Region=Norway    0.127673165309775
+    Attrib Country/Region=Oman    0.013209741613299528
+    Attrib Country/Region=Pakistan    -0.059119037040763656
+    Attrib Country/Region=Panama    -0.045339689581633695
+    Attrib Country/Region=Papua New Guinea    0.04276524836583788
+    Attrib Country/Region=Paraguay    -0.03566714832054599
+    Attrib Country/Region=Peru    0.16948742588570082
+    Attrib Country/Region=Philippines    -0.07442518906691711
+    Attrib Country/Region=Poland    -0.04584562119786374
+    Attrib Country/Region=Portugal    -0.1000222238835876
+    Attrib Country/Region=Qatar    -0.0796853285508909
+    Attrib Country/Region=Romania    -0.11842612688479347
+    Attrib Country/Region=Russia    0.5168508776089591
+    Attrib Country/Region=Rwanda    0.08915538664791649
+    Attrib Country/Region=Saint Kitts and Nevis    0.11930688750788475
+    Attrib Country/Region=Saint Lucia    0.05113064095257682
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.09758321504109377
+    Attrib Country/Region=San Marino    0.15411590139025913
+    Attrib Country/Region=Sao Tome and Principe    0.10761218111395775
+    Attrib Country/Region=Saudi Arabia    -0.1205820056484999
+    Attrib Country/Region=Senegal    0.027120416553751945
+    Attrib Country/Region=Serbia    0.06809406656462608
+    Attrib Country/Region=Seychelles    0.13284588014939752
+    Attrib Country/Region=Sierra Leone    0.05147444639588375
+    Attrib Country/Region=Singapore    -0.009695574830496878
+    Attrib Country/Region=Slovakia    0.08555026498205202
+    Attrib Country/Region=Slovenia    0.04929688766967211
+    Attrib Country/Region=Somalia    0.03683953631427633
+    Attrib Country/Region=South Africa    0.10936243640500166
+    Attrib Country/Region=South Sudan    0.06006040364560667
+    Attrib Country/Region=Spain    -0.03481984855471035
+    Attrib Country/Region=Sri Lanka    0.026216136738198836
+    Attrib Country/Region=Sudan    0.011171224524786657
+    Attrib Country/Region=Suriname    0.10011308219569409
+    Attrib Country/Region=Sweden    -0.056507841980536704
+    Attrib Country/Region=Switzerland    0.022267619310650237
+    Attrib Country/Region=Syria    0.08049114587263877
+    Attrib Country/Region=Taiwan*    0.10787226734397075
+    Attrib Country/Region=Tajikistan    0.06020627355070862
+    Attrib Country/Region=Tanzania    0.09927610388255376
+    Attrib Country/Region=Thailand    0.03712143888040961
+    Attrib Country/Region=Timor-Leste    0.07337482285515208
+    Attrib Country/Region=Togo    0.027431774626037547
+    Attrib Country/Region=Trinidad and Tobago    0.12067397012069915
+    Attrib Country/Region=Tunisia    0.04306773274615202
+    Attrib Country/Region=Turkey    -0.0920251410788909
+    Attrib Country/Region=US    -0.08702151665610326
+    Attrib Country/Region=Uganda    0.08522098112961857
+    Attrib Country/Region=Ukraine    -0.16156601957299146
+    Attrib Country/Region=United Arab Emirates    -0.016574757316908946
+    Attrib Country/Region=United Kingdom    -0.11690063808662265
+    Attrib Country/Region=Uruguay    0.0299988013698938
+    Attrib Country/Region=Uzbekistan    0.015930819298978823
+    Attrib Country/Region=Venezuela    0.01339235958926351
+    Attrib Country/Region=Vietnam    0.0980874388444898
+    Attrib Country/Region=West Bank and Gaza    0.02090666194299855
+    Attrib Country/Region=Western Sahara    0.07075871117544556
+    Attrib Country/Region=Yemen    0.05167201566035845
+    Attrib Country/Region=Zambia    0.11257747106174297
+    Attrib Country/Region=Zimbabwe    0.03151048959621013
+    Attrib Lat    -0.07670419449684279
+    Attrib Long    0.03278362623748455
+    Attrib Dia -28    -0.28138006202111104
+    Attrib Dia -27    -0.31875148038140444
+    Attrib Dia -26    -0.3342845567201496
+    Attrib Dia -25    -0.36330859891826
+    Attrib Dia -24    -0.30466528435355567
+    Attrib Dia -23    -0.3214476923028622
+    Attrib Dia -22    -0.3399375128586038
+    Attrib Dia -21    -0.29295003482042375
+    Attrib Dia -20    -0.34944097685100367
+    Attrib Dia -19    -0.3667018585241123
+    Attrib Dia -18    -0.3776792593175975
+    Attrib Dia -17    -0.3815500797639392
+    Attrib Dia -16    -0.30492741546798036
+    Attrib Dia -15    -0.3788189858374768
+    Attrib Dia -14    -0.37037579642834434
+    Attrib Dia -13    -0.3001816858040138
+    Attrib Dia -12    -0.3025707816739438
+    Attrib Dia -11    -0.3970705202197964
+    Attrib Dia -10    -0.36853623646147704
+    Attrib Dia -9    -0.3592851776310391
+    Attrib Dia -8    -0.36665788745718386
+    Attrib Dia -7    -0.4012130517904209
+    Attrib Dia -6    -0.399886274474523
+    Attrib Dia -5    -0.35611559310884183
+    Attrib Dia -4    -0.4030106231641934
+    Attrib Dia -3    -0.3256967673154615
+    Attrib Dia -2    -0.3830102617287888
+    Attrib Dia -1    -0.38098329630933214
+    Attrib Dia -0    -0.4114270049802109
+    Attrib Dia 1    -0.35644231404978266
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.04611077282548289
+    Attrib Province/State=Australian Capital Territory    -0.015459548406739236
+    Attrib Province/State=New South Wales    -0.06705824990815278
+    Attrib Province/State=Northern Territory    0.026675138099404035
+    Attrib Province/State=Queensland    -0.004688977617588146
+    Attrib Province/State=South Australia    -0.025495303910037678
+    Attrib Province/State=Tasmania    5.196768958486383E-4
+    Attrib Province/State=Victoria    -0.04005956289135388
+    Attrib Province/State=Western Australia    -0.013805391149410215
+    Attrib Province/State=Alberta    -0.038853421384321574
+    Attrib Province/State=British Columbia    -0.02870787382613291
+    Attrib Province/State=Diamond Princess    -0.03610142596552851
+    Attrib Province/State=Grand Princess    0.014428210486357356
+    Attrib Province/State=Manitoba    -0.035411122631678706
+    Attrib Province/State=New Brunswick    -0.03050109560919918
+    Attrib Province/State=Newfoundland and Labrador    0.02456193302317475
+    Attrib Province/State=Northwest Territories    -0.05808291576880097
+    Attrib Province/State=Nova Scotia    -0.05909034917497235
+    Attrib Province/State=Ontario    -0.03744193826053825
+    Attrib Province/State=Prince Edward Island    -0.006218788819342944
+    Attrib Province/State=Quebec    0.03462318456123558
+    Attrib Province/State=Saskatchewan    -0.005002682584253004
+    Attrib Province/State=Yukon    0.007213160769826036
+    Attrib Province/State=Anhui    0.02761939699186191
+    Attrib Province/State=Beijing    0.003544238197673876
+    Attrib Province/State=Chongqing    0.005886834037837211
+    Attrib Province/State=Fujian    0.001076576546354403
+    Attrib Province/State=Gansu    -0.03008663592972074
+    Attrib Province/State=Guangdong    -0.06843657980185651
+    Attrib Province/State=Guangxi    -0.011235787145001973
+    Attrib Province/State=Guizhou    -0.06614054430381715
+    Attrib Province/State=Hainan    -0.017778484135101295
+    Attrib Province/State=Hebei    -0.023329281789238977
+    Attrib Province/State=Heilongjiang    -0.06542624879261906
+    Attrib Province/State=Henan    0.02621456190991841
+    Attrib Province/State=Hong Kong    -0.04732278768524759
+    Attrib Province/State=Hubei    -0.06722257106837128
+    Attrib Province/State=Hunan    0.01446121541227868
+    Attrib Province/State=Inner Mongolia    -0.052151584515735955
+    Attrib Province/State=Jiangsu    2.666097752042262E-4
+    Attrib Province/State=Jiangxi    -0.03067753265674814
+    Attrib Province/State=Jilin    -0.020870838654395638
+    Attrib Province/State=Liaoning    -0.0326121993481351
+    Attrib Province/State=Macau    -0.02465716482152586
+    Attrib Province/State=Ningxia    0.002285548117307245
+    Attrib Province/State=Qinghai    -0.012957489347977453
+    Attrib Province/State=Shaanxi    -0.06694470057717523
+    Attrib Province/State=Shandong    7.20105075364073E-4
+    Attrib Province/State=Shanghai    -0.0408939473781319
+    Attrib Province/State=Shanxi    -0.042848700122034074
+    Attrib Province/State=Sichuan    -0.041652533076965675
+    Attrib Province/State=Tianjin    -0.021353749262032533
+    Attrib Province/State=Tibet    -0.05595846930829732
+    Attrib Province/State=Xinjiang    -0.07078880395878757
+    Attrib Province/State=Yunnan    -7.143827251945774E-4
+    Attrib Province/State=Zhejiang    -0.024989082500037407
+    Attrib Province/State=Faroe Islands    -0.04605969489178418
+    Attrib Province/State=Greenland    0.02761946794704021
+    Attrib Province/State=French Guiana    -0.020300722199604923
+    Attrib Province/State=French Polynesia    -0.013027692889159115
+    Attrib Province/State=Guadeloupe    0.008804471954609672
+    Attrib Province/State=Martinique    -0.03175141795235022
+    Attrib Province/State=Mayotte    -0.001979773053976176
+    Attrib Province/State=New Caledonia    -0.036056629053870415
+    Attrib Province/State=Reunion    -0.03623354646873423
+    Attrib Province/State=Saint Barthelemy    -0.0018002515451890557
+    Attrib Province/State=Saint Pierre and Miquelon    -0.03490030222022578
+    Attrib Province/State=St Martin    -0.03763234059323579
+    Attrib Province/State=Aruba    -0.017139028191682223
+    Attrib Province/State=Bonaire Sint Eustatius and Saba    -0.05729765661491083
+    Attrib Province/State=Curacao    -0.025238413733999085
+    Attrib Province/State=Sint Maarten    -0.0026246169564755318
+    Attrib Province/State=Anguilla    -0.0030294412257153526
+    Attrib Province/State=Bermuda    0.027098857555960542
+    Attrib Province/State=British Virgin Islands    -0.006380022545684237
+    Attrib Province/State=Cayman Islands    -0.03228890043132877
+    Attrib Province/State=Channel Islands    0.025002303204571388
+    Attrib Province/State=Falkland Islands (Malvinas)    0.00423673951110904
+    Attrib Province/State=Gibraltar    -0.024635877767203156
+    Attrib Province/State=Isle of Man    -0.036917140706674824
+    Attrib Province/State=Montserrat    -0.038602150062327256
+    Attrib Province/State=Turks and Caicos Islands    -0.008493531755295922
+    Attrib Country/Region=Afghanistan    -0.052916477523817694
+    Attrib Country/Region=Albania    -0.020733650828444423
+    Attrib Country/Region=Algeria    0.006131570053509388
+    Attrib Country/Region=Andorra    -0.03324197544970432
+    Attrib Country/Region=Angola    0.017556479420367192
+    Attrib Country/Region=Antigua and Barbuda    -0.031492027607497024
+    Attrib Country/Region=Argentina    -0.071760461699168
+    Attrib Country/Region=Armenia    -0.05460660526239441
+    Attrib Country/Region=Australia    -0.053926078466284603
+    Attrib Country/Region=Austria    -0.07057596588985995
+    Attrib Country/Region=Azerbaijan    0.008999344150501465
+    Attrib Country/Region=Bahamas    0.017726621472677572
+    Attrib Country/Region=Bahrain    -0.05693435929946278
+    Attrib Country/Region=Bangladesh    -0.007823321180398735
+    Attrib Country/Region=Barbados    -0.07026774796151483
+    Attrib Country/Region=Belarus    0.004059275875171266
+    Attrib Country/Region=Belgium    -0.006583648419316202
+    Attrib Country/Region=Belize    0.004684648257728733
+    Attrib Country/Region=Benin    -0.007369685364060878
+    Attrib Country/Region=Bhutan    0.003463403005770944
+    Attrib Country/Region=Bolivia    -0.007592399387482668
+    Attrib Country/Region=Bosnia and Herzegovina    -0.018949742712557307
+    Attrib Country/Region=Botswana    -0.061684121784113026
+    Attrib Country/Region=Brazil    0.7707089296402643
+    Attrib Country/Region=Brunei    -0.035071207745505914
+    Attrib Country/Region=Bulgaria    -0.006983828885751917
+    Attrib Country/Region=Burkina Faso    0.009688979860275237
+    Attrib Country/Region=Burma    -0.014811407705797775
+    Attrib Country/Region=Burundi    -0.04864252068593277
+    Attrib Country/Region=Cabo Verde    0.0024237360627259895
+    Attrib Country/Region=Cambodia    0.011279990600922428
+    Attrib Country/Region=Cameroon    0.036949643896773195
+    Attrib Country/Region=Canada    -0.0560946157239173
+    Attrib Country/Region=Central African Republic    0.037909196089555584
+    Attrib Country/Region=Chad    -0.022076019409995845
+    Attrib Country/Region=Chile    -0.014350952199270338
+    Attrib Country/Region=China    -0.0027236177755087534
+    Attrib Country/Region=Colombia    -0.0799338496096256
+    Attrib Country/Region=Comoros    -0.026928499661565616
+    Attrib Country/Region=Congo (Brazzaville)    0.003386203313512957
+    Attrib Country/Region=Congo (Kinshasa)    4.1529940383659236E-4
+    Attrib Country/Region=Costa Rica    -0.033000609080932095
+    Attrib Country/Region=Cote dIvoire    7.273697486916905E-4
+    Attrib Country/Region=Croatia    0.017001755200113846
+    Attrib Country/Region=Cuba    -0.03527505722659651
+    Attrib Country/Region=Cyprus    -0.037611651402605854
+    Attrib Country/Region=Czechia    0.013137048702287607
+    Attrib Country/Region=Denmark    -0.0013360726290902384
+    Attrib Country/Region=Diamond Princess    -0.06718329128858166
+    Attrib Country/Region=Djibouti    -0.059300023391051095
+    Attrib Country/Region=Dominica    -0.04908893739246217
+    Attrib Country/Region=Dominican Republic    -8.580074115742947E-4
+    Attrib Country/Region=Ecuador    0.03080833107145262
+    Attrib Country/Region=Egypt    -0.02817082370363732
+    Attrib Country/Region=El Salvador    0.0049404213337279354
+    Attrib Country/Region=Equatorial Guinea    -0.009463476299313678
+    Attrib Country/Region=Eritrea    0.02839757265650042
+    Attrib Country/Region=Estonia    -0.06190474811334637
+    Attrib Country/Region=Eswatini    -0.06953784954687485
+    Attrib Country/Region=Ethiopia    -0.07139507230948418
+    Attrib Country/Region=Fiji    -0.023416058482183855
+    Attrib Country/Region=Finland    0.019167165907974626
+    Attrib Country/Region=France    -0.07466339407561307
+    Attrib Country/Region=Gabon    0.001663766628248582
+    Attrib Country/Region=Gambia    -0.011618537549960537
+    Attrib Country/Region=Georgia    -0.013595066186845618
+    Attrib Country/Region=Germany    -0.004806871027712039
+    Attrib Country/Region=Ghana    -0.02420701933754946
+    Attrib Country/Region=Greece    0.055170464942296854
+    Attrib Country/Region=Grenada    -0.037894203669179026
+    Attrib Country/Region=Guatemala    -0.0181797627837782
+    Attrib Country/Region=Guinea    0.02196300056221605
+    Attrib Country/Region=Guinea-Bissau    0.007520086375576869
+    Attrib Country/Region=Guyana    -0.0697297475918584
+    Attrib Country/Region=Haiti    0.016413390280780836
+    Attrib Country/Region=Holy See    0.003706599057939094
+    Attrib Country/Region=Honduras    -0.005213513200556576
+    Attrib Country/Region=Hungary    0.015933955818119676
+    Attrib Country/Region=Iceland    -0.011519110638813246
+    Attrib Country/Region=India    -0.20249670924952937
+    Attrib Country/Region=Indonesia    -0.009384273363890612
+    Attrib Country/Region=Iran    -0.04564648773004227
+    Attrib Country/Region=Iraq    -0.04510596864057253
+    Attrib Country/Region=Ireland    -0.020525807537509898
+    Attrib Country/Region=Israel    -0.013639855310612391
+    Attrib Country/Region=Italy    -0.07996294651028205
+    Attrib Country/Region=Jamaica    -0.030880662128981287
+    Attrib Country/Region=Japan    0.0013910268842092684
+    Attrib Country/Region=Jordan    -0.042707230267353326
+    Attrib Country/Region=Kazakhstan    -0.006934147470772364
+    Attrib Country/Region=Kenya    -0.06820625696089365
+    Attrib Country/Region=Korea, South    -0.03397675348738021
+    Attrib Country/Region=Kosovo    -0.00514858089119372
+    Attrib Country/Region=Kuwait    0.013448540214895601
+    Attrib Country/Region=Kyrgyzstan    -0.003680555709284852
+    Attrib Country/Region=Laos    0.015817299870885777
+    Attrib Country/Region=Latvia    -0.06118882921512943
+    Attrib Country/Region=Lebanon    -0.0031441050908623315
+    Attrib Country/Region=Lesotho    -0.07070496342073411
+    Attrib Country/Region=Liberia    -0.014949446947980203
+    Attrib Country/Region=Libya    0.006494138351239467
+    Attrib Country/Region=Liechtenstein    0.013297361700009098
+    Attrib Country/Region=Lithuania    -0.05757786822363261
+    Attrib Country/Region=Luxembourg    -0.01896795694373383
+    Attrib Country/Region=MS Zaandam    -0.01321711538659654
+    Attrib Country/Region=Madagascar    -0.04988019584415787
+    Attrib Country/Region=Malawi    0.021041418108719838
+    Attrib Country/Region=Malaysia    -0.007685364966892561
+    Attrib Country/Region=Maldives    0.016792964759253445
+    Attrib Country/Region=Mali    -0.021544048880922834
+    Attrib Country/Region=Malta    0.006371972959844492
+    Attrib Country/Region=Mauritania    0.016795170384748953
+    Attrib Country/Region=Mauritius    -0.024329951743294956
+    Attrib Country/Region=Mexico    -0.1086825466810452
+    Attrib Country/Region=Moldova    -0.04857043763845563
+    Attrib Country/Region=Monaco    -0.04722677126198976
+    Attrib Country/Region=Mongolia    -0.06514992027978288
+    Attrib Country/Region=Montenegro    0.014998060252512149
+    Attrib Country/Region=Morocco    -0.05915913490139749
+    Attrib Country/Region=Mozambique    -0.025396066493878964
+    Attrib Country/Region=Namibia    0.017165050635197673
+    Attrib Country/Region=Nepal    0.026772152990682217
+    Attrib Country/Region=Netherlands    -0.05233990987509215
+    Attrib Country/Region=New Zealand    -0.01935968432334909
+    Attrib Country/Region=Nicaragua    0.013250532386302834
+    Attrib Country/Region=Niger    -0.0032424565872230175
+    Attrib Country/Region=Nigeria    -0.059877917042522634
+    Attrib Country/Region=North Macedonia    -0.05805160130304318
+    Attrib Country/Region=Norway    0.008141943931176118
+    Attrib Country/Region=Oman    0.009903604086336223
+    Attrib Country/Region=Pakistan    -0.007435871652266039
+    Attrib Country/Region=Panama    -0.04844923796179857
+    Attrib Country/Region=Papua New Guinea    0.021613579357632303
+    Attrib Country/Region=Paraguay    0.002666783540819963
+    Attrib Country/Region=Peru    -0.09935272241298179
+    Attrib Country/Region=Philippines    -0.028849152092170424
+    Attrib Country/Region=Poland    -0.02070687003987118
+    Attrib Country/Region=Portugal    -0.04695586942999665
+    Attrib Country/Region=Qatar    -0.024352976625049195
+    Attrib Country/Region=Romania    -0.013596858904550669
+    Attrib Country/Region=Russia    -0.04076198183564282
+    Attrib Country/Region=Rwanda    -0.025448251087203562
+    Attrib Country/Region=Saint Kitts and Nevis    0.020642125684645497
+    Attrib Country/Region=Saint Lucia    -0.023347705519711315
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.0019520945164747336
+    Attrib Country/Region=San Marino    0.022663332870353384
+    Attrib Country/Region=Sao Tome and Principe    0.0016266576914835268
+    Attrib Country/Region=Saudi Arabia    -0.08264873072104269
+    Attrib Country/Region=Senegal    -0.04418217820173698
+    Attrib Country/Region=Serbia    -0.0705410069543192
+    Attrib Country/Region=Seychelles    0.006622047079675907
+    Attrib Country/Region=Sierra Leone    -0.06939568676754611
+    Attrib Country/Region=Singapore    -0.06552496705752416
+    Attrib Country/Region=Slovakia    0.017352854312471327
+    Attrib Country/Region=Slovenia    -0.06481999768151295
+    Attrib Country/Region=Somalia    -0.006444329882768779
+    Attrib Country/Region=South Africa    -0.08477371347199339
+    Attrib Country/Region=South Sudan    -0.024274498277895188
+    Attrib Country/Region=Spain    -0.03128673189311529
+    Attrib Country/Region=Sri Lanka    -0.04898714080560057
+    Attrib Country/Region=Sudan    -0.015597712528944305
+    Attrib Country/Region=Suriname    -0.05030346640434287
+    Attrib Country/Region=Sweden    -0.02927525709238483
+    Attrib Country/Region=Switzerland    0.007807228025950595
+    Attrib Country/Region=Syria    -0.06393878792628907
+    Attrib Country/Region=Taiwan*    -0.022227761775205617
+    Attrib Country/Region=Tajikistan    0.019971983927914622
+    Attrib Country/Region=Tanzania    -0.008185176439097972
+    Attrib Country/Region=Thailand    0.011564084733275255
+    Attrib Country/Region=Timor-Leste    -0.029871872376977644
+    Attrib Country/Region=Togo    0.0019195243572575264
+    Attrib Country/Region=Trinidad and Tobago    0.02018795189808752
+    Attrib Country/Region=Tunisia    -0.035394034689771245
+    Attrib Country/Region=Turkey    -0.04728590787970101
+    Attrib Country/Region=US    -0.566058243400605
+    Attrib Country/Region=Uganda    0.027506266132088262
+    Attrib Country/Region=Ukraine    -0.013039489847815356
+    Attrib Country/Region=United Arab Emirates    -0.01904644814868963
+    Attrib Country/Region=United Kingdom    -0.05600239249890521
+    Attrib Country/Region=Uruguay    0.022180666062190272
+    Attrib Country/Region=Uzbekistan    0.021066547426752465
+    Attrib Country/Region=Venezuela    -0.07007238706285017
+    Attrib Country/Region=Vietnam    0.02026356714654914
+    Attrib Country/Region=West Bank and Gaza    -0.03469061414298636
+    Attrib Country/Region=Western Sahara    0.0049853986295344006
+    Attrib Country/Region=Yemen    -0.036290498004206286
+    Attrib Country/Region=Zambia    0.001872426758946649
+    Attrib Country/Region=Zimbabwe    -0.028490477849292324
+    Attrib Lat    -0.21387228166984681
+    Attrib Long    0.00291173635413877
+    Attrib Dia -28    -0.21552412229494397
+    Attrib Dia -27    -0.16624670396523472
+    Attrib Dia -26    -0.1928446296888723
+    Attrib Dia -25    -0.23125751696778152
+    Attrib Dia -24    -0.2433188684472488
+    Attrib Dia -23    -0.1833083679987185
+    Attrib Dia -22    -0.23656691387095358
+    Attrib Dia -21    -0.20988348994579545
+    Attrib Dia -20    -0.20194283547870576
+    Attrib Dia -19    -0.2567208984443955
+    Attrib Dia -18    -0.23226941625107672
+    Attrib Dia -17    -0.18669798837719928
+    Attrib Dia -16    -0.2389388767284998
+    Attrib Dia -15    -0.17327816476131194
+    Attrib Dia -14    -0.22371340063387493
+    Attrib Dia -13    -0.23416484613012709
+    Attrib Dia -12    -0.20213292446606534
+    Attrib Dia -11    -0.2339263813783192
+    Attrib Dia -10    -0.22263195002298994
+    Attrib Dia -9    -0.20699054837619196
+    Attrib Dia -8    -0.21679995437254748
+    Attrib Dia -7    -0.2524910388500283
+    Attrib Dia -6    -0.21497991124676055
+    Attrib Dia -5    -0.25456004933763615
+    Attrib Dia -4    -0.24149006004400755
+    Attrib Dia -3    -0.2111059663088824
+    Attrib Dia -2    -0.24637823516401067
+    Attrib Dia -1    -0.25430088458929057
+    Attrib Dia -0    -0.255360067106761
+    Attrib Dia 1    -0.21966292796481485
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.0031482026725505744
+    Attrib Province/State=Australian Capital Territory    -0.023339634408221684
+    Attrib Province/State=New South Wales    -0.0365766093198567
+    Attrib Province/State=Northern Territory    0.012353429360469043
+    Attrib Province/State=Queensland    -0.0160361964839411
+    Attrib Province/State=South Australia    -0.03590340393855527
+    Attrib Province/State=Tasmania    -0.024338647107259494
+    Attrib Province/State=Victoria    -0.031605478163676586
+    Attrib Province/State=Western Australia    -0.007845266890386495
+    Attrib Province/State=Alberta    -0.037598495294694334
+    Attrib Province/State=British Columbia    0.02467027084842834
+    Attrib Province/State=Diamond Princess    -0.022115127086220848
+    Attrib Province/State=Grand Princess    -0.005523878572124332
+    Attrib Province/State=Manitoba    -0.020279416138253
+    Attrib Province/State=New Brunswick    0.04060218653558907
+    Attrib Province/State=Newfoundland and Labrador    0.037465164624623896
+    Attrib Province/State=Northwest Territories    0.03388299019814841
+    Attrib Province/State=Nova Scotia    0.03996555468119646
+    Attrib Province/State=Ontario    -0.031032242182811948
+    Attrib Province/State=Prince Edward Island    -0.043535963762036
+    Attrib Province/State=Quebec    -0.043544565578925575
+    Attrib Province/State=Saskatchewan    0.01633372011598647
+    Attrib Province/State=Yukon    -0.0018925491336593124
+    Attrib Province/State=Anhui    0.026298143973062873
+    Attrib Province/State=Beijing    -0.026608628881097957
+    Attrib Province/State=Chongqing    0.021835215087872072
+    Attrib Province/State=Fujian    0.009210659238577027
+    Attrib Province/State=Gansu    0.02888149261259282
+    Attrib Province/State=Guangdong    0.030350939701515926
+    Attrib Province/State=Guangxi    0.03862766855608676
+    Attrib Province/State=Guizhou    -0.024446146599216973
+    Attrib Province/State=Hainan    -0.020383990383851767
+    Attrib Province/State=Hebei    0.04082471765086252
+    Attrib Province/State=Heilongjiang    -0.024329118845039143
+    Attrib Province/State=Henan    -0.0267894941938579
+    Attrib Province/State=Hong Kong    0.02057912399648796
+    Attrib Province/State=Hubei    -0.042597978603371334
+    Attrib Province/State=Hunan    0.014381853646349163
+    Attrib Province/State=Inner Mongolia    -0.00471536818517633
+    Attrib Province/State=Jiangsu    0.020682092330958433
+    Attrib Province/State=Jiangxi    -0.012993362292131872
+    Attrib Province/State=Jilin    -0.021682036041608132
+    Attrib Province/State=Liaoning    -0.003772305466043346
+    Attrib Province/State=Macau    0.039300006851181
+    Attrib Province/State=Ningxia    -0.03515126044146786
+    Attrib Province/State=Qinghai    0.016616064733863116
+    Attrib Province/State=Shaanxi    -0.026408402993649223
+    Attrib Province/State=Shandong    -0.03651209498816862
+    Attrib Province/State=Shanghai    -0.04166598617286062
+    Attrib Province/State=Shanxi    0.018733274814042265
+    Attrib Province/State=Sichuan    0.054667891223252746
+    Attrib Province/State=Tianjin    0.028571004165771893
+    Attrib Province/State=Tibet    -0.038632757670887787
+    Attrib Province/State=Xinjiang    -0.015587478595713992
+    Attrib Province/State=Yunnan    -0.027283669275970212
+    Attrib Province/State=Zhejiang    -0.029193100509813125
+    Attrib Province/State=Faroe Islands    -0.01565082145207464
+    Attrib Province/State=Greenland    0.002141134371299463
+    Attrib Province/State=French Guiana    -0.035418396674664565
+    Attrib Province/State=French Polynesia    -0.011123098308370128
+    Attrib Province/State=Guadeloupe    -0.012231895096894296
+    Attrib Province/State=Martinique    0.03581522579941643
+    Attrib Province/State=Mayotte    0.004391029102709073
+    Attrib Province/State=New Caledonia    6.820824017739329E-4
+    Attrib Province/State=Reunion    0.05123667103564346
+    Attrib Province/State=Saint Barthelemy    0.009950121660917702
+    Attrib Province/State=Saint Pierre and Miquelon    0.04681817552473335
+    Attrib Province/State=St Martin    0.017485598597515098
+    Attrib Province/State=Aruba    -0.04431578405378234
+    Attrib Province/State=Bonaire Sint Eustatius and Saba    0.041946817661465956
+    Attrib Province/State=Curacao    -0.010955138833005633
+    Attrib Province/State=Sint Maarten    -0.0038666398888856325
+    Attrib Province/State=Anguilla    -0.029362939595192657
+    Attrib Province/State=Bermuda    -0.03553460887331189
+    Attrib Province/State=British Virgin Islands    0.036206135362070124
+    Attrib Province/State=Cayman Islands    0.00974750602792912
+    Attrib Province/State=Channel Islands    0.0493278368811678
+    Attrib Province/State=Falkland Islands (Malvinas)    0.03697311207619706
+    Attrib Province/State=Gibraltar    0.02294054905912349
+    Attrib Province/State=Isle of Man    -0.033782339432391915
+    Attrib Province/State=Montserrat    -0.04442939396598924
+    Attrib Province/State=Turks and Caicos Islands    0.04272227925836697
+    Attrib Country/Region=Afghanistan    -0.0014724599018442234
+    Attrib Country/Region=Albania    0.008761131700781948
+    Attrib Country/Region=Algeria    0.035333726872993985
+    Attrib Country/Region=Andorra    0.041610193517614774
+    Attrib Country/Region=Angola    0.03854678991796218
+    Attrib Country/Region=Antigua and Barbuda    0.03812050782443567
+    Attrib Country/Region=Argentina    0.02802878270700087
+    Attrib Country/Region=Armenia    0.033303874447660683
+    Attrib Country/Region=Australia    0.03525264550481941
+    Attrib Country/Region=Austria    0.057153514726670074
+    Attrib Country/Region=Azerbaijan    0.07005864168500615
+    Attrib Country/Region=Bahamas    0.03380497826763453
+    Attrib Country/Region=Bahrain    0.0020610365133945786
+    Attrib Country/Region=Bangladesh    0.03148036070424023
+    Attrib Country/Region=Barbados    0.03613614774895832
+    Attrib Country/Region=Belarus    0.06981528442078686
+    Attrib Country/Region=Belgium    0.0788497359984915
+    Attrib Country/Region=Belize    0.006723520383076287
+    Attrib Country/Region=Benin    0.03511573745993237
+    Attrib Country/Region=Bhutan    0.06001398165573439
+    Attrib Country/Region=Bolivia    0.02151285290456386
+    Attrib Country/Region=Bosnia and Herzegovina    0.023591321351735785
+    Attrib Country/Region=Botswana    0.03391770233271048
+    Attrib Country/Region=Brazil    0.018476530579244966
+    Attrib Country/Region=Brunei    0.024205480875282515
+    Attrib Country/Region=Bulgaria    0.040017445081885296
+    Attrib Country/Region=Burkina Faso    0.08215048854287516
+    Attrib Country/Region=Burma    0.011461809575605874
+    Attrib Country/Region=Burundi    0.010449862299033004
+    Attrib Country/Region=Cabo Verde    0.04606012000646737
+    Attrib Country/Region=Cambodia    -0.0052546506487095405
+    Attrib Country/Region=Cameroon    0.06632281430611554
+    Attrib Country/Region=Canada    0.0597483079374601
+    Attrib Country/Region=Central African Republic    -0.0038954799904955084
+    Attrib Country/Region=Chad    0.04373886371530256
+    Attrib Country/Region=Chile    0.06379207355685383
+    Attrib Country/Region=China    0.08742893995446953
+    Attrib Country/Region=Colombia    0.01064403891919059
+    Attrib Country/Region=Comoros    0.010718024809428888
+    Attrib Country/Region=Congo (Brazzaville)    -0.008220695121105457
+    Attrib Country/Region=Congo (Kinshasa)    -0.008853872143005056
+    Attrib Country/Region=Costa Rica    0.012189965888379147
+    Attrib Country/Region=Cote dIvoire    0.058732174106247516
+    Attrib Country/Region=Croatia    0.00743208616624983
+    Attrib Country/Region=Cuba    0.0641079040769206
+    Attrib Country/Region=Cyprus    0.0858458440761099
+    Attrib Country/Region=Czechia    0.0434001970130534
+    Attrib Country/Region=Denmark    0.052658896091407704
+    Attrib Country/Region=Diamond Princess    0.002798735420873841
+    Attrib Country/Region=Djibouti    -0.0033556727014390814
+    Attrib Country/Region=Dominica    -0.006016544622231658
+    Attrib Country/Region=Dominican Republic    0.04883695096983755
+    Attrib Country/Region=Ecuador    0.05650286401963074
+    Attrib Country/Region=Egypt    0.006913266174333525
+    Attrib Country/Region=El Salvador    0.08225391584794517
+    Attrib Country/Region=Equatorial Guinea    0.08427072328276834
+    Attrib Country/Region=Eritrea    0.028328200350968093
+    Attrib Country/Region=Estonia    0.05256561896828141
+    Attrib Country/Region=Eswatini    0.014296078295046612
+    Attrib Country/Region=Ethiopia    0.0587350089667712
+    Attrib Country/Region=Fiji    0.056670186759117405
+    Attrib Country/Region=Finland    -0.009054110126570843
+    Attrib Country/Region=France    0.07766419748882074
+    Attrib Country/Region=Gabon    0.023405641327234595
+    Attrib Country/Region=Gambia    0.06269859087325987
+    Attrib Country/Region=Georgia    0.028663923229182035
+    Attrib Country/Region=Germany    0.04762010847229954
+    Attrib Country/Region=Ghana    0.07669584258497687
+    Attrib Country/Region=Greece    0.020975229700652086
+    Attrib Country/Region=Grenada    0.08172232171900502
+    Attrib Country/Region=Guatemala    0.012725049160217822
+    Attrib Country/Region=Guinea    0.0797928428433104
+    Attrib Country/Region=Guinea-Bissau    -0.0012388306044745835
+    Attrib Country/Region=Guyana    0.033246326740134946
+    Attrib Country/Region=Haiti    0.003517628913265448
+    Attrib Country/Region=Holy See    0.060809768415038344
+    Attrib Country/Region=Honduras    0.08819091664051223
+    Attrib Country/Region=Hungary    -0.009602177354696317
+    Attrib Country/Region=Iceland    0.019713043405179733
+    Attrib Country/Region=India    0.024036776424182695
+    Attrib Country/Region=Indonesia    -0.00889324933637091
+    Attrib Country/Region=Iran    0.059028978618211825
+    Attrib Country/Region=Iraq    0.07548130865240879
+    Attrib Country/Region=Ireland    0.00586397147794861
+    Attrib Country/Region=Israel    0.06064643180111271
+    Attrib Country/Region=Italy    0.07790658031477328
+    Attrib Country/Region=Jamaica    0.04242013141008971
+    Attrib Country/Region=Japan    0.0016024762658877684
+    Attrib Country/Region=Jordan    0.003935652336351927
+    Attrib Country/Region=Kazakhstan    0.08672331030876712
+    Attrib Country/Region=Kenya    -0.01867568212158554
+    Attrib Country/Region=Korea, South    2.0990642478937948E-5
+    Attrib Country/Region=Kosovo    0.0827366459413637
+    Attrib Country/Region=Kuwait    0.026170299892460717
+    Attrib Country/Region=Kyrgyzstan    0.06218410343488416
+    Attrib Country/Region=Laos    0.08125846262048772
+    Attrib Country/Region=Latvia    -0.009014227692815024
+    Attrib Country/Region=Lebanon    0.08535913448439514
+    Attrib Country/Region=Lesotho    0.060027018570788536
+    Attrib Country/Region=Liberia    0.04805429191414948
+    Attrib Country/Region=Libya    0.08212250034454897
+    Attrib Country/Region=Liechtenstein    0.04768426886003174
+    Attrib Country/Region=Lithuania    0.042012537807748676
+    Attrib Country/Region=Luxembourg    0.024795892404721853
+    Attrib Country/Region=MS Zaandam    0.06718173226651473
+    Attrib Country/Region=Madagascar    -0.0033831656137180447
+    Attrib Country/Region=Malawi    0.07358432946792287
+    Attrib Country/Region=Malaysia    0.029581613112917956
+    Attrib Country/Region=Maldives    0.030738522076442894
+    Attrib Country/Region=Mali    -0.006084164248736205
+    Attrib Country/Region=Malta    0.05095728695881957
+    Attrib Country/Region=Mauritania    0.0018274800957907855
+    Attrib Country/Region=Mauritius    0.010142743182017421
+    Attrib Country/Region=Mexico    0.02635730982156758
+    Attrib Country/Region=Moldova    0.017214065000223707
+    Attrib Country/Region=Monaco    0.041822025334148624
+    Attrib Country/Region=Mongolia    0.05439612758472295
+    Attrib Country/Region=Montenegro    -0.0010753520911766761
+    Attrib Country/Region=Morocco    0.0032808137136014787
+    Attrib Country/Region=Mozambique    0.007418791427202085
+    Attrib Country/Region=Namibia    0.0467355064353475
+    Attrib Country/Region=Nepal    0.0054913513180996675
+    Attrib Country/Region=Netherlands    0.007024373916519093
+    Attrib Country/Region=New Zealand    0.056074919090771856
+    Attrib Country/Region=Nicaragua    0.058087610287846626
+    Attrib Country/Region=Niger    0.015691344881176236
+    Attrib Country/Region=Nigeria    0.07740282003409191
+    Attrib Country/Region=North Macedonia    0.03586761282961373
+    Attrib Country/Region=Norway    0.07618652997993662
+    Attrib Country/Region=Oman    0.060263214387884595
+    Attrib Country/Region=Pakistan    0.06184591794306487
+    Attrib Country/Region=Panama    0.065640550714389
+    Attrib Country/Region=Papua New Guinea    0.0080544584753541
+    Attrib Country/Region=Paraguay    -0.009822665665364608
+    Attrib Country/Region=Peru    0.0464727147205977
+    Attrib Country/Region=Philippines    0.0555394690059256
+    Attrib Country/Region=Poland    0.07415240527661476
+    Attrib Country/Region=Portugal    0.05832691395786829
+    Attrib Country/Region=Qatar    0.08691170575197836
+    Attrib Country/Region=Romania    0.05701831166426116
+    Attrib Country/Region=Russia    0.023099639247420256
+    Attrib Country/Region=Rwanda    0.03492058818084515
+    Attrib Country/Region=Saint Kitts and Nevis    -0.0026849762046657847
+    Attrib Country/Region=Saint Lucia    0.04266058579967421
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.04005376493930758
+    Attrib Country/Region=San Marino    0.06616592830035893
+    Attrib Country/Region=Sao Tome and Principe    0.07347011728307272
+    Attrib Country/Region=Saudi Arabia    0.05941268907228966
+    Attrib Country/Region=Senegal    0.0319739918919962
+    Attrib Country/Region=Serbia    0.03150133303774987
+    Attrib Country/Region=Seychelles    0.05229256657536128
+    Attrib Country/Region=Sierra Leone    0.008484902586603197
+    Attrib Country/Region=Singapore    0.015539804787395372
+    Attrib Country/Region=Slovakia    0.0660221043740673
+    Attrib Country/Region=Slovenia    0.026443272561041467
+    Attrib Country/Region=Somalia    0.025325406515445868
+    Attrib Country/Region=South Africa    0.02988933780962498
+    Attrib Country/Region=South Sudan    0.036015705596819526
+    Attrib Country/Region=Spain    0.03940745243177206
+    Attrib Country/Region=Sri Lanka    -0.008759360271373903
+    Attrib Country/Region=Sudan    0.05378536040951031
+    Attrib Country/Region=Suriname    0.009034318321248784
+    Attrib Country/Region=Sweden    0.004361798285147433
+    Attrib Country/Region=Switzerland    0.08399783138513729
+    Attrib Country/Region=Syria    0.007018570579452772
+    Attrib Country/Region=Taiwan*    0.01706280612563975
+    Attrib Country/Region=Tajikistan    0.019267487094400744
+    Attrib Country/Region=Tanzania    0.044965171923902134
+    Attrib Country/Region=Thailand    0.0587633882801117
+    Attrib Country/Region=Timor-Leste    0.0901214481413556
+    Attrib Country/Region=Togo    -0.001645695156714354
+    Attrib Country/Region=Trinidad and Tobago    0.03273568440167762
+    Attrib Country/Region=Tunisia    0.07445439111977649
+    Attrib Country/Region=Turkey    0.08770327034805639
+    Attrib Country/Region=US    0.02819895144031829
+    Attrib Country/Region=Uganda    0.0830802035151074
+    Attrib Country/Region=Ukraine    0.06906861351431419
+    Attrib Country/Region=United Arab Emirates    0.018955024429238024
+    Attrib Country/Region=United Kingdom    0.010060739909870994
+    Attrib Country/Region=Uruguay    -0.003892680175915433
+    Attrib Country/Region=Uzbekistan    0.06063618084913444
+    Attrib Country/Region=Venezuela    0.08381070622588543
+    Attrib Country/Region=Vietnam    0.05479856664853234
+    Attrib Country/Region=West Bank and Gaza    0.024223449361854155
+    Attrib Country/Region=Western Sahara    0.02514001328601808
+    Attrib Country/Region=Yemen    0.06161194444219908
+    Attrib Country/Region=Zambia    0.0742406865660469
+    Attrib Country/Region=Zimbabwe    0.02352354526770773
+    Attrib Lat    -0.04270482358011305
+    Attrib Long    -0.0020649098740646546
+    Attrib Dia -28    -0.0234950209470654
+    Attrib Dia -27    -0.05342414571856029
+    Attrib Dia -26    0.01185468486391814
+    Attrib Dia -25    0.01174753167828497
+    Attrib Dia -24    -0.059819816709160575
+    Attrib Dia -23    0.005196045087001967
+    Attrib Dia -22    -0.0018969472980809332
+    Attrib Dia -21    -0.05588744411836564
+    Attrib Dia -20    0.025628774728771314
+    Attrib Dia -19    -0.007165823482528786
+    Attrib Dia -18    -0.043715254698592575
+    Attrib Dia -17    -0.034164899285176555
+    Attrib Dia -16    0.037240985187226586
+    Attrib Dia -15    -0.019305822031843185
+    Attrib Dia -14    -0.0019998934656594064
+    Attrib Dia -13    -0.048769971590128684
+    Attrib Dia -12    0.014494472333219922
+    Attrib Dia -11    0.021986216603136904
+    Attrib Dia -10    0.034334775789434106
+    Attrib Dia -9    -0.0031341235759924225
+    Attrib Dia -8    0.0382614851427768
+    Attrib Dia -7    0.007105477659803614
+    Attrib Dia -6    0.013182013270615767
+    Attrib Dia -5    -0.0033947356431486713
+    Attrib Dia -4    0.002691640922853067
+    Attrib Dia -3    -0.023797209890406876
+    Attrib Dia -2    -0.017563531346090344
+    Attrib Dia -1    0.012583753165854174
+    Attrib Dia -0    -0.02037720898740433
+    Attrib Dia 1    -0.02753193710022853
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.0678696784116949
+    Attrib Province/State=Australian Capital Territory    -0.018156829991354578
+    Attrib Province/State=New South Wales    0.03857574874034367
+    Attrib Province/State=Northern Territory    0.009840941625012012
+    Attrib Province/State=Queensland    -0.04465951760233693
+    Attrib Province/State=South Australia    0.020362351269532668
+    Attrib Province/State=Tasmania    -0.036027978684841915
+    Attrib Province/State=Victoria    -0.04068936668279557
+    Attrib Province/State=Western Australia    -0.050464014946081145
+    Attrib Province/State=Alberta    -0.009059611485613073
+    Attrib Province/State=British Columbia    -0.04803009996926325
+    Attrib Province/State=Diamond Princess    0.0031380494522743664
+    Attrib Province/State=Grand Princess    -0.013133325819993493
+    Attrib Province/State=Manitoba    -0.038605533481194346
+    Attrib Province/State=New Brunswick    0.030898780619541114
+    Attrib Province/State=Newfoundland and Labrador    0.02449258747761895
+    Attrib Province/State=Northwest Territories    0.04512670591576281
+    Attrib Province/State=Nova Scotia    -0.025291856097452225
+    Attrib Province/State=Ontario    -0.028359057057844233
+    Attrib Province/State=Prince Edward Island    -0.03429789897203005
+    Attrib Province/State=Quebec    -0.01763548092114692
+    Attrib Province/State=Saskatchewan    -0.026916893539668373
+    Attrib Province/State=Yukon    0.012523028095233878
+    Attrib Province/State=Anhui    0.04323028336923812
+    Attrib Province/State=Beijing    0.045184246035508455
+    Attrib Province/State=Chongqing    -0.0103802198604681
+    Attrib Province/State=Fujian    0.0020752074509614773
+    Attrib Province/State=Gansu    0.04531138525981989
+    Attrib Province/State=Guangdong    -0.005199279888605934
+    Attrib Province/State=Guangxi    -0.023626919539978416
+    Attrib Province/State=Guizhou    -0.00917403638711645
+    Attrib Province/State=Hainan    -0.007275894552429556
+    Attrib Province/State=Hebei    -0.006387626200604403
+    Attrib Province/State=Heilongjiang    0.00821014172731163
+    Attrib Province/State=Henan    0.001683968433826714
+    Attrib Province/State=Hong Kong    -0.015855570171802034
+    Attrib Province/State=Hubei    0.04135136780333311
+    Attrib Province/State=Hunan    0.007895244554362994
+    Attrib Province/State=Inner Mongolia    0.03709953351580326
+    Attrib Province/State=Jiangsu    -9.016514380902052E-5
+    Attrib Province/State=Jiangxi    -0.04242519474798957
+    Attrib Province/State=Jilin    0.04547203435530883
+    Attrib Province/State=Liaoning    0.002399213324036327
+    Attrib Province/State=Macau    0.004329954017956116
+    Attrib Province/State=Ningxia    -0.041058617791612254
+    Attrib Province/State=Qinghai    -0.00430019680209875
+    Attrib Province/State=Shaanxi    -0.038338978923432195
+    Attrib Province/State=Shandong    -0.02008773775424642
+    Attrib Province/State=Shanghai    -0.04253560772104757
+    Attrib Province/State=Shanxi    -0.03131268760566891
+    Attrib Province/State=Sichuan    0.012269263868076679
+    Attrib Province/State=Tianjin    -0.02104600141332253
+    Attrib Province/State=Tibet    -0.014262449310759559
+    Attrib Province/State=Xinjiang    -0.03719226578380327
+    Attrib Province/State=Yunnan    0.04308699018189969
+    Attrib Province/State=Zhejiang    -0.01021537982366736
+    Attrib Province/State=Faroe Islands    0.03523824811145891
+    Attrib Province/State=Greenland    -0.0312665770442341
+    Attrib Province/State=French Guiana    -0.012832749416305687
+    Attrib Province/State=French Polynesia    0.03152844769212765
+    Attrib Province/State=Guadeloupe    -0.007860502206973482
+    Attrib Province/State=Martinique    -0.050647506945186944
+    Attrib Province/State=Mayotte    -0.0371504032074715
+    Attrib Province/State=New Caledonia    0.03975925684298923
+    Attrib Province/State=Reunion    -0.037943955709789944
+    Attrib Province/State=Saint Barthelemy    -0.028433839420354066
+    Attrib Province/State=Saint Pierre and Miquelon    -0.02204081333433577
+    Attrib Province/State=St Martin    0.011797527939930838
+    Attrib Province/State=Aruba    0.037464084300880066
+    Attrib Province/State=Bonaire Sint Eustatius and Saba    -0.040038452361886
+    Attrib Province/State=Curacao    0.0060511051499682195
+    Attrib Province/State=Sint Maarten    0.008324880886018652
+    Attrib Province/State=Anguilla    0.04746452207026766
+    Attrib Province/State=Bermuda    3.4356140873878456E-4
+    Attrib Province/State=British Virgin Islands    0.04819318321681398
+    Attrib Province/State=Cayman Islands    0.023521975341874144
+    Attrib Province/State=Channel Islands    -0.028788008556889528
+    Attrib Province/State=Falkland Islands (Malvinas)    0.012885787620949976
+    Attrib Province/State=Gibraltar    -0.010014408622480365
+    Attrib Province/State=Isle of Man    0.01326624911596396
+    Attrib Province/State=Montserrat    0.01873046735597273
+    Attrib Province/State=Turks and Caicos Islands    -0.03216907663658147
+    Attrib Country/Region=Afghanistan    0.033892894120023845
+    Attrib Country/Region=Albania    0.050338325776022486
+    Attrib Country/Region=Algeria    0.024578878379233792
+    Attrib Country/Region=Andorra    0.08010782730964658
+    Attrib Country/Region=Angola    0.02401618857581378
+    Attrib Country/Region=Antigua and Barbuda    0.047342301478542424
+    Attrib Country/Region=Argentina    0.05128904670490516
+    Attrib Country/Region=Armenia    0.08304761252824018
+    Attrib Country/Region=Australia    0.015452559131030288
+    Attrib Country/Region=Austria    0.09646185953522733
+    Attrib Country/Region=Azerbaijan    0.08600329590800726
+    Attrib Country/Region=Bahamas    0.07890653975896467
+    Attrib Country/Region=Bahrain    0.03750570016182321
+    Attrib Country/Region=Bangladesh    0.004864834113128473
+    Attrib Country/Region=Barbados    0.0884027535247889
+    Attrib Country/Region=Belarus    0.02670829252751346
+    Attrib Country/Region=Belgium    0.06263519348155608
+    Attrib Country/Region=Belize    0.09292422507930666
+    Attrib Country/Region=Benin    0.011963392137370972
+    Attrib Country/Region=Bhutan    0.09411450081772277
+    Attrib Country/Region=Bolivia    0.08580437114331348
+    Attrib Country/Region=Bosnia and Herzegovina    0.033681117199957325
+    Attrib Country/Region=Botswana    0.0033406952068631597
+    Attrib Country/Region=Brazil    0.09883520729638788
+    Attrib Country/Region=Brunei    0.06559865256102868
+    Attrib Country/Region=Bulgaria    0.030521087199265783
+    Attrib Country/Region=Burkina Faso    0.08472051407629805
+    Attrib Country/Region=Burma    0.009579117942789917
+    Attrib Country/Region=Burundi    0.08446130053091197
+    Attrib Country/Region=Cabo Verde    0.03145744450948331
+    Attrib Country/Region=Cambodia    0.03520200576681604
+    Attrib Country/Region=Cameroon    0.08400373644990794
+    Attrib Country/Region=Canada    0.09611189140709181
+    Attrib Country/Region=Central African Republic    0.03764323171839021
+    Attrib Country/Region=Chad    0.0443029558599094
+    Attrib Country/Region=Chile    0.022558072130030957
+    Attrib Country/Region=China    0.06983254516126548
+    Attrib Country/Region=Colombia    3.192587185805692E-4
+    Attrib Country/Region=Comoros    0.07945542689299773
+    Attrib Country/Region=Congo (Brazzaville)    0.03745141182501132
+    Attrib Country/Region=Congo (Kinshasa)    0.01571510721230235
+    Attrib Country/Region=Costa Rica    0.03479407324749451
+    Attrib Country/Region=Cote dIvoire    0.02757529045686562
+    Attrib Country/Region=Croatia    0.006207730458065016
+    Attrib Country/Region=Cuba    0.010238268508348972
+    Attrib Country/Region=Cyprus    0.008299020834109268
+    Attrib Country/Region=Czechia    0.04032621071677901
+    Attrib Country/Region=Denmark    0.023962020388183434
+    Attrib Country/Region=Diamond Princess    0.06511812227780056
+    Attrib Country/Region=Djibouti    0.061345364880666775
+    Attrib Country/Region=Dominica    0.020533799082439415
+    Attrib Country/Region=Dominican Republic    0.022874415188430874
+    Attrib Country/Region=Ecuador    0.05608119533971249
+    Attrib Country/Region=Egypt    0.06518787051321849
+    Attrib Country/Region=El Salvador    0.051720989121531176
+    Attrib Country/Region=Equatorial Guinea    0.08878918994494206
+    Attrib Country/Region=Eritrea    0.05587102318268158
+    Attrib Country/Region=Estonia    0.050955932122450504
+    Attrib Country/Region=Eswatini    0.07519288370542203
+    Attrib Country/Region=Ethiopia    0.013387998803822918
+    Attrib Country/Region=Fiji    0.0296106859748869
+    Attrib Country/Region=Finland    0.0417651823251031
+    Attrib Country/Region=France    0.0916664433688493
+    Attrib Country/Region=Gabon    0.01596620670531632
+    Attrib Country/Region=Gambia    0.03548919436347502
+    Attrib Country/Region=Georgia    0.07519697811772558
+    Attrib Country/Region=Germany    0.03999926103937868
+    Attrib Country/Region=Ghana    0.053226615896440135
+    Attrib Country/Region=Greece    0.05714296179605498
+    Attrib Country/Region=Grenada    0.006351580603386885
+    Attrib Country/Region=Guatemala    0.0437204443981876
+    Attrib Country/Region=Guinea    0.016304632216197365
+    Attrib Country/Region=Guinea-Bissau    0.060483945759771236
+    Attrib Country/Region=Guyana    0.02257424578919042
+    Attrib Country/Region=Haiti    0.04656322836099185
+    Attrib Country/Region=Holy See    0.08517845830642069
+    Attrib Country/Region=Honduras    0.006133845735684814
+    Attrib Country/Region=Hungary    0.012712003308925055
+    Attrib Country/Region=Iceland    0.06478529363218956
+    Attrib Country/Region=India    0.01830541749382592
+    Attrib Country/Region=Indonesia    0.0375147648272752
+    Attrib Country/Region=Iran    0.06435935417176265
+    Attrib Country/Region=Iraq    0.02445808746005774
+    Attrib Country/Region=Ireland    0.007529769663593013
+    Attrib Country/Region=Israel    0.07355159444988654
+    Attrib Country/Region=Italy    0.09567604880472616
+    Attrib Country/Region=Jamaica    0.07190595158553406
+    Attrib Country/Region=Japan    0.08338138003765647
+    Attrib Country/Region=Jordan    0.06380945909061984
+    Attrib Country/Region=Kazakhstan    0.038818705893403825
+    Attrib Country/Region=Kenya    0.02533874918321653
+    Attrib Country/Region=Korea, South    0.04440159952044649
+    Attrib Country/Region=Kosovo    0.04070761779052839
+    Attrib Country/Region=Kuwait    0.022904538547412465
+    Attrib Country/Region=Kyrgyzstan    0.08438123303954359
+    Attrib Country/Region=Laos    0.012646822341792879
+    Attrib Country/Region=Latvia    0.02281796628134277
+    Attrib Country/Region=Lebanon    0.037258052206847275
+    Attrib Country/Region=Lesotho    0.06874969802631932
+    Attrib Country/Region=Liberia    0.07455789454813203
+    Attrib Country/Region=Libya    0.08029483105102249
+    Attrib Country/Region=Liechtenstein    0.06041825668653997
+    Attrib Country/Region=Lithuania    0.07668392779920202
+    Attrib Country/Region=Luxembourg    0.0426644871329251
+    Attrib Country/Region=MS Zaandam    0.07209677863850453
+    Attrib Country/Region=Madagascar    0.003057285563135343
+    Attrib Country/Region=Malawi    0.0662778073501161
+    Attrib Country/Region=Malaysia    0.04653577847901126
+    Attrib Country/Region=Maldives    0.08799002424039626
+    Attrib Country/Region=Mali    0.07963237371174597
+    Attrib Country/Region=Malta    0.09577667538345017
+    Attrib Country/Region=Mauritania    0.046986782171935665
+    Attrib Country/Region=Mauritius    0.0829255085384785
+    Attrib Country/Region=Mexico    0.020811924395618984
+    Attrib Country/Region=Moldova    0.0034462342383912896
+    Attrib Country/Region=Monaco    0.031027264446048364
+    Attrib Country/Region=Mongolia    0.08622148031584496
+    Attrib Country/Region=Montenegro    0.08478375909110804
+    Attrib Country/Region=Morocco    0.02132901886989055
+    Attrib Country/Region=Mozambique    0.014681454283487863
+    Attrib Country/Region=Namibia    0.09022160592846373
+    Attrib Country/Region=Nepal    0.03512225547709503
+    Attrib Country/Region=Netherlands    0.08613278511828619
+    Attrib Country/Region=New Zealand    0.08461004791348993
+    Attrib Country/Region=Nicaragua    0.08160878461101638
+    Attrib Country/Region=Niger    0.09020490664581288
+    Attrib Country/Region=Nigeria    0.08017538852007779
+    Attrib Country/Region=North Macedonia    0.04408800271000985
+    Attrib Country/Region=Norway    0.07978723462814853
+    Attrib Country/Region=Oman    0.055878639375122205
+    Attrib Country/Region=Pakistan    0.010281120253491729
+    Attrib Country/Region=Panama    0.04269016281989209
+    Attrib Country/Region=Papua New Guinea    0.057908427354149826
+    Attrib Country/Region=Paraguay    0.00992645749926286
+    Attrib Country/Region=Peru    0.08355238499814477
+    Attrib Country/Region=Philippines    0.008474485457896419
+    Attrib Country/Region=Poland    0.08523168476785771
+    Attrib Country/Region=Portugal    0.08601817613035619
+    Attrib Country/Region=Qatar    0.06468271480537026
+    Attrib Country/Region=Romania    0.01244489535237647
+    Attrib Country/Region=Russia    0.020042813408801107
+    Attrib Country/Region=Rwanda    0.09340134227179753
+    Attrib Country/Region=Saint Kitts and Nevis    0.03217722493753816
+    Attrib Country/Region=Saint Lucia    0.0350744739333932
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.026178766251645832
+    Attrib Country/Region=San Marino    0.040441070815584734
+    Attrib Country/Region=Sao Tome and Principe    0.026237195671419935
+    Attrib Country/Region=Saudi Arabia    0.010294714969034542
+    Attrib Country/Region=Senegal    0.006427714718702726
+    Attrib Country/Region=Serbia    0.08226750926407746
+    Attrib Country/Region=Seychelles    0.08931021554085514
+    Attrib Country/Region=Sierra Leone    0.06369727570262533
+    Attrib Country/Region=Singapore    0.06102176994590374
+    Attrib Country/Region=Slovakia    0.08897186090094385
+    Attrib Country/Region=Slovenia    0.040727389532631525
+    Attrib Country/Region=Somalia    0.09078444458021159
+    Attrib Country/Region=South Africa    0.02982172656475627
+    Attrib Country/Region=South Sudan    0.009809595991763146
+    Attrib Country/Region=Spain    -0.029688655675008037
+    Attrib Country/Region=Sri Lanka    0.013075438617331113
+    Attrib Country/Region=Sudan    0.07229761321452034
+    Attrib Country/Region=Suriname    0.10014392793610466
+    Attrib Country/Region=Sweden    6.313095143845676E-4
+    Attrib Country/Region=Switzerland    0.02510233963286952
+    Attrib Country/Region=Syria    0.0850854907551045
+    Attrib Country/Region=Taiwan*    0.016842701710461188
+    Attrib Country/Region=Tajikistan    0.06906951834320049
+    Attrib Country/Region=Tanzania    0.022855276601747437
+    Attrib Country/Region=Thailand    0.06907016362426484
+    Attrib Country/Region=Timor-Leste    0.024784917492928858
+    Attrib Country/Region=Togo    0.0932273000448612
+    Attrib Country/Region=Trinidad and Tobago    0.06478647707751273
+    Attrib Country/Region=Tunisia    0.09429203625390059
+    Attrib Country/Region=Turkey    0.02089343197446938
+    Attrib Country/Region=US    -0.04180514225323438
+    Attrib Country/Region=Uganda    0.013836622909749902
+    Attrib Country/Region=Ukraine    0.028540953561079673
+    Attrib Country/Region=United Arab Emirates    0.09154879087410538
+    Attrib Country/Region=United Kingdom    0.06116052386382043
+    Attrib Country/Region=Uruguay    0.05986553460165238
+    Attrib Country/Region=Uzbekistan    0.016246768995991364
+    Attrib Country/Region=Venezuela    0.08627735280828787
+    Attrib Country/Region=Vietnam    0.02662187136956899
+    Attrib Country/Region=West Bank and Gaza    0.01822632071825354
+    Attrib Country/Region=Western Sahara    0.04013107156103876
+    Attrib Country/Region=Yemen    0.02192628852241177
+    Attrib Country/Region=Zambia    0.02963486346893799
+    Attrib Country/Region=Zimbabwe    0.061266710020398706
+    Attrib Lat    0.020096034895397415
+    Attrib Long    0.04658564499198406
+    Attrib Dia -28    -0.0392120738415956
+    Attrib Dia -27    -0.06509847556212489
+    Attrib Dia -26    -0.08025949429027544
+    Attrib Dia -25    -0.020550244885865623
+    Attrib Dia -24    -0.06227503379906824
+    Attrib Dia -23    -0.011708862497662958
+    Attrib Dia -22    -0.0481474491288463
+    Attrib Dia -21    -0.05505789653156933
+    Attrib Dia -20    -0.03534220429245022
+    Attrib Dia -19    0.003920719548276323
+    Attrib Dia -18    -0.0486306279655768
+    Attrib Dia -17    -0.013023361221320855
+    Attrib Dia -16    0.006414391675273459
+    Attrib Dia -15    -0.07654664494758097
+    Attrib Dia -14    -0.05181314954736432
+    Attrib Dia -13    -0.010175682396284606
+    Attrib Dia -12    -0.08549165409280067
+    Attrib Dia -11    -0.08787812848411002
+    Attrib Dia -10    0.01017955338746831
+    Attrib Dia -9    -0.030731538225426402
+    Attrib Dia -8    -0.08728587991516401
+    Attrib Dia -7    -0.024675104132546033
+    Attrib Dia -6    0.0024759772657417514
+    Attrib Dia -5    -0.07589555223894831
+    Attrib Dia -4    -0.040527347815788414
+    Attrib Dia -3    -0.04902274163047595
+    Attrib Dia -2    -0.03955004717819309
+    Attrib Dia -1    0.0033649161718248377
+    Attrib Dia -0    -0.08289225475138128
+    Attrib Dia 1    -0.0861478566316869
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.04969048382987221
+    Attrib Province/State=Australian Capital Territory    -0.02514199218096769
+    Attrib Province/State=New South Wales    0.004013443551707974
+    Attrib Province/State=Northern Territory    -0.022086236440268865
+    Attrib Province/State=Queensland    -0.027229367919543137
+    Attrib Province/State=South Australia    -0.006086296965606734
+    Attrib Province/State=Tasmania    0.04225056135846012
+    Attrib Province/State=Victoria    0.0328087571616059
+    Attrib Province/State=Western Australia    0.019553569453781137
+    Attrib Province/State=Alberta    0.010026686131064987
+    Attrib Province/State=British Columbia    -0.02396748472586776
+    Attrib Province/State=Diamond Princess    -0.013917562008186512
+    Attrib Province/State=Grand Princess    0.0028912841598820946
+    Attrib Province/State=Manitoba    -0.035007388634738006
+    Attrib Province/State=New Brunswick    -0.04485636323707637
+    Attrib Province/State=Newfoundland and Labrador    -0.01521395509116859
+    Attrib Province/State=Northwest Territories    -0.028866014340823243
+    Attrib Province/State=Nova Scotia    -0.027552303310575642
+    Attrib Province/State=Ontario    -0.011384376151541609
+    Attrib Province/State=Prince Edward Island    0.024738838916658273
+    Attrib Province/State=Quebec    0.008997047098305632
+    Attrib Province/State=Saskatchewan    -0.010397155843642631
+    Attrib Province/State=Yukon    0.02764117064978794
+    Attrib Province/State=Anhui    0.045220850727926004
+    Attrib Province/State=Beijing    -0.04536066831487004
+    Attrib Province/State=Chongqing    -0.00912294722031599
+    Attrib Province/State=Fujian    0.010015553833482543
+    Attrib Province/State=Gansu    -5.418117958032506E-4
+    Attrib Province/State=Guangdong    0.04788715518120008
+    Attrib Province/State=Guangxi    -0.0214535135376723
+    Attrib Province/State=Guizhou    -0.037940924679651794
+    Attrib Province/State=Hainan    -0.046826574093877124
+    Attrib Province/State=Hebei    -0.018299798902948854
+    Attrib Province/State=Heilongjiang    0.04862633548682703
+    Attrib Province/State=Henan    0.021147834386777763
+    Attrib Province/State=Hong Kong    0.012422779642625366
+    Attrib Province/State=Hubei    -0.024763435337090835
+    Attrib Province/State=Hunan    0.03979579531767254
+    Attrib Province/State=Inner Mongolia    -0.03828175253974667
+    Attrib Province/State=Jiangsu    0.03463123534342267
+    Attrib Province/State=Jiangxi    -0.007167822441372003
+    Attrib Province/State=Jilin    -0.0075377501734679025
+    Attrib Province/State=Liaoning    -0.009046177914548483
+    Attrib Province/State=Macau    0.038059924124605696
+    Attrib Province/State=Ningxia    -0.018726517352129164
+    Attrib Province/State=Qinghai    -0.019174062805913678
+    Attrib Province/State=Shaanxi    0.04179912603017465
+    Attrib Province/State=Shandong    0.024066018716979488
+    Attrib Province/State=Shanghai    -0.011398079114796062
+    Attrib Province/State=Shanxi    0.012670338264101064
+    Attrib Province/State=Sichuan    -0.021423049928753657
+    Attrib Province/State=Tianjin    -0.02630025364262174
+    Attrib Province/State=Tibet    -0.010379164044872737
+    Attrib Province/State=Xinjiang    0.02422405860066787
+    Attrib Province/State=Yunnan    0.007940138585664983
+    Attrib Province/State=Zhejiang    -0.005767913008821322
+    Attrib Province/State=Faroe Islands    0.03648469300827912
+    Attrib Province/State=Greenland    -0.026704661800343053
+    Attrib Province/State=French Guiana    0.03844599285541756
+    Attrib Province/State=French Polynesia    0.00974651218450203
+    Attrib Province/State=Guadeloupe    -0.04935716734161367
+    Attrib Province/State=Martinique    0.0386711045346037
+    Attrib Province/State=Mayotte    0.002389260655677641
+    Attrib Province/State=New Caledonia    0.033077296495238474
+    Attrib Province/State=Reunion    -0.038526476610965664
+    Attrib Province/State=Saint Barthelemy    -0.02380166516410959
+    Attrib Province/State=Saint Pierre and Miquelon    -0.049662911666210036
+    Attrib Province/State=St Martin    -0.03242018435599036
+    Attrib Province/State=Aruba    -0.00268242975133119
+    Attrib Province/State=Bonaire Sint Eustatius and Saba    -0.018517917149648146
+    Attrib Province/State=Curacao    -0.046828840135773576
+    Attrib Province/State=Sint Maarten    0.015802215778964533
+    Attrib Province/State=Anguilla    -0.028288764179701952
+    Attrib Province/State=Bermuda    -0.03542304382244101
+    Attrib Province/State=British Virgin Islands    -0.0482483289868558
+    Attrib Province/State=Cayman Islands    -0.020983746960450328
+    Attrib Province/State=Channel Islands    -0.010060019427788423
+    Attrib Province/State=Falkland Islands (Malvinas)    0.03494032373430631
+    Attrib Province/State=Gibraltar    -0.007703976706096223
+    Attrib Province/State=Isle of Man    0.023278318417274176
+    Attrib Province/State=Montserrat    0.004065361880991536
+    Attrib Province/State=Turks and Caicos Islands    0.0476197882925312
+    Attrib Country/Region=Afghanistan    0.061533756469653186
+    Attrib Country/Region=Albania    0.055697417074492786
+    Attrib Country/Region=Algeria    0.08958800891265538
+    Attrib Country/Region=Andorra    0.026970148233790892
+    Attrib Country/Region=Angola    0.04675250611761581
+    Attrib Country/Region=Antigua and Barbuda    0.01739377381133199
+    Attrib Country/Region=Argentina    0.05754304483833567
+    Attrib Country/Region=Armenia    0.03280392985547228
+    Attrib Country/Region=Australia    0.04230700433094475
+    Attrib Country/Region=Austria    0.055775067646183785
+    Attrib Country/Region=Azerbaijan    0.04856873388947729
+    Attrib Country/Region=Bahamas    0.08068673817618068
+    Attrib Country/Region=Bahrain    0.027901903464641768
+    Attrib Country/Region=Bangladesh    0.08737675520440495
+    Attrib Country/Region=Barbados    0.046298068574979936
+    Attrib Country/Region=Belarus    0.005432151116630987
+    Attrib Country/Region=Belgium    0.09917128187866502
+    Attrib Country/Region=Belize    0.027402837378602097
+    Attrib Country/Region=Benin    0.09820070370128416
+    Attrib Country/Region=Bhutan    0.011240919618437014
+    Attrib Country/Region=Bolivia    0.06277286296624557
+    Attrib Country/Region=Bosnia and Herzegovina    0.03494719123537826
+    Attrib Country/Region=Botswana    0.05992600357051487
+    Attrib Country/Region=Brazil    0.0950007831646917
+    Attrib Country/Region=Brunei    0.08429804322300458
+    Attrib Country/Region=Bulgaria    0.0455685316404215
+    Attrib Country/Region=Burkina Faso    0.10113461582365865
+    Attrib Country/Region=Burma    0.0961794271248943
+    Attrib Country/Region=Burundi    0.06996020191806385
+    Attrib Country/Region=Cabo Verde    0.07073713436628269
+    Attrib Country/Region=Cambodia    0.015028224978737204
+    Attrib Country/Region=Cameroon    0.025757783795227647
+    Attrib Country/Region=Canada    0.0783707997217393
+    Attrib Country/Region=Central African Republic    0.09907607406376534
+    Attrib Country/Region=Chad    0.03005467859410707
+    Attrib Country/Region=Chile    0.03331494636243179
+    Attrib Country/Region=China    0.014772612083636933
+    Attrib Country/Region=Colombia    0.07198727717743379
+    Attrib Country/Region=Comoros    0.008471230362833405
+    Attrib Country/Region=Congo (Brazzaville)    0.09027587154400617
+    Attrib Country/Region=Congo (Kinshasa)    0.07386106233364073
+    Attrib Country/Region=Costa Rica    0.03980678486556523
+    Attrib Country/Region=Cote dIvoire    0.09217499403348302
+    Attrib Country/Region=Croatia    0.03359925109042126
+    Attrib Country/Region=Cuba    0.05442260916051477
+    Attrib Country/Region=Cyprus    0.03464960178341287
+    Attrib Country/Region=Czechia    0.08347994930631707
+    Attrib Country/Region=Denmark    0.06528231717858855
+    Attrib Country/Region=Diamond Princess    0.04410509737801205
+    Attrib Country/Region=Djibouti    0.09600170744077134
+    Attrib Country/Region=Dominica    0.007139517624109516
+    Attrib Country/Region=Dominican Republic    0.05608921088937595
+    Attrib Country/Region=Ecuador    0.05931558456628078
+    Attrib Country/Region=Egypt    0.031403907712869515
+    Attrib Country/Region=El Salvador    0.08967020342610833
+    Attrib Country/Region=Equatorial Guinea    0.05065067366038639
+    Attrib Country/Region=Eritrea    0.10189922991481758
+    Attrib Country/Region=Estonia    0.024798082833330768
+    Attrib Country/Region=Eswatini    0.0904966959236033
+    Attrib Country/Region=Ethiopia    0.009450037203684486
+    Attrib Country/Region=Fiji    0.019007439860796234
+    Attrib Country/Region=Finland    0.002746756340911404
+    Attrib Country/Region=France    0.08605396108246939
+    Attrib Country/Region=Gabon    0.08072928429482228
+    Attrib Country/Region=Gambia    0.03760309477811357
+    Attrib Country/Region=Georgia    0.0232697639665402
+    Attrib Country/Region=Germany    0.09102756613951708
+    Attrib Country/Region=Ghana    0.010792500361542718
+    Attrib Country/Region=Greece    0.028726364360163643
+    Attrib Country/Region=Grenada    0.05653423534090373
+    Attrib Country/Region=Guatemala    0.031371708474495136
+    Attrib Country/Region=Guinea    0.06543323402503455
+    Attrib Country/Region=Guinea-Bissau    0.019203774697579817
+    Attrib Country/Region=Guyana    0.06582758447299558
+    Attrib Country/Region=Haiti    0.025336075781961807
+    Attrib Country/Region=Holy See    0.011850149644086101
+    Attrib Country/Region=Honduras    0.01939416070206745
+    Attrib Country/Region=Hungary    0.009920333894521703
+    Attrib Country/Region=Iceland    0.018626407354323894
+    Attrib Country/Region=India    0.01682504012389343
+    Attrib Country/Region=Indonesia    0.0994731872276464
+    Attrib Country/Region=Iran    0.018882573950370664
+    Attrib Country/Region=Iraq    0.08066638923964613
+    Attrib Country/Region=Ireland    0.07050284844086442
+    Attrib Country/Region=Israel    0.08690047207598828
+    Attrib Country/Region=Italy    0.02821658336385293
+    Attrib Country/Region=Jamaica    0.06992152343312438
+    Attrib Country/Region=Japan    0.095277002352399
+    Attrib Country/Region=Jordan    0.06245673409594479
+    Attrib Country/Region=Kazakhstan    0.06481228207884678
+    Attrib Country/Region=Kenya    0.06758830872521783
+    Attrib Country/Region=Korea, South    0.09717085314399793
+    Attrib Country/Region=Kosovo    0.018873805432874965
+    Attrib Country/Region=Kuwait    0.012825041756765672
+    Attrib Country/Region=Kyrgyzstan    0.02984317155248303
+    Attrib Country/Region=Laos    0.03497456170859489
+    Attrib Country/Region=Latvia    0.0660604820451521
+    Attrib Country/Region=Lebanon    0.01720253550008503
+    Attrib Country/Region=Lesotho    0.03898662228753162
+    Attrib Country/Region=Liberia    0.047550128736093794
+    Attrib Country/Region=Libya    0.02077209325553067
+    Attrib Country/Region=Liechtenstein    0.08991591075965912
+    Attrib Country/Region=Lithuania    0.005385560865850498
+    Attrib Country/Region=Luxembourg    0.05086111252618368
+    Attrib Country/Region=MS Zaandam    0.017544163426059092
+    Attrib Country/Region=Madagascar    0.04159542451175354
+    Attrib Country/Region=Malawi    0.016063755049003953
+    Attrib Country/Region=Malaysia    0.09378938076949385
+    Attrib Country/Region=Maldives    0.005459881252118609
+    Attrib Country/Region=Mali    0.0362832627133409
+    Attrib Country/Region=Malta    0.017221806251893585
+    Attrib Country/Region=Mauritania    0.04136965501305669
+    Attrib Country/Region=Mauritius    0.04095854177706904
+    Attrib Country/Region=Mexico    0.05563594044573845
+    Attrib Country/Region=Moldova    0.03044443030162847
+    Attrib Country/Region=Monaco    0.024366194165820323
+    Attrib Country/Region=Mongolia    0.09467393950372935
+    Attrib Country/Region=Montenegro    0.011353412590712373
+    Attrib Country/Region=Morocco    0.028030421287255594
+    Attrib Country/Region=Mozambique    0.05862925011399695
+    Attrib Country/Region=Namibia    0.09636916425915382
+    Attrib Country/Region=Nepal    0.04974555303194055
+    Attrib Country/Region=Netherlands    0.05617526408944049
+    Attrib Country/Region=New Zealand    0.04379740568341798
+    Attrib Country/Region=Nicaragua    0.017021891230209047
+    Attrib Country/Region=Niger    0.03284225067262362
+    Attrib Country/Region=Nigeria    0.07047002623591438
+    Attrib Country/Region=North Macedonia    0.08473708662336209
+    Attrib Country/Region=Norway    0.07620231249584782
+    Attrib Country/Region=Oman    0.08511431746559531
+    Attrib Country/Region=Pakistan    0.014113437668067039
+    Attrib Country/Region=Panama    0.09390460243562232
+    Attrib Country/Region=Papua New Guinea    0.07910532991567548
+    Attrib Country/Region=Paraguay    0.05351812858045369
+    Attrib Country/Region=Peru    0.03525057341704087
+    Attrib Country/Region=Philippines    0.07046701619654139
+    Attrib Country/Region=Poland    0.05192366146455137
+    Attrib Country/Region=Portugal    0.004495302642578676
+    Attrib Country/Region=Qatar    0.045302498488128486
+    Attrib Country/Region=Romania    0.0651354558303477
+    Attrib Country/Region=Russia    0.030262069805860905
+    Attrib Country/Region=Rwanda    0.07610297298278852
+    Attrib Country/Region=Saint Kitts and Nevis    0.07142115340556904
+    Attrib Country/Region=Saint Lucia    0.07795709317685202
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.0036560719438911917
+    Attrib Country/Region=San Marino    0.02575344248441701
+    Attrib Country/Region=Sao Tome and Principe    0.0215855401813442
+    Attrib Country/Region=Saudi Arabia    0.042857958403375765
+    Attrib Country/Region=Senegal    0.03652429876354003
+    Attrib Country/Region=Serbia    0.07889177850345706
+    Attrib Country/Region=Seychelles    0.09089889249223936
+    Attrib Country/Region=Sierra Leone    0.09374378093672571
+    Attrib Country/Region=Singapore    0.0031874220150466394
+    Attrib Country/Region=Slovakia    0.04765437833097317
+    Attrib Country/Region=Slovenia    0.07903504299143031
+    Attrib Country/Region=Somalia    0.03607610540197068
+    Attrib Country/Region=South Africa    0.022119173740307016
+    Attrib Country/Region=South Sudan    0.07503740050231383
+    Attrib Country/Region=Spain    0.029430545012277917
+    Attrib Country/Region=Sri Lanka    0.03998690016637716
+    Attrib Country/Region=Sudan    0.07232876771068965
+    Attrib Country/Region=Suriname    0.051420616182294786
+    Attrib Country/Region=Sweden    0.0908845383991648
+    Attrib Country/Region=Switzerland    0.04599577540958243
+    Attrib Country/Region=Syria    0.020313983892567042
+    Attrib Country/Region=Taiwan*    0.07889470415966178
+    Attrib Country/Region=Tajikistan    0.006816181781798972
+    Attrib Country/Region=Tanzania    0.05200419719366422
+    Attrib Country/Region=Thailand    0.0968569216205483
+    Attrib Country/Region=Timor-Leste    0.02474270800328005
+    Attrib Country/Region=Togo    0.0504910882092866
+    Attrib Country/Region=Trinidad and Tobago    0.010839111918390544
+    Attrib Country/Region=Tunisia    0.10061594422277827
+    Attrib Country/Region=Turkey    0.016107713995517376
+    Attrib Country/Region=US    -0.06274760212926128
+    Attrib Country/Region=Uganda    0.0647619212591831
+    Attrib Country/Region=Ukraine    0.021859442971554344
+    Attrib Country/Region=United Arab Emirates    0.10243655747522366
+    Attrib Country/Region=United Kingdom    0.00849615572542415
+    Attrib Country/Region=Uruguay    0.09522346103166292
+    Attrib Country/Region=Uzbekistan    0.10231168250241386
+    Attrib Country/Region=Venezuela    0.025717132848482767
+    Attrib Country/Region=Vietnam    0.03872383196481152
+    Attrib Country/Region=West Bank and Gaza    0.06002345708225405
+    Attrib Country/Region=Western Sahara    0.08962210391196428
+    Attrib Country/Region=Yemen    0.10001152753019271
+    Attrib Country/Region=Zambia    0.013700616710592521
+    Attrib Country/Region=Zimbabwe    0.05503335007337847
+    Attrib Lat    -0.03495005582313548
+    Attrib Long    0.004907811882104292
+    Attrib Dia -28    -0.0521653382495213
+    Attrib Dia -27    -0.07895956034697017
+    Attrib Dia -26    -0.020005233859831734
+    Attrib Dia -25    -0.023262546223217644
+    Attrib Dia -24    -0.0011562735470751122
+    Attrib Dia -23    -0.05037571303518392
+    Attrib Dia -22    -0.07355956538778399
+    Attrib Dia -21    -0.047880147701872114
+    Attrib Dia -20    -0.07123633305487032
+    Attrib Dia -19    -0.06351951189833259
+    Attrib Dia -18    -0.04134737177615062
+    Attrib Dia -17    -0.008430281150647236
+    Attrib Dia -16    -0.027731109422174424
+    Attrib Dia -15    -0.088776347391317
+    Attrib Dia -14    -0.055812114824627126
+    Attrib Dia -13    -0.03708840969646704
+    Attrib Dia -12    -0.03896486085172451
+    Attrib Dia -11    -0.05202593867148429
+    Attrib Dia -10    -0.031041666596653417
+    Attrib Dia -9    -0.0020818849502729797
+    Attrib Dia -8    -0.013681485298615735
+    Attrib Dia -7    -0.004845222264846268
+    Attrib Dia -6    -0.03046597835019978
+    Attrib Dia -5    -0.059079239671727984
+    Attrib Dia -4    -0.06256507227987912
+    Attrib Dia -3    -0.08161215824995237
+    Attrib Dia -2    -0.08271071925211756
+    Attrib Dia -1    -0.08544363029994521
+    Attrib Dia -0    -0.025751129749198135
+    Attrib Dia 1    -0.02913308504693409
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 9.47 seconds
+
+=== Predictions on test data ===
+
+inst#,actual,predicted,error
+1,14899,35874.714,20975.714
+2,87679,83421.718,-4257.282
+3,81982,93146.867,11164.867
+4,48342,62384.893,14042.893
+5,690,-7120.893,-7810.893
+6,338132,306231.389,-31900.611
+7,81797,84215.851,2418.851
+8,24,20820.952,20796.952
+9,46,-6096.92,-6142.92
+10,5632,16407.776,10775.776
+11,477,-34226.04,-34703.04
+12,75,-8319.779,-8394.779
+13,6906151,7340165.448,434014.448
+14,12,24897.889,24885.889
+15,15,1520.545,1505.545
+16,5028444,6490036.699,1461592.699
+17,5625,43760.741,38135.741
+18,1360,22795.375,21435.375
+19,1262,41608.045,40346.045
+20,2370,50031.914,47661.914
+21,3628,35548.178,31920.178
+22,28,16198.014,16170.014
+23,52658,80748.905,28090.905
+24,64,26302.588,26238.588
+25,5004,36189.632,31185.632
+26,682192,621151.342,-61040.658
+27,84828,87106.364,2278.364
+1,34046,63652.686,29606.686
+2,40086,73082.884,32996.884
+3,712,39674.974,38962.974
+4,2293,52449.95,50156.95
+5,4271,27634.266,23363.266
+6,7273,40865.871,33592.871
+7,902,10208.997,9306.997
+8,62,4569.748,4507.748
+9,170,8456.411,8286.411
+10,141,-4345.742,-4486.742
+11,82534,91066.256,8532.256
+12,3267,54272.607,51005.607
+13,1851,-75.107,-1926.107
+14,532,5080.212,4548.212
+15,886179,1014237.168,128058.168
+16,13,23917.03,23904.03
+17,268,1576.63,1308.63
+18,1283,18678.357,17395.357
+19,211,11277.303,11066.303
+20,108561,111023.578,2462.578
+21,5809,34506.088,28697.088
+22,43256,62342.13,19086.13
+23,104129,102919.901,-1209.099
+24,10901,37429.962,26528.962
+25,7507,48014.666,40507.666
+26,1100,40876.2,39776.2
+27,81672,106551.537,24879.537
+1,32,64827.498,64795.498
+2,2749,46922.932,44173.932
+3,7605873,7004046.332,-601826.668
+4,15726,73569.391,57843.391
+5,34344,89685.59,55341.59
+6,331869,316121.814,-15747.186
+7,4885,66429.719,61544.719
+8,16,62475.45,62459.45
+9,59841,101534.931,41693.931
+10,109441,143639.492,34198.492
+11,1851,43548.45,41697.45
+12,524,74272.024,73748.024
+13,11781,56432.513,44651.513
+14,1281,27274.536,25993.536
+15,18,18332.604,18314.604
+16,472,30790.801,30318.801
+17,24476,96064.15,71588.15
+18,3,14524.91,14521.91
+19,142953,142472.77,-480.23
+20,561815,461606.603,-100208.397
+21,1786,51164.133,49378.133
+22,832,18829.923,17997.923
+23,15190,69924.871,54734.871
+24,273,22355.483,22082.483
+25,9639,49547.95,39908.95
+26,27,61769.793,61742.793
+27,476016,484193.307,8177.307
+1,285336,186389.276,-98946.724
+2,229,27461.908,27232.908
+3,3617,31967.681,28350.681
+4,21517,42248.728,20731.728
+5,304,20479.877,20175.877
+6,414,-9864.39,-10278.39
+7,182,13979.842,13797.842
+8,667,-9748.226,-10415.226
+9,3745,22681.565,18936.565
+10,15301,30862.174,15561.174
+11,19718,-136.303,-19854.303
+12,14368,15640.521,1272.521
+13,10225,45546.712,35321.712
+14,206,-1890.969,-2096.969
+15,741,43112.65,42371.65
+16,19777,46464.574,26687.574
+17,82992,16438.703,-66553.297
+18,9,16065.921,16056.921
+19,412,15275.197,14863.197
+20,71,5734.832,5663.832
+21,804488,823496.086,19008.086
+22,2012,2449.362,437.362
+23,6319,7143.517,824.517
+24,31,32101.746,32070.746
+25,10,32205.837,32195.837
+26,3892,4681.497,789.497
+27,10822,13279.549,2457.549
+1,59915,79376.742,19461.742
+2,277,16781.752,16504.752
+3,8854,56642.174,47788.174
+4,1036,4884.196,3848.196
+5,330753,309969.355,-20783.645
+6,23,35896.961,35873.961
+7,61,10746.833,10685.833
+8,118054,112368.462,-5685.538
+9,230,-1490.881,-1720.881
+10,135,42041.736,41906.736
+11,15,-21953.209,-21968.209
+12,111599,120751.758,9152.758
+13,260,4887.077,4627.077
+14,214,13310.663,13096.663
+15,147,5058.166,4911.166
+16,29842,65617.485,35775.485
+17,96480,99352.323,2872.323
+18,549,39502.338,38953.338
+19,394566,329534.487,-65031.513
+20,948,12287.84,11339.84
+21,113,-7159.486,-7272.486
+22,145045,130085.863,-14959.137
+23,74422,103665.083,29243.083
+24,3506,57930.327,54424.327
+25,6717,58760.793,52043.793
+26,2241,38008.425,35767.425
+27,1253603,1737992.085,484389.085
+1,11345,70030.3,58685.3
+2,8815,49908.492,41093.492
+3,97532,130110.08,32578.08
+4,137969,139800.255,1831.255
+5,5917,58436.931,52519.931
+6,2568,47916.254,45348.254
+7,13670,65553.931,51883.931
+8,81019,96495.595,15476.595
+9,46947,75021.12,28074.12
+10,2050,39209.108,37159.108
+11,515,40695.629,40180.629
+12,2226,33523.71,31297.71
+13,28,32458.409,32430.409
+14,1918,66450.04,64532.04
+15,695,11850.423,11155.423
+16,60026,77849.412,17823.412
+17,3329,45694.358,42365.358
+18,835662,823253.345,-12408.655
+19,23259,70364.527,47105.527
+20,699,6524.606,5825.606
+21,9442,52161.006,42719.006
+22,225,16133.671,15908.671
+23,0,11231.897,11231.897
+24,3235,49028.28,45793.28
+25,345,11820.314,11475.314
+26,10742,50026.099,39284.099
+1,13,15991.743,15978.743
+2,338398,223425.477,-114972.523
+3,15938,38656.225,22718.225
+4,320564,178887.351,-141676.649
+5,1866,2346.546,480.546
+6,148,16041.526,15893.526
+7,47316,17021.386,-30294.614
+8,242,4707.427,4465.427
+9,2411,18247.703,15836.703
+10,1907,21096.097,19189.097
+11,10066,17449.813,7383.813
+12,16654,17732.459,1078.459
+13,4713,29326.287,24613.287
+14,9119,41292.519,32173.519
+15,495,19030.878,18535.878
+16,19982,23364.471,3382.471
+17,425,-7316.483,-7741.483
+18,146,14125.872,13979.872
+19,3219,15897.403,12678.403
+20,585,-11372.386,-11957.386
+21,921,17941.869,17020.869
+22,395,4026.985,3631.985
+23,157,-3961.279,-4118.279
+24,1201,20538.573,19337.573
+25,365,-3109.009,-3474.009
+26,713,-1302.403,-2015.403
+1,10097,73748.966,63651.966
+2,116872,87309.63,-29562.37
+3,104156,109058.01,4902.01
+4,3760,87693.677,83933.677
+5,315941,224579.135,-91361.865
+6,856369,358664.912,-497704.088
+7,58913,2881.644,-56031.356
+8,5062,42016.498,36954.498
+9,991,-553.394,-1544.394
+10,40178,44769.526,4591.526
+11,2385,44427.029,42042.029
+12,4150,-407.621,-4557.621
+13,15221,97591.583,82370.583
+14,4566,51022.813,46456.813
+15,935,-531.333,-1466.333
+16,699,3864.527,3165.527
+17,54473,75429.032,20956.032
+18,1019,-1343.535,-2362.535
+19,4963,45901.662,40938.662
+20,21203,58473.374,37270.374
+21,203,36382.173,36179.173
+22,127394,93584.777,-33809.223
+23,7540,43635.949,36095.949
+24,686891,357119.719,-329771.281
+25,2344,8.222,-2335.778
+26,40292,72972.114,32680.114
+1,13,-22079.791,-22092.791
+2,452,2976.903,2524.903
+3,111,16661.627,16550.627
+4,31156,41130.936,9974.936
+5,4385,-2352.059,-6737.059
+6,19,26182.883,26163.883
+7,21381,39307.788,17926.788
+8,1089,9.154,-1079.846
+9,936,-13080.83,-14016.83
+10,2420,-8353.26,-10773.26
+11,374592,308659.267,-65932.733
+12,155810,125863.984,-29946.016
+13,315,34873.436,34558.436
+14,281,13630.012,13349.012
+15,39616,44925.232,5309.232
+16,5161,-21545.305,-26706.305
+17,1,-12148.446,-12149.446
+18,1160,-19742.88,-20902.88
+19,5,-9302.763,-9307.763
+20,5958,19326.497,13368.497
+21,57849,57464.708,-384.292
+22,98617,52963.625,-45653.375
+23,33,1352.296,1319.296
+24,145700,98459.706,-47240.294
+25,49744,55678.984,5934.984
+26,317595,239771.331,-77823.669
+1,26899,54941.494,28042.494
+2,20257,19385.286,-871.714
+3,4853,52355.887,47502.887
+4,5423,58395.545,52972.545
+5,5264,66786.529,61522.529
+6,52057,87139.211,35082.211
+7,41304,89527.217,48223.217
+8,68139,25658.551,-42480.449
+9,58881,86403.914,27522.914
+10,405,56340.727,55935.727
+11,509,42130.063,41621.063
+12,7951,33236.245,25285.245
+13,251243,161698.751,-89544.249
+14,171,18705.359,18534.359
+15,488236,357434.27,-130801.73
+16,102929,100334.112,-2594.888
+17,13004,67690.605,54686.605
+18,4488,58962.076,54474.076
+19,22445,38208.917,15763.917
+20,100757,102469.431,1712.431
+21,2373,51100.173,48727.173
+22,10128,12182.93,2054.93
+23,5089,42841.644,37752.644
+24,143596,113509.082,-30086.918
+25,29528,61321.469,31793.469
+26,18989,56679.88,37690.88
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9884
+Mean absolute error                  41806.7013
+Root mean squared error             117147.941 
+Relative absolute error                 20.0616 %
+Root relative squared error             16.3995 %
+Total Number of Instances              265     
+

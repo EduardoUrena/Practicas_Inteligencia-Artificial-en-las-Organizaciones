@@ -1,0 +1,40 @@
+@relation time_series_covid19_confirmed_india_30days_day2
+
+@attribute Province/State {'Australian Capital Territory','New South Wales','Northern Territory',Queensland,'South Australia',Tasmania,Victoria,'Western Australia',Alberta,'British Columbia','Diamond Princess','Grand Princess',Manitoba,'New Brunswick','Newfoundland and Labrador','Northwest Territories','Nova Scotia',Ontario,'Prince Edward Island',Quebec,Saskatchewan,Yukon,Anhui,Beijing,Chongqing,Fujian,Gansu,Guangdong,Guangxi,Guizhou,Hainan,Hebei,Heilongjiang,Henan,'Hong Kong',Hubei,Hunan,'Inner Mongolia',Jiangsu,Jiangxi,Jilin,Liaoning,Macau,Ningxia,Qinghai,Shaanxi,Shandong,Shanghai,Shanxi,Sichuan,Tianjin,Tibet,Xinjiang,Yunnan,Zhejiang,'Faroe Islands',Greenland,'French Guiana','French Polynesia',Guadeloupe,Martinique,Mayotte,'New Caledonia',Reunion,'Saint Barthelemy','Saint Pierre and Miquelon','St Martin',Aruba,'Bonaire Sint Eustatius and Saba',Curacao,'Sint Maarten',Anguilla,Bermuda,'British Virgin Islands','Cayman Islands','Channel Islands','Falkland Islands (Malvinas)',Gibraltar,'Isle of Man',Montserrat,'Turks and Caicos Islands'}
+@attribute Country/Region {Afghanistan,Albania,Algeria,Andorra,Angola,'Antigua and Barbuda',Argentina,Armenia,Australia,Austria,Azerbaijan,Bahamas,Bahrain,Bangladesh,Barbados,Belarus,Belgium,Belize,Benin,Bhutan,Bolivia,'Bosnia and Herzegovina',Botswana,Brazil,Brunei,Bulgaria,'Burkina Faso',Burma,Burundi,'Cabo Verde',Cambodia,Cameroon,Canada,'Central African Republic',Chad,Chile,China,Colombia,Comoros,'Congo (Brazzaville)','Congo (Kinshasa)','Costa Rica','Cote dIvoire',Croatia,Cuba,Cyprus,Czechia,Denmark,'Diamond Princess',Djibouti,Dominica,'Dominican Republic',Ecuador,Egypt,'El Salvador','Equatorial Guinea',Eritrea,Estonia,Eswatini,Ethiopia,Fiji,Finland,France,Gabon,Gambia,Georgia,Germany,Ghana,Greece,Grenada,Guatemala,Guinea,Guinea-Bissau,Guyana,Haiti,'Holy See',Honduras,Hungary,Iceland,India,Indonesia,Iran,Iraq,Ireland,Israel,Italy,Jamaica,Japan,Jordan,Kazakhstan,Kenya,'Korea, South',Kosovo,Kuwait,Kyrgyzstan,Laos,Latvia,Lebanon,Lesotho,Liberia,Libya,Liechtenstein,Lithuania,Luxembourg,'MS Zaandam',Madagascar,Malawi,Malaysia,Maldives,Mali,Malta,Mauritania,Mauritius,Mexico,Moldova,Monaco,Mongolia,Montenegro,Morocco,Mozambique,Namibia,Nepal,Netherlands,'New Zealand',Nicaragua,Niger,Nigeria,'North Macedonia',Norway,Oman,Pakistan,Panama,'Papua New Guinea',Paraguay,Peru,Philippines,Poland,Portugal,Qatar,Romania,Russia,Rwanda,'Saint Kitts and Nevis','Saint Lucia','Saint Vincent and the Grenadines','San Marino','Sao Tome and Principe','Saudi Arabia',Senegal,Serbia,Seychelles,'Sierra Leone',Singapore,Slovakia,Slovenia,Somalia,'South Africa','South Sudan',Spain,'Sri Lanka',Sudan,Suriname,Sweden,Switzerland,Syria,Taiwan*,Tajikistan,Tanzania,Thailand,Timor-Leste,Togo,'Trinidad and Tobago',Tunisia,Turkey,US,Uganda,Ukraine,'United Arab Emirates','United Kingdom',Uruguay,Uzbekistan,Venezuela,Vietnam,'West Bank and Gaza','Western Sahara',Yemen,Zambia,Zimbabwe}
+@attribute Lat numeric
+@attribute Long numeric
+@attribute 'Dia -28' numeric
+@attribute 'Dia -27' numeric
+@attribute 'Dia -26' numeric
+@attribute 'Dia -25' numeric
+@attribute 'Dia -24' numeric
+@attribute 'Dia -23' numeric
+@attribute 'Dia -22' numeric
+@attribute 'Dia -21' numeric
+@attribute 'Dia -20' numeric
+@attribute 'Dia -19' numeric
+@attribute 'Dia -18' numeric
+@attribute 'Dia -17' numeric
+@attribute 'Dia -16' numeric
+@attribute 'Dia -15' numeric
+@attribute 'Dia -14' numeric
+@attribute 'Dia -13' numeric
+@attribute 'Dia -12' numeric
+@attribute 'Dia -11' numeric
+@attribute 'Dia -10' numeric
+@attribute 'Dia -9' numeric
+@attribute 'Dia -8' numeric
+@attribute 'Dia -7' numeric
+@attribute 'Dia -6' numeric
+@attribute 'Dia -5' numeric
+@attribute 'Dia -4' numeric
+@attribute 'Dia -3' numeric
+@attribute 'Dia -2' numeric
+@attribute 'Dia -1' numeric
+@attribute 'Dia -0' numeric
+@attribute 'Dia 1' numeric
+@attribute 'Dia 2' numeric
+
+@data
+?,India,20.593684,78.96288,4370128,4465863,4562414,4659984,4754356,4846427,4930236,5020359,5118253,5214677,5308014,5400619,5487580,5562663,5646010,5732518,5818570,5903932,5992532,6074702,6145291,6225763,6312584,6394068,6473544,6549373,6623815,6685082,6757131,6785465.316,?
